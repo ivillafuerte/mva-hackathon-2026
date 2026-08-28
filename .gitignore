@@ -1,0 +1,69 @@
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# PRIVATE / RESTRICTED DATA
+data/private/**
+!data/private/clinical/.gitkeep
+!data/private/variants/.gitkeep
+
+# Large public/reference datasets
+data/public/**
+!data/public/.gitkeep
+
+data/reference/**
+!data/reference/.gitkeep
+
+# Results
+results/**
+!results/qc/.gitkeep
+!results/annotated/.gitkeep
+!results/ranked/.gitkeep
+
+# Genomic data - NEVER COMMIT
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bam
+*.bai
+*.cram
+*.crai
+*.bed.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+
+# Clinical documents
+*.doc
+*.docx
+*.pdf
+
+# Temporary
+tmp/
+temp/
+*.tmp

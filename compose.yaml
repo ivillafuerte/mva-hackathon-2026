@@ -1,0 +1,33 @@
+services:
+  mva:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: mva-hackathon
+
+    working_dir: /workspace
+
+    stdin_open: true
+    tty: true
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+
+    volumes:
+      - ./pipeline:/workspace/pipeline
+      - ./scripts:/workspace/scripts
+      - ./config:/workspace/config:ro
+      - ./notebooks:/workspace/notebooks
+      - ./docs:/workspace/docs
+
+      # Restricted patient data - READ ONLY
+      - ./data/private:/data/private:ro
+
+      # Databases/reference files
+      - ./data/public:/data/public
+      - ./data/reference:/data/reference
+
+      # Generated outputs
+      - ./results:/results
+      - ./logs:/logs

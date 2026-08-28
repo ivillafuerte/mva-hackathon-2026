@@ -1,0 +1,38 @@
+project:
+  name: mva-hackathon
+  version: "0.1.0"
+
+genome:
+  build: null
+
+input:
+  variants: "/data/private/variants"
+  clinical: "/data/private/clinical"
+
+reference:
+  path: "/data/reference"
+
+public_data:
+  path: "/data/public"
+
+output:
+  qc: "/results/qc"
+  annotated: "/results/annotated"
+  ranked: "/results/ranked"
+  private: "/results/private"
+
+filters:
+  require_pass: true
+
+  allele_frequency:
+    rare: 0.01
+    very_rare: 0.001
+
+analysis:
+  inheritance_models:
+    - compound_heterozygous
+    - homozygous_recessive
+    - de_novo
+    - dominant
+
+  max_candidates: 10
