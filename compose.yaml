@@ -1,4 +1,5 @@
 services:
+
   mva:
     build:
       context: .
@@ -31,3 +32,26 @@ services:
       # Generated outputs
       - ./results:/results
       - ./logs:/logs
+
+
+  vep:
+    image: ensemblorg/ensembl-vep:release_116.1
+
+    working_dir: /opt/vep
+
+    stdin_open: true
+    tty: true
+
+    volumes:
+
+      # VEP cache + FASTA
+      - ./data/reference/vep:/vep_data
+
+      # Patient data - READ ONLY
+      - ./data/private:/data/private:ro
+
+      # Generated/intermediate files
+      - ./results:/results
+
+      # Scripts
+      - ./scripts:/workspace/scripts:ro

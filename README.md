@@ -1,52 +1,95 @@
-# Rare Disease, Real Kid: MVA Hackathon 2026
+# MVA Hackathon 2026 - Track 1 Variant Prioritization
 
-Reproducible genomic analysis pipeline for the MVA Hackathon 2026.
+Reproducible local pipeline for the **Rare Disease, Real Kid: MVA Hackathon 2026**, Track 1 (Variant Prediction).
 
-## Objectives
+## Primary result
 
-- Whole Genome Sequencing variant analysis
-- Variant annotation
-- Rare variant prioritization
-- Phenotype/genotype correlation
-- Compound heterozygous candidate detection
-- Candidate ranking
-- Reproducible genomic workflow
+The highest-ranked hypothesis is a **BUB1B compound-heterozygous pair** on GRCh38:
 
-## Security
+- `chr15:40209701 T>G` - `NM_001211.6:c.2210T>G`, `p.Leu737Ter`
+- `chr15:40220612 T>G` - `NM_001211.6:c.3006T>G`, `p.Asn1002Lys`
 
-Patient genomic and clinical data are restricted.
+The first allele is a known pathogenic MVA1 allele. The second is an ultra-rare missense candidate with population, computational, and protein-domain evidence. Independent trans-phase confirmation remains a limitation.
 
-The following data must never be committed to this repository:
+## Design goals
 
-- FASTQ
-- VCF / BCF
-- BAM / CRAM
-- Clinical documents
-- Patient-specific derived datasets
+- Keep challenge genomic data local and private.
+- Make software and public-reference acquisition reproducible.
+- Separate private inputs/intermediates from publishable code and findings.
+- Use containerized command-line tooling for deterministic analysis.
+- Produce a challenge-compatible ranked CSV without publishing genotype-scale data.
 
-Restricted data are stored locally under:
+## Environment
 
-    data/private/
+The analysis was developed on Apple Silicon using Docker with Ubuntu 24.04 ARM64. Core tools include Python, bcftools, samtools, bedtools, pysam, NCBI Datasets CLI, ClinVar, gnomAD, and Ensembl VEP-compatible annotations.
 
-and mounted read-only inside the analysis container.
+## Repository layout
 
-## Build
+```text
+config/                     configuration
+pipeline/                   analysis modules
+scripts/                    reproducible command-line workflows
+data/private/               AUTHORIZED CHALLENGE DATA - NEVER COMMIT
+data/reference/             downloaded public references - local only
+results/private/            genotype-scale derived data - NEVER COMMIT
+results/qc/                 local QC outputs
+results/annotated/          local annotation outputs
+results/ranked/             local ranked outputs
+results/submission/         final small candidate CSV/report staging
+Dockerfile
+compose.yaml
+requirements.txt
+Makefile
+```
 
-    make build
+## Quick start
 
-## Check environment
+Build and verify the container:
 
-    make check
+```bash
+make build
+make check
+```
 
-## Inspect VCF
+Place authorized challenge inputs under `data/private/` according to the local configuration. Do not publish or commit those files.
 
-    make inspect
+Run the core workflow:
 
-## Run initial QC
+```bash
+make qc
+make bub1b
+make bub1b-phase
+```
 
-    make qc
+Public reference datasets such as ClinVar and gnomAD should be downloaded locally and excluded from Git because of size. The pipeline documentation should record the exact release/version used.
 
-## Interactive shell
+## Evidence workflow
 
-    make shell
+1. Validate the supplied GRCh38 callset and sample structure.
+2. Review challenge HPO phenotype terms.
+3. Prioritize mechanistically relevant MVA genes.
+4. Extract and QC candidate variants in the BUB1B locus.
+5. Map variants to the MANE Select transcript `NM_001211.6`.
+6. Cross-reference ClinVar for clinical assertions.
+7. Query gnomAD v4.1 for population frequency and homozygote counts.
+8. Review VEP consequence, CADD, REVEL, SIFT, PolyPhen-2, SpliceAI, and conserved domains.
+9. Rank a minimal set of causal hypotheses.
+10. Explicitly track unresolved phase/segregation limitations.
 
+## Data safety
+
+This repository must contain **no raw or genotype-scale challenge data**. Before making the repository public, run:
+
+```bash
+bash scripts/prepublish_audit.sh
+```
+
+See [DATA_HANDLING.md](DATA_HANDLING.md) for the challenge-specific handling policy used by this project.
+
+## Reproducibility note
+
+The public repository reproduces the computational method but intentionally does not bundle the controlled challenge inputs. An authorized participant must obtain the dataset through the official challenge access flow and place it in the documented local private paths.
+
+## Disclaimer
+
+This project is a hackathon research submission and is not a clinical diagnostic report. Variant interpretation and compound-heterozygous phase require appropriate clinical validation before medical use.

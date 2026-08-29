@@ -1,9 +1,9 @@
 project:
   name: mva-hackathon
-  version: "0.1.0"
+  version: "0.2.0"
 
 genome:
-  build: null
+  build: "GRCh38"
 
 input:
   variants: "/data/private/variants"
@@ -36,3 +36,11 @@ analysis:
     - dominant
 
   max_candidates: 10
+
+annotation:
+  vep:
+    release: 116
+    image: "ensemblorg/ensembl-vep:release_116.1"
+    species: "homo_sapiens"
+    assembly: "GRCh38"
+    cache_dir: "/vep_data"
