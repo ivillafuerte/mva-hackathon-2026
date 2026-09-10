@@ -1,5 +1,9 @@
 # MVA Hackathon 2026 - Track 1 Variant Prioritization
 
+## Track 2 research proposal
+
+The English [Track 2 research package](track2/README.md) contains the BUBR1 allele audit, structural computations, approved-drug assessment, experimental plan and submission checklist. It is a research proposal; biological validation and final competition submission remain pending.
+
 Reproducible local pipeline for the **Rare Disease, Real Kid: MVA Hackathon 2026**, Track 1 (Variant Prediction).
 
 ## Primary result

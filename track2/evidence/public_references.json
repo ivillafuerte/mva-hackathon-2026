@@ -1,0 +1,47 @@
+{
+  "retrieved": "2026-09-08",
+  "files": [
+    {
+      "filename": "BUBR1_AF_v6.pdb",
+      "url": "https://alphafold.ebi.ac.uk/files/AF-O60566-F1-model_v6.pdb",
+      "sha256": "684e43160c431c4a30f7ab2c6b66c2a73ae1c50ef7561fa637dbb3ffe4dcd49f",
+      "bytes": 691253
+    },
+    {
+      "filename": "BUBR1_AF_v6.pae.json",
+      "url": "https://alphafold.ebi.ac.uk/files/AF-O60566-F1-predicted_aligned_error_v6.json",
+      "sha256": "33a28d53d64cfbc7fb4e65a6be0fcaaf71d4ea1fe0e1f72fe4d7485fe9c10a65",
+      "bytes": 3189221
+    },
+    {
+      "filename": "uniprot.json",
+      "url": "https://rest.uniprot.org/uniprotkb/O60566.json",
+      "sha256": "73899b2ea96a39d38e3aa41dc08587e70414c40c41ed0088cb92638cfb336ec1",
+      "bytes": 93023
+    },
+    {
+      "filename": "NM_001211.6.gb",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_001211.6&rettype=gb&retmode=text",
+      "sha256": "e6162e0c229509602c9aaa77d1c4ce20932694768e32a92f4c9f5cdb4dea3c99",
+      "bytes": 28684
+    },
+    {
+      "filename": "5KHU.cif",
+      "url": "https://files.rcsb.org/download/5KHU.cif",
+      "sha256": "08608f1bb4987931e67f4042bb36699d2450a1768a88680e559175c3cd6a6d68",
+      "bytes": 1691618
+    },
+    {
+      "filename": "6TLJ.cif",
+      "url": "https://files.rcsb.org/download/6TLJ.cif",
+      "sha256": "19d86aed34b2b3abb1028c4838c419526f2ff0402a6084da5811213e21b0c5a9",
+      "bytes": 7641547
+    },
+    {
+      "filename": "orthologs.fasta",
+      "url": "https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=gene_exact%3ABUB1B%20AND%20%28organism_id%3A10090%20OR%20organism_id%3A10116%20OR%20organism_id%3A9913%20OR%20organism_id%3A9615%20OR%20organism_id%3A9031%20OR%20organism_id%3A7955%20OR%20organism_id%3A9544%20OR%20organism_id%3A8364%29",
+      "sha256": "210329e6eda2a51b4b44e9fcd7b323a266b4c1ca0b4f56dfca6d96a4dba6de44",
+      "bytes": 15395
+    }
+  ]
+}

@@ -1,0 +1,1523 @@
+{
+  "evidence": "COMPUTATIONAL",
+  "model": "AF-O60566-F1-model_v6",
+  "length": 1050,
+  "sequence_985_1020": "SELKDGELWNKFFVRILNANDEATVSVLGELAAEMN",
+  "plddt_985_1020": {
+    "mean": 89.79389,
+    "min": 77.25,
+    "max": 95.69
+  },
+  "residues": {
+    "1002": {
+      "residue": "ASN",
+      "position": 1002,
+      "plddt": 91.06,
+      "sasa_A2": 27.03844,
+      "backbone_sasa_A2": 10.68969,
+      "sidechain_sasa_A2": 16.34876,
+      "rsa_percent_Tien2013": 13.86587,
+      "rsa_percent_Miller1987": 17.11294,
+      "rsa_percent_FreeSASA_builtin": 18.64592,
+      "rsa_FreeSASA_reference_total_A2": 145.01,
+      "atom_sasa_A2": {
+        "N": 0.0,
+        "CA": 2.2003,
+        "C": 0.0,
+        "CB": 12.47571,
+        "O": 8.48939,
+        "CG": 0.0,
+        "ND2": 0.0,
+        "OD1": 3.87305
+      },
+      "phi_deg": -126.60011,
+      "psi_deg": 37.28316,
+      "secondary_structure_proxy": "non-alpha/turn-or-loop; no DSSP assignment",
+      "neighbors_heavy_atoms_inclusive": {
+        "4": [
+          {
+            "residue": "LEU1001",
+            "number": 1001,
+            "min_heavy_distance_A": 1.33743,
+            "sequence_separation": 1,
+            "plddt": 91.56,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1003",
+            "number": 1003,
+            "min_heavy_distance_A": 1.33831,
+            "sequence_separation": 1,
+            "plddt": 88.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "TRP978",
+            "number": 978,
+            "min_heavy_distance_A": 2.82524,
+            "sequence_separation": 24,
+            "plddt": 88.38,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "VAL998",
+            "number": 998,
+            "min_heavy_distance_A": 2.82723,
+            "sequence_separation": 4,
+            "plddt": 92.25,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ASN1004",
+            "number": 1004,
+            "min_heavy_distance_A": 3.13664,
+            "sequence_separation": 2,
+            "plddt": 80.44,
+            "pae_both_directions_A": [
+              3,
+              4
+            ]
+          },
+          {
+            "residue": "ILE1000",
+            "number": 1000,
+            "min_heavy_distance_A": 3.33199,
+            "sequence_separation": 2,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "PHE977",
+            "number": 977,
+            "min_heavy_distance_A": 3.45528,
+            "sequence_separation": 25,
+            "plddt": 87.44,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          },
+          {
+            "residue": "ARG999",
+            "number": 999,
+            "min_heavy_distance_A": 3.6192,
+            "sequence_separation": 3,
+            "plddt": 93.75,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          }
+        ],
+        "5": [
+          {
+            "residue": "LEU1001",
+            "number": 1001,
+            "min_heavy_distance_A": 1.33743,
+            "sequence_separation": 1,
+            "plddt": 91.56,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1003",
+            "number": 1003,
+            "min_heavy_distance_A": 1.33831,
+            "sequence_separation": 1,
+            "plddt": 88.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "TRP978",
+            "number": 978,
+            "min_heavy_distance_A": 2.82524,
+            "sequence_separation": 24,
+            "plddt": 88.38,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "VAL998",
+            "number": 998,
+            "min_heavy_distance_A": 2.82723,
+            "sequence_separation": 4,
+            "plddt": 92.25,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ASN1004",
+            "number": 1004,
+            "min_heavy_distance_A": 3.13664,
+            "sequence_separation": 2,
+            "plddt": 80.44,
+            "pae_both_directions_A": [
+              3,
+              4
+            ]
+          },
+          {
+            "residue": "ILE1000",
+            "number": 1000,
+            "min_heavy_distance_A": 3.33199,
+            "sequence_separation": 2,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "PHE977",
+            "number": 977,
+            "min_heavy_distance_A": 3.45528,
+            "sequence_separation": 25,
+            "plddt": 87.44,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          },
+          {
+            "residue": "ARG999",
+            "number": 999,
+            "min_heavy_distance_A": 3.6192,
+            "sequence_separation": 3,
+            "plddt": 93.75,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "TRP973",
+            "number": 973,
+            "min_heavy_distance_A": 4.3585,
+            "sequence_separation": 29,
+            "plddt": 87.0,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "PHE997",
+            "number": 997,
+            "min_heavy_distance_A": 4.50979,
+            "sequence_separation": 5,
+            "plddt": 93.94,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          }
+        ],
+        "8": [
+          {
+            "residue": "LEU1001",
+            "number": 1001,
+            "min_heavy_distance_A": 1.33743,
+            "sequence_separation": 1,
+            "plddt": 91.56,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1003",
+            "number": 1003,
+            "min_heavy_distance_A": 1.33831,
+            "sequence_separation": 1,
+            "plddt": 88.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "TRP978",
+            "number": 978,
+            "min_heavy_distance_A": 2.82524,
+            "sequence_separation": 24,
+            "plddt": 88.38,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "VAL998",
+            "number": 998,
+            "min_heavy_distance_A": 2.82723,
+            "sequence_separation": 4,
+            "plddt": 92.25,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ASN1004",
+            "number": 1004,
+            "min_heavy_distance_A": 3.13664,
+            "sequence_separation": 2,
+            "plddt": 80.44,
+            "pae_both_directions_A": [
+              3,
+              4
+            ]
+          },
+          {
+            "residue": "ILE1000",
+            "number": 1000,
+            "min_heavy_distance_A": 3.33199,
+            "sequence_separation": 2,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "PHE977",
+            "number": 977,
+            "min_heavy_distance_A": 3.45528,
+            "sequence_separation": 25,
+            "plddt": 87.44,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          },
+          {
+            "residue": "ARG999",
+            "number": 999,
+            "min_heavy_distance_A": 3.6192,
+            "sequence_separation": 3,
+            "plddt": 93.75,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "TRP973",
+            "number": 973,
+            "min_heavy_distance_A": 4.3585,
+            "sequence_separation": 29,
+            "plddt": 87.0,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "PHE997",
+            "number": 997,
+            "min_heavy_distance_A": 4.50979,
+            "sequence_separation": 5,
+            "plddt": 93.94,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LYS979",
+            "number": 979,
+            "min_heavy_distance_A": 5.11943,
+            "sequence_separation": 23,
+            "plddt": 87.94,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "SER976",
+            "number": 976,
+            "min_heavy_distance_A": 5.32158,
+            "sequence_separation": 26,
+            "plddt": 84.62,
+            "pae_both_directions_A": [
+              3,
+              3
+            ]
+          },
+          {
+            "residue": "PHE954",
+            "number": 954,
+            "min_heavy_distance_A": 5.55241,
+            "sequence_separation": 48,
+            "plddt": 92.12,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "GLU1006",
+            "number": 1006,
+            "min_heavy_distance_A": 5.63871,
+            "sequence_separation": 4,
+            "plddt": 87.81,
+            "pae_both_directions_A": [
+              2,
+              4
+            ]
+          },
+          {
+            "residue": "ASP1005",
+            "number": 1005,
+            "min_heavy_distance_A": 6.36353,
+            "sequence_separation": 3,
+            "plddt": 82.19,
+            "pae_both_directions_A": [
+              3,
+              4
+            ]
+          },
+          {
+            "residue": "VAL1011",
+            "number": 1011,
+            "min_heavy_distance_A": 6.48042,
+            "sequence_separation": 9,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ILE941",
+            "number": 941,
+            "min_heavy_distance_A": 6.58605,
+            "sequence_separation": 61,
+            "plddt": 75.5,
+            "pae_both_directions_A": [
+              4,
+              8
+            ]
+          },
+          {
+            "residue": "PHE996",
+            "number": 996,
+            "min_heavy_distance_A": 6.76268,
+            "sequence_separation": 6,
+            "plddt": 94.94,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "LEU953",
+            "number": 953,
+            "min_heavy_distance_A": 6.96137,
+            "sequence_separation": 49,
+            "plddt": 93.69,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "PHE972",
+            "number": 972,
+            "min_heavy_distance_A": 7.11964,
+            "sequence_separation": 30,
+            "plddt": 88.44,
+            "pae_both_directions_A": [
+              3,
+              3
+            ]
+          },
+          {
+            "residue": "GLN950",
+            "number": 950,
+            "min_heavy_distance_A": 7.12384,
+            "sequence_separation": 52,
+            "plddt": 90.19,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ASN944",
+            "number": 944,
+            "min_heavy_distance_A": 7.27097,
+            "sequence_separation": 58,
+            "plddt": 69.88,
+            "pae_both_directions_A": [
+              4,
+              10
+            ]
+          },
+          {
+            "residue": "LYS995",
+            "number": 995,
+            "min_heavy_distance_A": 7.4323,
+            "sequence_separation": 7,
+            "plddt": 92.44,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "LEU980",
+            "number": 980,
+            "min_heavy_distance_A": 7.44613,
+            "sequence_separation": 22,
+            "plddt": 90.25,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          },
+          {
+            "residue": "ASN994",
+            "number": 994,
+            "min_heavy_distance_A": 7.61273,
+            "sequence_separation": 8,
+            "plddt": 91.88,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ASP974",
+            "number": 974,
+            "min_heavy_distance_A": 7.71432,
+            "sequence_separation": 28,
+            "plddt": 85.06,
+            "pae_both_directions_A": [
+              3,
+              5
+            ]
+          },
+          {
+            "residue": "VAL971",
+            "number": 971,
+            "min_heavy_distance_A": 7.94623,
+            "sequence_separation": 31,
+            "plddt": 89.31,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "nonlocal_residue_counts": {
+        "4": 4,
+        "5": 6,
+        "8": 23
+      },
+      "hbond_candidates": [
+        {
+          "asparagine_atom": "OD1",
+          "partner": "TRP978:N",
+          "distance_A": 2.82524,
+          "angle_CG_AsnAtom_partner_deg": 121.59886,
+          "status": "candidate; no explicit hydrogens or energetic validation"
+        },
+        {
+          "asparagine_atom": "ND2",
+          "partner": "TRP978:O",
+          "distance_A": 2.94778,
+          "angle_CG_AsnAtom_partner_deg": 129.59933,
+          "status": "candidate; no explicit hydrogens or energetic validation"
+        },
+        {
+          "asparagine_atom": "ND2",
+          "partner": "VAL998:O",
+          "distance_A": 2.82723,
+          "angle_CG_AsnAtom_partner_deg": 113.31721,
+          "status": "candidate; no explicit hydrogens or energetic validation"
+        }
+      ],
+      "charged_atoms_within_8A_of_sidechain": [
+        {
+          "atom": "ARG999:NH1",
+          "min_sidechain_distance_A": 6.95446,
+          "histidine_charge_uncertain": false
+        }
+      ],
+      "sidechain_vs_domain_radial_cosine": 0.48417,
+      "orientation_warning": "centroid proxy is not a solvent-accessibility measurement",
+      "sasa_SR960_A2": 26.67841,
+      "sasa_domain_only_A2": 27.03844
+    },
+    "1012": {
+      "residue": "LEU",
+      "position": 1012,
+      "plddt": 95.31,
+      "sasa_A2": 0.00086,
+      "backbone_sasa_A2": 0.0,
+      "sidechain_sasa_A2": 0.00086,
+      "rsa_percent_Tien2013": 0.00043,
+      "rsa_percent_Miller1987": 0.00048,
+      "rsa_percent_FreeSASA_builtin": 0.00048,
+      "rsa_FreeSASA_reference_total_A2": 179.56,
+      "atom_sasa_A2": {
+        "N": 0.0,
+        "CA": 0.0,
+        "C": 0.0,
+        "CB": 0.0,
+        "O": 0.0,
+        "CG": 0.0,
+        "CD1": 0.0,
+        "CD2": 0.00086
+      },
+      "phi_deg": -66.3894,
+      "psi_deg": -47.24066,
+      "secondary_structure_proxy": "alpha-like",
+      "neighbors_heavy_atoms_inclusive": {
+        "4": [
+          {
+            "residue": "VAL1011",
+            "number": 1011,
+            "min_heavy_distance_A": 1.33522,
+            "sequence_separation": 1,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLY1013",
+            "number": 1013,
+            "min_heavy_distance_A": 1.33742,
+            "sequence_separation": 1,
+            "plddt": 94.19,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1016",
+            "number": 1016,
+            "min_heavy_distance_A": 2.85856,
+            "sequence_separation": 4,
+            "plddt": 93.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "THR1008",
+            "number": 1008,
+            "min_heavy_distance_A": 2.85952,
+            "sequence_separation": 4,
+            "plddt": 92.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "SER1010",
+            "number": 1010,
+            "min_heavy_distance_A": 3.2871,
+            "sequence_separation": 2,
+            "plddt": 94.38,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU1014",
+            "number": 1014,
+            "min_heavy_distance_A": 3.39439,
+            "sequence_separation": 2,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU1015",
+            "number": 1015,
+            "min_heavy_distance_A": 3.40428,
+            "sequence_separation": 3,
+            "plddt": 95.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "HIS874",
+            "number": 874,
+            "min_heavy_distance_A": 3.509,
+            "sequence_separation": 138,
+            "plddt": 94.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ILE956",
+            "number": 956,
+            "min_heavy_distance_A": 3.54719,
+            "sequence_separation": 56,
+            "plddt": 95.19,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "LEU867",
+            "number": 867,
+            "min_heavy_distance_A": 3.6324,
+            "sequence_separation": 145,
+            "plddt": 94.31,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU953",
+            "number": 953,
+            "min_heavy_distance_A": 3.64739,
+            "sequence_separation": 59,
+            "plddt": 93.69,
+            "pae_both_directions_A": [
+              1,
+              2
+            ]
+          },
+          {
+            "residue": "VAL1009",
+            "number": 1009,
+            "min_heavy_distance_A": 3.67114,
+            "sequence_separation": 3,
+            "plddt": 93.88,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU871",
+            "number": 871,
+            "min_heavy_distance_A": 3.76788,
+            "sequence_separation": 141,
+            "plddt": 93.62,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "VAL870",
+            "number": 870,
+            "min_heavy_distance_A": 3.96696,
+            "sequence_separation": 142,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          }
+        ],
+        "5": [
+          {
+            "residue": "VAL1011",
+            "number": 1011,
+            "min_heavy_distance_A": 1.33522,
+            "sequence_separation": 1,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLY1013",
+            "number": 1013,
+            "min_heavy_distance_A": 1.33742,
+            "sequence_separation": 1,
+            "plddt": 94.19,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1016",
+            "number": 1016,
+            "min_heavy_distance_A": 2.85856,
+            "sequence_separation": 4,
+            "plddt": 93.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "THR1008",
+            "number": 1008,
+            "min_heavy_distance_A": 2.85952,
+            "sequence_separation": 4,
+            "plddt": 92.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "SER1010",
+            "number": 1010,
+            "min_heavy_distance_A": 3.2871,
+            "sequence_separation": 2,
+            "plddt": 94.38,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU1014",
+            "number": 1014,
+            "min_heavy_distance_A": 3.39439,
+            "sequence_separation": 2,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU1015",
+            "number": 1015,
+            "min_heavy_distance_A": 3.40428,
+            "sequence_separation": 3,
+            "plddt": 95.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "HIS874",
+            "number": 874,
+            "min_heavy_distance_A": 3.509,
+            "sequence_separation": 138,
+            "plddt": 94.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ILE956",
+            "number": 956,
+            "min_heavy_distance_A": 3.54719,
+            "sequence_separation": 56,
+            "plddt": 95.19,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "LEU867",
+            "number": 867,
+            "min_heavy_distance_A": 3.6324,
+            "sequence_separation": 145,
+            "plddt": 94.31,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU953",
+            "number": 953,
+            "min_heavy_distance_A": 3.64739,
+            "sequence_separation": 59,
+            "plddt": 93.69,
+            "pae_both_directions_A": [
+              1,
+              2
+            ]
+          },
+          {
+            "residue": "VAL1009",
+            "number": 1009,
+            "min_heavy_distance_A": 3.67114,
+            "sequence_separation": 3,
+            "plddt": 93.88,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU871",
+            "number": 871,
+            "min_heavy_distance_A": 3.76788,
+            "sequence_separation": 141,
+            "plddt": 93.62,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "VAL870",
+            "number": 870,
+            "min_heavy_distance_A": 3.96696,
+            "sequence_separation": 142,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1017",
+            "number": 1017,
+            "min_heavy_distance_A": 4.93485,
+            "sequence_separation": 5,
+            "plddt": 93.19,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          }
+        ],
+        "8": [
+          {
+            "residue": "VAL1011",
+            "number": 1011,
+            "min_heavy_distance_A": 1.33522,
+            "sequence_separation": 1,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLY1013",
+            "number": 1013,
+            "min_heavy_distance_A": 1.33742,
+            "sequence_separation": 1,
+            "plddt": 94.19,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1016",
+            "number": 1016,
+            "min_heavy_distance_A": 2.85856,
+            "sequence_separation": 4,
+            "plddt": 93.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "THR1008",
+            "number": 1008,
+            "min_heavy_distance_A": 2.85952,
+            "sequence_separation": 4,
+            "plddt": 92.06,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "SER1010",
+            "number": 1010,
+            "min_heavy_distance_A": 3.2871,
+            "sequence_separation": 2,
+            "plddt": 94.38,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU1014",
+            "number": 1014,
+            "min_heavy_distance_A": 3.39439,
+            "sequence_separation": 2,
+            "plddt": 94.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU1015",
+            "number": 1015,
+            "min_heavy_distance_A": 3.40428,
+            "sequence_separation": 3,
+            "plddt": 95.69,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "HIS874",
+            "number": 874,
+            "min_heavy_distance_A": 3.509,
+            "sequence_separation": 138,
+            "plddt": 94.0,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ILE956",
+            "number": 956,
+            "min_heavy_distance_A": 3.54719,
+            "sequence_separation": 56,
+            "plddt": 95.19,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "LEU867",
+            "number": 867,
+            "min_heavy_distance_A": 3.6324,
+            "sequence_separation": 145,
+            "plddt": 94.31,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LEU953",
+            "number": 953,
+            "min_heavy_distance_A": 3.64739,
+            "sequence_separation": 59,
+            "plddt": 93.69,
+            "pae_both_directions_A": [
+              1,
+              2
+            ]
+          },
+          {
+            "residue": "VAL1009",
+            "number": 1009,
+            "min_heavy_distance_A": 3.67114,
+            "sequence_separation": 3,
+            "plddt": 93.88,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU871",
+            "number": 871,
+            "min_heavy_distance_A": 3.76788,
+            "sequence_separation": 141,
+            "plddt": 93.62,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "VAL870",
+            "number": 870,
+            "min_heavy_distance_A": 3.96696,
+            "sequence_separation": 142,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1017",
+            "number": 1017,
+            "min_heavy_distance_A": 4.93485,
+            "sequence_separation": 5,
+            "plddt": 93.19,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "ILE1000",
+            "number": 1000,
+            "min_heavy_distance_A": 5.35999,
+            "sequence_separation": 12,
+            "plddt": 93.81,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ALA1007",
+            "number": 1007,
+            "min_heavy_distance_A": 5.45166,
+            "sequence_separation": 5,
+            "plddt": 91.06,
+            "pae_both_directions_A": [
+              1,
+              2
+            ]
+          },
+          {
+            "residue": "LEU866",
+            "number": 866,
+            "min_heavy_distance_A": 5.47396,
+            "sequence_separation": 146,
+            "plddt": 92.75,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "THR868",
+            "number": 868,
+            "min_heavy_distance_A": 5.58871,
+            "sequence_separation": 144,
+            "plddt": 90.81,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "MET872",
+            "number": 872,
+            "min_heavy_distance_A": 6.17602,
+            "sequence_separation": 140,
+            "plddt": 91.19,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "TYR949",
+            "number": 949,
+            "min_heavy_distance_A": 6.39678,
+            "sequence_separation": 63,
+            "plddt": 91.31,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ASP952",
+            "number": 952,
+            "min_heavy_distance_A": 6.42169,
+            "sequence_separation": 60,
+            "plddt": 93.5,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ARG999",
+            "number": 999,
+            "min_heavy_distance_A": 6.62442,
+            "sequence_separation": 13,
+            "plddt": 93.75,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "ILE869",
+            "number": 869,
+            "min_heavy_distance_A": 6.77275,
+            "sequence_separation": 143,
+            "plddt": 90.19,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "TYR864",
+            "number": 864,
+            "min_heavy_distance_A": 6.91856,
+            "sequence_separation": 148,
+            "plddt": 92.75,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "GLU1018",
+            "number": 1018,
+            "min_heavy_distance_A": 6.93001,
+            "sequence_separation": 6,
+            "plddt": 92.25,
+            "pae_both_directions_A": [
+              1,
+              1
+            ]
+          },
+          {
+            "residue": "LYS875",
+            "number": 875,
+            "min_heavy_distance_A": 7.05379,
+            "sequence_separation": 137,
+            "plddt": 92.81,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          },
+          {
+            "residue": "LEU873",
+            "number": 873,
+            "min_heavy_distance_A": 7.16359,
+            "sequence_separation": 139,
+            "plddt": 93.0,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "ILE863",
+            "number": 863,
+            "min_heavy_distance_A": 7.29524,
+            "sequence_separation": 149,
+            "plddt": 93.88,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "PHE996",
+            "number": 996,
+            "min_heavy_distance_A": 7.36581,
+            "sequence_separation": 16,
+            "plddt": 94.94,
+            "pae_both_directions_A": [
+              2,
+              1
+            ]
+          },
+          {
+            "residue": "ALA1003",
+            "number": 1003,
+            "min_heavy_distance_A": 7.57596,
+            "sequence_separation": 9,
+            "plddt": 88.0,
+            "pae_both_directions_A": [
+              2,
+              4
+            ]
+          },
+          {
+            "residue": "LEU883",
+            "number": 883,
+            "min_heavy_distance_A": 7.59296,
+            "sequence_separation": 129,
+            "plddt": 91.62,
+            "pae_both_directions_A": [
+              2,
+              3
+            ]
+          },
+          {
+            "residue": "MET1019",
+            "number": 1019,
+            "min_heavy_distance_A": 7.68104,
+            "sequence_separation": 7,
+            "plddt": 90.62,
+            "pae_both_directions_A": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      "nonlocal_residue_counts": {
+        "4": 10,
+        "5": 11,
+        "8": 29
+      },
+      "hbond_candidates": [],
+      "charged_atoms_within_8A_of_sidechain": [
+        {
+          "atom": "GLU871:OE1",
+          "min_sidechain_distance_A": 5.82468,
+          "histidine_charge_uncertain": false
+        },
+        {
+          "atom": "GLU871:OE2",
+          "min_sidechain_distance_A": 4.72774,
+          "histidine_charge_uncertain": false
+        },
+        {
+          "atom": "HIS874:ND1",
+          "min_sidechain_distance_A": 3.509,
+          "histidine_charge_uncertain": true
+        },
+        {
+          "atom": "HIS874:NE2",
+          "min_sidechain_distance_A": 4.86702,
+          "histidine_charge_uncertain": true
+        },
+        {
+          "atom": "ASP952:OD2",
+          "min_sidechain_distance_A": 7.20414,
+          "histidine_charge_uncertain": false
+        }
+      ],
+      "sidechain_vs_domain_radial_cosine": -0.74107,
+      "orientation_warning": "centroid proxy is not a solvent-accessibility measurement",
+      "sasa_SR960_A2": 0.0,
+      "sasa_domain_only_A2": 0.00086
+    }
+  },
+  "N1002_L1012_CA_distance_A": 12.31954,
+  "N1002_L1012_min_heavy_distance_A": 10.34879,
+  "experimental_coverage_check": {
+    "5KHU": {
+      "chain": "Q",
+      "observed_residues": 219,
+      "observed_min_max": [
+        18,
+        308
+      ],
+      "has_1002": false,
+      "has_1012": false
+    },
+    "6TLJ": {
+      "chain": "S",
+      "observed_residues": 293,
+      "observed_min_max": [
+        19,
+        345
+      ],
+      "has_1002": false,
+      "has_1012": false
+    }
+  },
+  "rotamer_grid_summary": {
+    "count": 81,
+    "zero_clashes_gt_0_4A": 0,
+    "min_max_overlap_A": 0.42967,
+    "no_interresidue_clashes": 8,
+    "note": "Not a Boltzmann ensemble; cannot convert counts to probability or \u0394\u0394G."
+  },
+  "rotamer_jitter_summary": {
+    "count": 486,
+    "zero_clashes_gt_0_4A": 22,
+    "max_NZ_accessible_fraction_among_zero_clash": 0.46042,
+    "note": "\u00b120 degrees in each chi around the 6 best coarse conformations. Exploratory geometric sensitivity."
+  },
+  "transcript": {
+    "accession": "NM_001211.6",
+    "CDS_1based": [
+      153,
+      3305
+    ],
+    "exons_1based": [
+      [
+        1,
+        187
+      ],
+      [
+        188,
+        331
+      ],
+      [
+        332,
+        391
+      ],
+      [
+        392,
+        536
+      ],
+      [
+        537,
+        733
+      ],
+      [
+        734,
+        903
+      ],
+      [
+        904,
+        1118
+      ],
+      [
+        1119,
+        1210
+      ],
+      [
+        1211,
+        1440
+      ],
+      [
+        1441,
+        1553
+      ],
+      [
+        1554,
+        1669
+      ],
+      [
+        1670,
+        1719
+      ],
+      [
+        1720,
+        1780
+      ],
+      [
+        1781,
+        1886
+      ],
+      [
+        1887,
+        2161
+      ],
+      [
+        2162,
+        2295
+      ],
+      [
+        2296,
+        2436
+      ],
+      [
+        2437,
+        2537
+      ],
+      [
+        2538,
+        2687
+      ],
+      [
+        2688,
+        2830
+      ],
+      [
+        2831,
+        3002
+      ],
+      [
+        3003,
+        3109
+      ],
+      [
+        3110,
+        3669
+      ]
+    ],
+    "variants": {
+      "737": {
+        "codon_rna_1based_start": 2361,
+        "wt_codon_DNA": "TTA",
+        "mut_codon_DNA": "TGA",
+        "mutant_mRNA_minus12_codon_plus12": "UCCCUACCAGAGUGAAGUGCCUCUGCA",
+        "plus4_base": "A",
+        "exon_number": 17,
+        "exon_rna_coordinates": [
+          2296,
+          2436
+        ],
+        "nt_between_codon_end_and_next_junction": 73,
+        "nt_between_codon_end_and_last_junction": 746
+      },
+      "1002": {
+        "codon_rna_1based_start": 3156,
+        "wt_codon_DNA": "AAT",
+        "mut_codon_DNA": "AAG",
+        "mutant_mRNA_minus12_codon_plus12": "GUGCGGAUUCUGAAGGCCAAUGAUGAG",
+        "plus4_base": "G",
+        "exon_number": 23,
+        "exon_rna_coordinates": [
+          3110,
+          3669
+        ],
+        "nt_between_codon_end_and_next_junction": null,
+        "nt_between_codon_end_and_last_junction": null
+      }
+    }
+  },
+  "software": {
+    "biopython": "1.88",
+    "numpy": "2.3.5",
+    "freesasa": "2.2.1"
+  },
+  "parameters": {
+    "probe_A": 1.4,
+    "sasa_algorithm": "Lee-Richards",
+    "n_slices": 100,
+    "crosscheck": "Shrake-Rupley 960 points",
+    "rotamer_angles_deg": [
+      -60,
+      60,
+      180
+    ],
+    "clash_overlap_cutoff_A": 0.4
+  },
+  "sha256": {
+    "BUBR1_AF_v6.pdb": "684e43160c431c4a30f7ab2c6b66c2a73ae1c50ef7561fa637dbb3ffe4dcd49f",
+    "uniprot.json": "73899b2ea96a39d38e3aa41dc08587e70414c40c41ed0088cb92638cfb336ec1",
+    "BUBR1_AF_v6.pae.json": "33a28d53d64cfbc7fb4e65a6be0fcaaf71d4ea1fe0e1f72fe4d7485fe9c10a65",
+    "NM_001211.6.gb": "e6162e0c229509602c9aaa77d1c4ce20932694768e32a92f4c9f5cdb4dea3c99"
+  }
+}

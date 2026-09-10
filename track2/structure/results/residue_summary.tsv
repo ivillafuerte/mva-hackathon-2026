@@ -1,0 +1,3 @@
+position	residue	plddt	sasa_A2	rsa_percent_Tien2013	rsa_percent_Miller1987	rsa_percent_FreeSASA_builtin	backbone_sasa_A2	sidechain_sasa_A2	phi_deg	psi_deg
+1002	ASN	91.06	27.03844	13.86587	17.11294	18.64592	10.68969	16.34876	-126.60011	37.28316
+1012	LEU	95.31	0.00086	0.00043	0.00048	0.00048	0.0	0.00086	-66.3894	-47.24066

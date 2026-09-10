@@ -1,0 +1,76 @@
+{
+  "retrieved_at_utc": "2026-09-09T23:59:41.678363+00:00",
+  "scope": "Public bibliography; metadata matching does not validate efficacy.",
+  "records": [
+    {
+      "id": "20516114",
+      "pmcid": "PMC2887387",
+      "doi": "10.1158/0008-5472.can-09-4319",
+      "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "authorString": "Suijkerbuijk SJ, van Osch MH, Bos FL, Hanks S, Rahman N, Kops GJ.",
+      "firstPublicationDate": "2010-06-01",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20516114+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/20516114/"
+    },
+    {
+      "id": "23242215",
+      "pmcid": "PMC3707109",
+      "doi": "10.1038/ncb2643",
+      "title": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "authorString": "Baker DJ, Dawlaty MM, Wijshake T, Jeganathan KB, Malureanu L, van Ree JH, Crespo-Diaz R, Reyes S, Seaburg L, Shapiro V, Behfar A, Terzic A, van de Sluis B, van Deursen JM.",
+      "firstPublicationDate": "2012-12-16",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23242215+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23242215/"
+    },
+    {
+      "id": "33523869",
+      "pmcid": "PMC7806221",
+      "doi": "10.1126/sciadv.aba1028",
+      "title": "Ionizable lipid nanoparticles for in utero mRNA delivery.",
+      "authorString": "Riley RS, Kashyap MV, Billingsley MM, White B, Alameh MG, Bose SK, Zoltick PW, Li H, Zhang R, Cheng AY, Weissman D, Peranteau WH, Mitchell MJ.",
+      "firstPublicationDate": "2021-01-13",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33523869+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33523869/"
+    },
+    {
+      "id": "36844366",
+      "pmcid": "PMC9950423",
+      "doi": "10.1016/j.bioactmat.2023.02.011",
+      "title": "In utero delivery of mRNA to the heart, diaphragm and muscle with lipid nanoparticles.",
+      "authorString": "Gao K, Li J, Song H, Han H, Wang Y, Yin B, Farmer DL, Murthy N, Wang A.",
+      "firstPublicationDate": "2023-02-17",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36844366+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36844366/"
+    },
+    {
+      "id": "39445691",
+      "pmcid": "PMC11544762",
+      "doi": "10.1021/acsnano.4c05169",
+      "title": "Widespread Gene Editing in the Brain via In Utero Delivery of mRNA Using Acid-Degradable Lipid Nanoparticles.",
+      "authorString": "Gao K, Han H, Cranick MG, Zhao S, Xu S, Yin B, Song H, Hu Y, Clarke MT, Wang D, Wong JM, Zhao Z, Burgstone BW, Farmer DL, Murthy N, Wang A.",
+      "firstPublicationDate": "2024-10-24",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39445691+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39445691/"
+    },
+    {
+      "id": "36351280",
+      "pmcid": "PMC10794051",
+      "doi": "10.1056/nejmoa2200587",
+      "title": "In Utero Enzyme-Replacement Therapy for Infantile-Onset Pompe's Disease.",
+      "authorString": "Cohen JL, Chakraborty P, Fung-Kee-Fung K, Schwab ME, Bali D, Young SP, Gelb MH, Khaledi H, DiBattista A, Smallshaw S, Moretti F, Wong D, Lacroix C, El Demellawy D, Strickland KC, Lougheed J, Moon-Grady A, Lianoglou BR, Harmatz P, Kishnani PS, MacKenzie TC.",
+      "firstPublicationDate": "2022-11-09",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36351280+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36351280/"
+    },
+    {
+      "id": "37118121",
+      "pmcid": "PMC10154249",
+      "doi": "10.1038/s43587-023-00361-w",
+      "title": "Unique progerin C-terminal peptide ameliorates Hutchinson-Gilford progeria syndrome phenotype by rescuing BUBR1.",
+      "authorString": "Zhang N, Hu Q, Sui T, Fu L, Zhang X, Wang Y, Zhu X, Huang B, Lu J, Li Z, Zhang Y.",
+      "firstPublicationDate": "2023-02-02",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37118121+AND+SRC%3AMED&format=json&resultType=core&pageSize=1",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37118121/"
+    }
+  ]
+}

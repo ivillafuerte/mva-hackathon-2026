@@ -1,0 +1,20 @@
+{
+  "data": {
+    "variant": {
+      "variant_id": "15-40220612-T-G",
+      "exome": {
+        "ac": 1,
+        "an": 1461878,
+        "af": 6.840516103258959e-07,
+        "filters": []
+      },
+      "genome": null
+    }
+  },
+  "provenance": {
+    "url": "https://gnomad.broadinstitute.org/api",
+    "dataset": "gnomad_r4",
+    "date": "2026-09-08",
+    "data_class": "public reference allele counts; no patient genotypes"
+  }
+}

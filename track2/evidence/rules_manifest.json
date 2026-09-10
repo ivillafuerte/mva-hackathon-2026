@@ -1,0 +1,62 @@
+{
+  "recorded_at_utc": "2026-09-10T11:12:52.650144+00:00",
+  "source_mode": "existing downloaded snapshot; acquisition date recorded by operator",
+  "operator_acquisition_date": "2026-09-10",
+  "sources": [
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/config.py",
+      "filename": "config.py",
+      "bytes": 1918,
+      "sha256": "a65e67fca2fb698ac3f3fe6610e585f549cf29f175d636ce77543d7db6dc8bdc"
+    },
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/tabs/rules.py",
+      "filename": "rules.py",
+      "bytes": 8151,
+      "sha256": "dccb3740f6301b8629c704c375739e23391d19dee62513587ee461d6c8637f8f"
+    },
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/tabs/faq.py",
+      "filename": "faq.py",
+      "bytes": 5924,
+      "sha256": "36c3e51e9735a6d2ffacfccea2246a28a13658038988ac88317c5aa05ad71c53"
+    },
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/tabs/about.py",
+      "filename": "about.py",
+      "bytes": 16076,
+      "sha256": "1867b07f24d987fbb728c756c2d2bc4ab5f302d7c7804f53fe7b6a8b4c83ae43"
+    },
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/tabs/submit_track2.py",
+      "filename": "submit_track2.py",
+      "bytes": 8372,
+      "sha256": "f48d576ab052df34527222b7693f956e15e5376ef68eddedcf0c4f04736bf65c"
+    },
+    {
+      "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/resolve/main/static/templates/methods_description_form.xlsx",
+      "filename": "methods_description_form.xlsx",
+      "bytes": 14784,
+      "sha256": "61aab080a2868a3b724e76692b83c24812112e305cd3a8b03f8f91a6b2414441"
+    }
+  ],
+  "track2_template_fields": {
+    "A1": "Methods description \u2014 MVA Hackathon 2026, Track 2 (Drug Repurposing)",
+    "A2": "Please submit your answers with your Track 2 report. All questions (with the exception of Question 1, in red) are voluntary; however, submissions without a methods description may be judged less favorably on the Scientific Rigor and Innovation criteria, since the panel can't assess what it can't see.\n\nTrack 2 accepts one final submission per team.",
+    "A7": "Team name",
+    "A8": "Please describe your approach in detail (how you went from variant/mechanism to candidate medication(s)).",
+    "A9": "(required) If commercially-available Generative AI was used, record the provider, the plan or tier, and the relevant setting in your methods description. A line is enough, for example, \"Anthropic API, Claude Sonnet, commercial terms, no training on customer content.\"",
+    "A10": "Was candidate identification automated (e.g., via a drug-target database query or LLM-assisted search), or primarily manual literature review and expert curation?",
+    "A11": "Please describe any manual literature review or expert curation in detail.",
+    "A12": "Please state whether you relied solely on publicly available drug/target databases and literature (preferred), or whether proprietary data sources were also used.",
+    "A13": "Please describe the public data sources used in detail (e.g., DrugBank, ChEMBL, ClinicalTrials.gov, OMIM, PubMed literature search).",
+    "A14": "Please describe any proprietary data sources used in detail.",
+    "A15": "How did you characterize the variant's mechanism (e.g., loss-of-function vs. gain-of-function, pathway disrupted, downstream biological consequence)?",
+    "A16": "Please provide an estimate of time or effort spent on this analysis (if possible).",
+    "A17": "Provide a method abstract (up to 500 words). Please include strengths and limitations of your approach as well as methodological detail."
+  },
+  "community_sources": [
+    "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2",
+    "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/5"
+  ]
+}

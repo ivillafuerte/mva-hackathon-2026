@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-09-08",
+  "sources": [
+    {
+      "pmid": "19805069",
+      "doi": "10.1073/pnas.0905299106",
+      "pmcid": "PMC2761322",
+      "title": "Cell surface-bound IL-1alpha is an upstream regulator of the senescence-associated IL-6/IL-8 cytokine network.",
+      "evidence_label": "PATHWAY EVIDENCE",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19805069/"
+    },
+    {
+      "pmid": "22048312",
+      "doi": "10.1038/nature10600",
+      "pmcid": "PMC3468323",
+      "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders.",
+      "evidence_label": "DIRECT-BUBR1, hypomorphic mouse",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22048312/"
+    },
+    {
+      "pmid": "26147250",
+      "doi": "10.1038/ncb3195",
+      "pmcid": "PMC4691706",
+      "title": "MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation.",
+      "evidence_label": "PATHWAY EVIDENCE",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26147250/"
+    },
+    {
+      "pmid": "42194983",
+      "doi": "10.3390/genes17050527",
+      "pmcid": "PMC13205888",
+      "title": "Transcriptomic Insights into the Association of IL-1 Signaling with the Senescence-Associated Secretory Phenotype in Human Fibroblasts.",
+      "evidence_label": "COMPUTATIONAL",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42194983/"
+    },
+    {
+      "pmid": "26783326",
+      "doi": "10.1542/peds.2015-3257",
+      "pmcid": "PMC4732362",
+      "title": "Efficacy and Safety of Sirolimus in the Treatment of Complicated Vascular Anomalies.",
+      "evidence_label": "HUMAN OTHER-DISEASE EVIDENCE",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26783326/"
+    }
+  ],
+  "important_gap": "No direct anakinra rescue experiment in the project BUB1B genotype was retrieved."
+}
