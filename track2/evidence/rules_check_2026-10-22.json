@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-22T18:50:31.278210+00:00",
+  "scope": "Targeted live rules refresh: deletion attestation email only; not certification of all requirements or account-specific duties. No email sent.",
+  "source_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/rules.py",
+  "organizer_change_commit": "22726e3eeb1b007c754c01a4d8113d32be913a3c",
+  "document_last_updated": "2026-10-13",
+  "bytes": 8152,
+  "sha256": "16aa61b9580abc21e6ea69e994cdb27341e1b85b1d00a57da889520a94295906",
+  "verified_attestation_email": "cnb@sagebase.org",
+  "retention_window": "within 30 days of Hackathon close",
+  "historical_manifest_preserved": true
+}

@@ -76,3 +76,7 @@ There is no prenatal clinical protocol in this dossier. The current child's poss
 | Submission preparation | Participant | Report, public repository, video and declarations | Draft files prepared; readiness items open |
 
 No laboratory budget, staff commitment or experimental completion date is invented. Use verified computational findings and a candid validation plan if biological work is unavailable. The September planning milestones are historical, not evidence that recordings or submissions occurred. See the current readiness checklist for unresolved final-package work.
+
+## Candidate-specific falsification and exposure bridge
+
+Use the current report's [candidate decision matrix](../report/ivillafuerte_track2_report.md#44-current-conditional-shortlist) to preregister branch-specific GO/STOP decisions. Link nominal medium concentrations to measured unbound target-cell exposure, not a label dose or total plasma Cmax alone; the [product/exposure fiche](../drugs/product_exposure_fiche.md) documents the present gaps. Product eligibility is a separate nomination gate. No numeric success cutoff is retrofitted to the historical results; define effect, uncertainty, viability and exposure bounds before prospective data collection.

@@ -6,6 +6,8 @@
 
 As of September 10, 2026. Research prioritization, not a clinical prescription or a prediction of competition placement. The September report nominated separate approved-drug hypotheses; it does not nominate fetal medication administration or a drug combination.
 
+For the October 22 product/formulation and exposure review, use the [current evidence fiche](product_exposure_fiche.md); historical labels below do not establish current market availability.
+
 ## Ranking method
 
 Apply an eligibility gate before scientific ranking: identify a specific currently listed market-approved product, distinguish its approved indications from MVA, and preserve unresolved regulatory questions. US prescription labels are used as auditable approval precedents; worldwide availability and eligibility in every jurisdiction are not inferred. A DailyMed entry alone is not sufficient if it belongs to an unapproved product; inspect its marketing category and indication. Recheck status immediately before submission.

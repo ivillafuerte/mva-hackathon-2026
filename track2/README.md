@@ -5,6 +5,7 @@ English report revision, October 22, 2026. Aligned to the final video narration 
 ## Read the proposal
 
 - [Main Track 2 report](report/ivillafuerte_track2_report.md)
+- [Product/formulation and experimental-to-human exposure fiche](drugs/product_exposure_fiche.md)
 - [Historical drug assessment and current eligibility cautions](drugs/candidate_assessment.md)
 - [Experimental development plan](experiments/development_plan.md)
 - [Official methods-template answers](submission/methods.md)
@@ -50,8 +51,10 @@ Repurposing candidates are evaluated as conditional hypotheses; current product-
 
 The September 10 repeat execution reproduced `metrics.json`, `residue_summary.tsv` and `rotamer_summary.tsv` exactly. The initial native environment failed; a clean dependency installation and recovery of a truncated public PAE cache file resolved the repeat execution. All public reference hashes matched the audited manifest before analysis. This is computational reproducibility, not biological validation. See [reproduction audit](submission/reproduction_check.json).
 
-## October evidence reproducibility boundary
+## Reproduce the four October reanalyses
 
-The [main report](report/ivillafuerte_track2_report.md), [spoken script](submission/pitch_script.md) and [methods](submission/methods.md) use `mva-results-2026-10-17-immunotherapy-audit-v1`. The frozen JSON's SHA-256 is `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`; it matches the final video brief and the public endpoint checked October 22. Its artifact paths and hashes document provenance, but are not the original extraction pipelines. Complete clean-checkout access to the four October reanalyses' scripts and permitted inputs still requires verification before submission. Do not claim that September structural reproduction reran those analyses.
+Use the [clean-checkout guide](reproduction/README.md), recovered original scripts, pinned dependencies and new explicit retrieval/check wrappers. Four deterministic output artifacts were reproduced from public processed inputs; this does not rerun biological experiments, sequencing-read alignment, the NMD paper's original stochastic permutation test or complete Figshare prediction extraction. The guide identifies the archived public annotation and small prediction extract, source hashes and per-analysis limits. The website snapshot is an output comparator, never an analysis input.
 
-The public research branch is not the default main branch. This report update does not merge, deploy or submit the package. No actual video duration or submission receipt is certified here.
+The [main report](report/ivillafuerte_track2_report.md), [spoken script](submission/pitch_script.md) and [methods](submission/methods.md) retain the October 17 snapshot (SHA-256 `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`). No historical measurements were changed. Follow the recorded execution audit rather than interpreting a package validator as biological validation.
+
+The public research branch is not the default main branch. This update does not merge, deploy or submit the package. No actual video duration or submission receipt is certified here.

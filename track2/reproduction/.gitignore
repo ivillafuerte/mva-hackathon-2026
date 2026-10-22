@@ -1,0 +1,12 @@
+# Downloaded public inputs; retrieve by URL and SHA-256, do not commit full papers.
+gse65145/GSE65145_RAW.tar
+gse65145/GSM*.soft
+nmd/inputs/
+ptc/supp_tables.xlsx
+checkpoint/cache/
+# Regenerated outputs (execution_check.json may be deliberately archived).
+gse65145/gse65145_bub1b_results.json
+nmd/results/
+ptc/results/
+checkpoint/results.json
+__pycache__/
