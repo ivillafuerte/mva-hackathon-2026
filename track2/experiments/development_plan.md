@@ -23,11 +23,13 @@ Compare early/sustained, delayed/sustained, early/transient and untreated condit
 
 After withdrawal, measure protein disappearance, target function, lineage behavior and error accumulation. Do not map days in culture to fetal gestation. Persistent lineage reporter labels must not be used as a proxy for persistent therapeutic protein.
 
-## Aim 3: evaluate approved medications against the reference
+## Aim 3: evaluate the current conditional branches against the reference (October 22)
 
-First-stage arms are separate monotherapies: sirolimus, anakinra, everolimus comparator and nicotinic acid exploration. Gentamicin is a readthrough assay benchmark. Vehicle and assay-positive/negative controls accompany every experiment. Separate early prevention of a stress state from treatment after that state is established.
+Start with exact-variant functional validation, not an assumed effective drug. Amlexanox and montelukast are separate conditional branches; verify current product/formulation/jurisdiction eligibility before treating either as an eligible contest nomination. For amlexanox, require endogenous-context transcript, N- and C-terminal protein, product identity and separate checkpoint/segregation outcomes. Include toxicity and proliferation controls because other-gene benefits and negative neuronal findings do not define a BUB1B therapeutic window.
 
-For sirolimus, compare continuous exposure with transient exposure and withdrawal. Recovery must be measured rather than inferred from removal from culture medium. For anakinra, test IL-1 dependence; for nicotinic acid, test NAD response and SIRT2 dependence. Add a combination only after individual benefit and complementary mechanisms are observed, with a factorial design and prespecified interaction analysis.
+For montelukast, establish useful residual function of the exact L737* truncation before advancing an NMD-first mechanism. Measure allele-specific RNA while distinguishing decay, splicing and translational effects. An NMD response cannot remove the stop codon. Gentamicin + mefloquine remains an experimental comparison: test vehicle, individual components and combination with an appropriate positive control; do not assume synergy or transfer efficacy from COL4A5/PKD1 to BUB1B.
+
+Sirolimus is a conditional downstream comparator, not the current lead. If a relevant pathway abnormality is demonstrated, compare continuous exposure with transient exposure and withdrawal; measure recovery rather than inferring it from medium change. The normal-fibroblast RNA reanalysis is not a functional rescue result. Anakinra/everolimus/nicotinic acid remain historical alternatives, not the current video's first-stage nominations. No patient dosing or drug cocktail is proposed.
 
 For L737*, compare an exact-context reporter with an endogenous or splice-preserving system. NMD can be invisible in an intronless cDNA. Measure transcript availability, full-length product with orthogonal methods and inserted amino-acid identity where feasible. Express L737C/R/W and the truncation as controls to determine what functions remain possible. NMD inhibition requires evidence of transcript limitation and separate global-toxicity assessment.
 
@@ -66,11 +68,11 @@ There is no prenatal clinical protocol in this dossier. The current child's poss
 | Work package | Owner role | Deliverable | Dependency / status |
 |---|---|---|---|
 | Public allele audit and structural analysis | Computational researcher | Reproducible metrics and evidence tables | Completed computationally; no biological validation |
-| Drug and rule audit | Researcher/pharmacology reviewer | Candidate matrix and source log | Draft complete; recheck before submission |
+| Drug and rule audit | Researcher/pharmacology reviewer | Candidate matrix and source log | October narrative updated; current product eligibility still requires verification |
 | Cell model and reference rescue | Cell biology collaborator | Validated genotype model and WT rescue | Collaborator, facility and approvals not yet secured |
 | Temporal and drug validation | Cell biology/pharmacology team | Replicated effect estimates and exposure assessment | Depends on successful reference rescue |
 | Tissue and oncology validation | Disease-model specialists | Tissue outcomes and separate tumor assessment | Future; not promised before competition close |
 | Prenatal delivery research | Fetal therapy/delivery specialists | Preclinical feasibility package | Future program outside current drug nomination |
 | Submission preparation | Participant | Report, public repository, video and declarations | Draft files prepared; readiness items open |
 
-No laboratory budget, staff commitment or experimental completion date is invented. For the contest, use verified computational findings and a candid validation plan if biological work is unavailable. Suggested internal milestones: complete participant/account confirmations by September 17; freeze the evidence narrative by October 10; record and review the pitch by October 17; reserve the final week for repository and upload checks. These are planning targets, not organizer deadlines or automatic reminders.
+No laboratory budget, staff commitment or experimental completion date is invented. Use verified computational findings and a candid validation plan if biological work is unavailable. The September planning milestones are historical, not evidence that recordings or submissions occurred. See the current readiness checklist for unresolved final-package work.

@@ -1,17 +1,17 @@
 # Track 2 requirements and submission readiness
 
-Verified against public official materials on September 10, 2026. This is a readiness record, not a claim that an upload or institutional approval has occurred. The participant's separately accepted gated-data agreement must also be observed; its account-specific acceptance state cannot be inspected here.
+October 22 documentation update. The original requirements mapping was checked against official materials September 10; the final video brief records later October checks. Reconfirm live rules and quota before an actual upload. This is a readiness record, not a claim that an upload or institutional approval has occurred. The participant's separately accepted gated-data agreement must also be observed; its account-specific acceptance state cannot be inspected here.
 
 ## Official requirement mapping
 
 | Requirement | Source | Package implementation / status |
 |---|---|---|
-| Existing market-approved medication candidates | Official Rules; discussion 5 | Named product-level hypotheses in report and candidate assessment; new mRNA product excluded from nomination |
+| Existing market-approved medication candidates | Official Rules; discussion 5 | Current report has conditional candidates; especially amlexanox product/jurisdiction/formulation eligibility remains unresolved; new mRNA product excluded |
 | Characterize variant mechanism and biological consequence | Submission tab | Report sections 1–3; structural/transcript outputs |
 | Written report in PDF or Markdown, filename including user/team | Submission tab | `ivillafuerte_track2_report.md`; verify chosen submission identity |
-| Reproducible GitHub code and configuration | Submission tab | Track 2 scripts, pinned dependencies, inputs with hashes, results and validation command |
-| Repository public at challenge end | Submission tab | Existing repository is public; new local files are not yet confirmed published |
-| Three-minute video hosted on YouTube or Vimeo | Submission tab | English script prepared; actual recording, timing and public/unlisted judge-accessible URL pending |
+| Reproducible GitHub code and configuration | Submission tab | September allele scripts/dependencies/results are public; all October reanalysis scripts and permitted inputs must still be verified from a clean checkout |
+| Repository public at challenge end | Submission tab | Public Track 2 draft PR #1 / research branch exists, separate from main; verify final commit before submission |
+| Three-minute video hosted on YouTube or Vimeo | Submission tab | October 22 exact narration aligned; actual recording, timing, credits and judge-accessible URL not verified |
 | Provider, plan/tier and relevant AI handling settings | Submission tab; discussion 2 | Methods row 9 identifies verified use and exact participant-confirmed fields still needed |
 | Methods template answers | Official workbook, Track 2 sheet | All rows 7–17 mapped in English Markdown; most fields optional, AI disclosure required |
 | Up to three versions; latest reviewed; one representative | Configuration, FAQ, submission code | Do not spend a version on an unfinished package; live quota is not known here |
@@ -35,9 +35,9 @@ The publication embargo runs from challenge close until the organizer publicly p
 
 ## Official ambiguities preserved
 
-- The About timeline lists judging October 24–November 24 and awards November 25; FAQ/submission text describes approximately two to three months. Do not promise an announcement date from inconsistent text.
+- The September snapshot had older judging/awards dates. The October 22 video brief records an updated December 18 announcement and unchanged October 24 23:59 UTC close. Recheck current official discussions 26/28 and timeline before relying on dates; a narrative revision does not refresh rules_manifest.json.
 - “One final submission per team” in the template is consistent with three revision opportunities followed by review of the latest version. It is not permission for parallel submissions from several members.
-- No exhaustive list of accepted approval jurisdictions or policy for withdrawn historic products was recovered. The package uses specific listed US prescription products; no eligibility is asserted for unresolved experimental/withdrawn candidates.
+- No exhaustive list of accepted approval jurisdictions or policy for withdrawn historic products was recovered. Historical US product precedents do not establish current eligibility of the October shortlist. Amlexanox remains unresolved; no eligibility is asserted for experimental/withdrawn candidates.
 - A local file check cannot certify the user's account settings, accepted agreement, video availability, repository write access or actual submission quota.
 
 ## Final release checklist
@@ -45,13 +45,15 @@ The publication embargo runs from challenge close until the organizer publicly p
 - [ ] Confirm final HF username/team display name and one representative.
 - [ ] Complete accurate provider/tier/settings declarations for all materially used AI environments.
 - [ ] Review report and candidate nomination; remove draft status only after outstanding items are resolved.
-- [ ] Publish the reviewed code/documentation to the existing GitHub repository through authorized access.
+- [x] Public Track 2 draft branch exists (PR #1); this is not a main-branch merge or competition submission.
+- [ ] Verify the final report commit and clean-checkout reproduction access for every October reanalysis, including scripts and permitted inputs.
+- [ ] Resolve current medication product/jurisdiction/formulation eligibility, especially amlexanox.
 - [ ] Record the script, verify actual duration, include acknowledgment and obtain the video URL.
 - [ ] Verify judge access to repository and video, plus current rule/product status and live quota.
 - [ ] Upload the report once the concrete package is final and save receipt/version information.
 - [ ] At the required time, inventory/delete restricted data in participant-controlled environments and send the required attestation.
 
-The current technical verification result is in `validation.json`; open human-dependent items must remain open even when file checks pass.
+The September technical verification result in `validation.json` is historical and its file hashes predate this revision. It does not certify the revised report or October reanalyses. A new documentation check is recorded in `documentation_check_2026-10-22.json`; human-dependent and biological items remain open even when file checks pass.
 
 ## Official sources
 

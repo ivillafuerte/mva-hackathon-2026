@@ -1,22 +1,28 @@
-# Functional BUBR1 Rescue Windows in Mosaic Variegated Aneuploidy
+# BUB1B Virtual Lab: Evidence-Guided Drug Repurposing
 
-## Allele-aware prioritization of approved medications, calibrated against wild-type rescue
+## Allele-aware hypotheses and functional validation for mosaic variegated aneuploidy
 
 **Track:** Rare Disease, Real Kid: MVA Hackathon 2026, Track 2.
 
-**Repository:** https://github.com/ivillafuerte/mva-hackathon-2026
-
 **Working team:** Stackfire Networks. **Repository contributor:** ivillafuerte.
 
-**Version:** September 10, 2026. **Status:** research proposal draft; not submitted. Account disclosure, video and repository publication remain outstanding; see [submission readiness](../submission/readiness.md).
+**Version:** October 22, 2026. **Scientific snapshot:** `mva-results-2026-10-17-immunotherapy-audit-v1`, data as of October 17. The report revision date is not a new experimental-result date.
+
+**Status:** public research proposal; final competition submission and video upload are not verified. Regulatory eligibility, complete reproduction access and participant declarations remain open; see [readiness](../submission/readiness.md).
+
+**Repository:** https://github.com/ivillafuerte/mva-hackathon-2026/tree/research/track2-functional-rescue/track2
+
+**Evidence workspace:** https://www.stackfire.com/labs/mva
 
 ## Abstract
 
-BUB1B-associated mosaic variegated aneuploidy (MVA) poses two distinct therapeutic questions: can functional BUBR1 be restored sufficiently to reduce new chromosome-segregation errors, and can downstream tissue dysfunction be mitigated when molecular rescue is incomplete? We investigate the challenge's nominated L737*/N1002K pair using public transcript, population, structural and experimental evidence. Transcript reconstruction supports nonsense-mediated decay susceptibility for L737*, while analysis of the actual human AlphaFold model provides only weak support for N1002K destabilization. Neither molecular phase nor the missense allele's functional mechanism is experimentally established here.
+Which drug hypotheses deserve the next experiment? We use the challenge-nominated BUB1B L737*/N1002K pair to connect public evidence with falsifiable candidate decisions. L737* introduces premature termination, with nonsense-mediated decay (NMD) susceptibility predicted rather than measured for the exact variant. N1002K stability and residual function remain unresolved. Neither increased RNA nor increased protein alone establishes functional BUBR1 rescue.
 
-We propose a rescue-calibrated evaluation of existing approved medications rather than a claim of established treatment. Sirolimus is the leading downstream repurposing hypothesis, tested through transient exposure and recovery against continuous exposure. Nicotinic acid is a lower-confidence molecular-rescue candidate that must demonstrate a NAD–SIRT2–BUBR1 effect in the genotype model. Anakinra and everolimus are alternative mechanistic comparators; gentamicin is retained only as a readthrough benchmark because its chronic-use limitations are substantial. The drugs are not proposed as an upfront combination.
+The virtual lab records four quantitative reanalyses, six qualitative evidence audits and one explicitly synthetic software test. A reanalysis of normal human fibroblasts found a BUB1B-spanning RNA-feature mean 41.43% lower after continuous rapamycin than in proliferative vehicle controls; it does not support an RNA-increase rationale for sirolimus in that model. A separate readthrough analysis found no exact L737* measurement among the analyzed contexts. These observations constrain prioritization, not demonstrate pharmacological rescue.
 
-Wild-type BUB1B expression provides an experimental reference for recoverable function. Early, delayed, sustained and withdrawn rescue distinguish preventing new errors from reversing established damage. Primary molecular outcomes are errors per completed division, supported by checkpoint and single-cell measurements; tissue benefit is assessed independently. A prenatal mRNA-BUB1B program is a future direction, not the eligible intervention. This submission contributes reproducible allele characterization, transparent candidate prioritization and falsifiable development criteria. It contains no new wet-laboratory efficacy results, fitted therapeutic threshold or patient dosing recommendation.
+Amlexanox is a conditional research candidate: other-gene functional evidence is counterbalanced by negative neuronal findings and toxicity in another model. Montelukast is a conditional NMD-modulation hypothesis that depends on useful residual function of the exact truncated protein. Gentamicin plus mefloquine remains an experimental branch only. Immunotherapy is deprioritized for BUB1B disease rescue because tumor control is a different endpoint. No current market-approval or systemic-use eligibility is inferred from a historical amlexanox oral-paste label.
+
+The decisive next experiment uses matched controls to measure allele-specific RNA and protein, checkpoint response and segregation errors per completed division, with viability and proliferation tracked independently. The contribution is a traceable evidence-to-decision framework, supported by public allele computations and a versioned evidence workspace. No exact-genotype pharmacological rescue is established; wet-laboratory validation remains future work. This is not a treatment recommendation.
 
 ## 1. Research status and causal interpretation
 
@@ -59,27 +65,46 @@ The +4 base is A, not the C in a favorable motif reported in other systems [R12]
 
 **DIRECT-BUBR1.** Sustained transgenic BubR1 elevation protected mice against instability and selected disease phenotypes [R2]. It does not establish late-start replacement efficacy in this child. Dose-response experiments used different models and endpoints: residual levels of 77%, 58%, 14%, 10% and 8.5% in one study cannot locate a precise threshold between 14% and 58% [R3, abstract reviewed]. Another assay distinguished approximately 13% from 6% residual abundance [R1, Fig. 4D]. We therefore propose genotype- and endpoint-specific curves, not a universal 50% target.
 
-## 4. Approved-drug nomination and ranking
+## 4. Evidence that changed candidate decisions
 
-**Nominated candidates are hypotheses for experimental follow-up.** The shortlist below uses a tiered judgment, not a numerical probability of benefit. Market approval is documented for specific US products in the [candidate assessment](../drugs/candidate_assessment.md). None is approved for MVA. Oral formulation, intracellular exposure and fetal delivery are separate questions.
+### 4.1 A check on the sirolimus rationale
 
-| Priority and role | Drug | Mechanistic rationale | Required evidence to advance |
+**COMPUTATIONAL REANALYSIS; not a new biological experiment.** In GSE65145, the selected unstranded genomic-span RNA feature encompassing BUB1B had vehicle replicate values 6.227185 and 5.570779 RPKM, reduced-serum values 1.2674783 and 0.9291951, and rapamycin values 3.7114706 and 3.198672. The rapamycin/proliferative-vehicle mean ratio is 0.585706, or **41.43% lower**. The study used normal 2DD fibroblasts, two biological replicates per condition, continuous 500 nM rapamycin for five days [O1; record `MVA-RAP-GSE65145-001`].
+
+The observation concerns a deposited RNA feature, not a validated mature BUB1B isoform estimate or BUBR1 protein. No washout, checkpoint, chromosome-segregation or rescue endpoint was measured in this reanalysis. Reduced serum is not cell-cycle matched. Overlapping locus features are sensitivity views, not extra biological replicates. No new significance test, confidence interval or clinical probability is inferred. The 149,122 rows in each deposited track differ from the paper's stated 149,135 probes; that discrepancy remains unresolved.
+
+This finding **does not support an RNA-abundance-increase rationale for sirolimus in this model**. It neither proves a protein decrease nor excludes post-transcriptional or downstream effects. The September sirolimus-first prioritization is therefore superseded by the conditional shortlist below; sirolimus remains a mechanistic comparator, not an established rescue lead. The original downstream mTOR/SASP rationale [R4–R5] remains background evidence rather than a demonstrated treatment effect in the exact genotype.
+
+### 4.2 Nearby readthrough is not exact-variant evidence
+
+**COMPUTATIONAL REANALYSIS.** The analyzed 5,837-PTC table does not provide an exact L737* measurement or exact six-flanking-base match. Twelve nearby contexts have untreated and gentamicin median reporter readthrough of 0.1745% and 0.1985%, respectively. The **median paired increment is 0.0165 percentage points**, not the difference between those two medians and not “0.0165% rescue” [O2; `MVA-RT-002`]. Reporter sequences are not endogenous BUB1B. These numbers cannot predict L737* efficacy, native-leucine incorporation or a patient's outcome.
+
+### 4.3 RNA, protein, checkpoint and segregation are separate gates
+
+**REANALYSIS / EVIDENCE AUDIT.** Montelukast's three normalized NMD/non-NMD RNA ratios in published mouse Neuro-2a reporters are 1.3153820850896314, 3.406494677098417 and 1.7654686351224798. The published permutation q = 0.02115 is not a therapeutic probability. Reporter dependence, non-NMD isoform changes and unavailable replicate Ct values prevent interpreting those summaries as BUB1B-specific decay inhibition [O3; `MVA-NMD-003`].
+
+Published checkpoint-control source data give median nocodazole-challenge arrest durations of 650 minutes for WT and 60 for D137R, from 27 and 39 cells in a representative replicate. These are **not drug arms, N1002K measurements or independent biological replicates**; no between-replicate precision is inferred [O4; `MVA-CTRL-006`].
+
+Related BUBR1 variants can show checkpoint rescue after matching protein abundance, while equally expressed B56-binding mutants still fail chromosome-congression rescue [R1, O5]. Neither comparator substitutes for N1002K. The equal-expression gate must therefore measure function independently; checkpoint-only improvement is not relabeled segregation rescue [`MVA-N1002K-GATE-002`].
+
+### 4.4 Current conditional shortlist
+
+Priorities are research branches, not a numeric efficacy ranking or a prescribed combination. Current product, jurisdiction, formulation and competition eligibility must be checked separately for each nominated medication. **Amlexanox remains eligibility-unresolved**, not an asserted market-approved systemic MVA lead.
+
+| Branch | Evidence supporting investigation | Contradiction or gap | Advance only if |
 |---|---|---|---|
-| 1: downstream lead | Sirolimus | Test whether transient mTOR inhibition reduces a harmful secretory state while allowing subsequent functional recovery | Relevant pathway state and tissue benefit; no worsening of errors per division or BUBR1 function |
-| 2: downstream alternative | Anakinra | Test IL-1-dependent paracrine injury with a more focused pathway intervention | IL-1 dependence and muscle benefit; no inappropriate proliferation of damaged cells |
-| 3: rapalog comparator | Everolimus | Compare pharmacology and recovery with sirolimus | A demonstrable advantage over sirolimus, not merely a different drug name |
-| 4: molecular-rescue exploration | Nicotinic acid (niacin) | Test whether NAD elevation increases SIRT2-dependent functional BUBR1 | NAD response, BUBR1 target engagement and mitotic benefit; no assumption of baseline deficiency |
-| Benchmark, not chronic lead | Gentamicin | Assess whether exact-context L737* readthrough is measurable | Full-length functional product at defensible exposure; toxicity blocks automatic clinical progression |
+| **Amlexanox: conditional research candidate** | Functional CFTR evidence in another gene [O6] | Negative NEFL rescue with neurite toxicity; GDAP1 immunofluorescence does not alone establish full-length protein; exact L737* function and current eligible product unresolved [O7–O8] | Exact-context RNA, full-length product identity, checkpoint and segregation function improve at defensible exposure, with viability and regulatory gates satisfied |
+| **Montelukast: conditional NMD-modulation hypothesis** | Other-gene reporter RNA response [O3] | NMD inhibition does not remove the stop codon; L737* NMD sensitivity and useful truncated-protein function are unmeasured | Demonstrate residual function of exact L737* first, then allele-specific target engagement and functional benefit beyond cytostasis |
+| **Gentamicin + mefloquine: experimental branch only** | COL4A5 reporter combination evidence [O9] | Exact context absent; other-gene results with G418/ELX-02 ± mefloquine do not establish gentamicin/BUB1B transfer; exposure and toxicity remain barriers [O10] | Verify endogenous or splice-preserving exact-context translation, protein identity and function; compare each component and combination with matched controls |
+| **Sirolimus: comparator / conditional downstream hypothesis, not current lead** | Earlier mTOR/SASP pathway evidence [R4–R5] | The normal-fibroblast RNA reanalysis does not support an RNA-increase rationale; no exact-genotype rescue | Demonstrate the relevant pathway state and a separately specified functional benefit without worse mitotic outcomes |
 
-The leading **disease-mechanism experiment** remains WT BUBR1 rescue; the leading **approved-drug hypothesis by present pathway evidence** is sirolimus. These rankings answer different questions. Nicotinic acid is not promoted above stronger evidence merely to preserve a preferred molecular story.
+A related 731X construct motivates testing truncated-protein function, but it is a frameshift product with about 715 native residues, not a clean L737* surrogate [R1; `MVA-L737-NMD-FIRST-001`]. Preserving a nonfunctional transcript may not help. Amlexanox's positive and negative studies differ by gene, cell state, concentration and duration; they cannot define a BUB1B therapeutic window. Its historical 5% oral-paste label [O11] does not establish current market availability, appropriate systemic formulation, MVA efficacy or competition eligibility.
 
-Sirolimus's rationale combines allele-dependent mTOR activation in a mouse model [R4] with rapamycin effects on the senescence-associated secretory phenotype in human fibroblasts [R5]. Neither demonstrates drug rescue in L737*/N1002K. A brief exposure in R5 had effects after withdrawal, but mTOR remained partly suppressed. Consequently, a useful recovery window is a hypothesis, not an established intermittent regimen. No clinical schedule is proposed.
+**Not promoted:** arimoclomol lacks direct BUBR1/N1002K rescue evidence in the targeted audit; conditional and negative heat-shock responses prevent treating approval for another disease as target engagement [`MVA-ARI-007`]. Anakinra, everolimus and nicotinic acid remain documented historical alternatives, not the current video's lead nominations. The September [candidate assessment](../drugs/candidate_assessment.md) retains their evidence with an explicit supersession notice. No upfront three-drug cocktail or synergy is proposed. The gentamicin–mefloquine branch is a hypothesis to compare experimentally, not a validated regimen.
 
-Anakinra's rationale combines experimental IL-1 receptor antagonism in senescent fibroblasts [R6] with its approved pharmacology. A genetic senescent-cell elimination experiment in BubR1 mice supports studying tissue consequences, but does not prove IL-1 dependence or anakinra efficacy [R7].
+### 4.5 Immunotherapy: disease rescue is not tumor control
 
-For nicotinic acid, direct BUBR1 evidence concerns SIRT2/K668 regulation and NMN experiments [R8]. Human niacin data concern adult mitochondrial myopathy [R9]. The connection from nicotinic acid to functional N1002K is **OUR INFERENCE**. Nicotinamide, NMN and NR are not interchangeable drugs; nicotinamide reduced BUBR1 under inhibitory assay conditions in R8. Raising protein without restoring activity is insufficient.
-
-No upfront combination is selected. After beneficial monotherapies are established, a factorial comparison can test whether molecular rescue and tissue protection add benefit. Sirolimus plus anakinra may converge on the same secretory circuit; synergy is not assumed. New BUB1B mRNA, UPCP and other investigational agents remain outside the nominated approved-drug intervention.
+**QUALITATIVE EVIDENCE AUDIT.** Genetic senescent-cell ablation in BubR1-deficient mice is not immunotherapy. uPAR CAR T findings came from different mouse models, while HER2 CAR T and checkpoint-inhibitor sarcoma studies address antitumor outcomes, not correction of BUB1B dysfunction. Senescent, aneuploid and malignant cells are not interchangeable. The audited sources establish no exact-genotype immunotherapy rescue, and experimental CAR T products are not asserted eligible repurposed medications. Immunotherapy is **deprioritized for BUB1B disease rescue**, not dismissed as an oncology research area [R7; snapshot sources `amor-2024`, `her2-sarcoma-2024`, `nivolumab-2020`, `nivolumab-ipilimumab-2022`; `MVA-IMMUNE-011`].
 
 ## 5. Contradictions and failure criteria
 
@@ -95,7 +120,7 @@ Terminate a candidate branch if target engagement fails, apparent benefit is exp
 
 ## 6. Validation and temporal rescue
 
-The [experimental development plan](../experiments/development_plan.md) defines controls, analysis units, blinding, dose-response modeling, exposure checks, orthogonal confirmation and stop/go criteria. No prospective measurements or sample sizes are represented as completed.
+The [experimental development plan](../experiments/development_plan.md) defines controls, analysis units, blinding, dose-response modeling, exposure checks, orthogonal confirmation and stop/go criteria, now aligned to the conditional branches in section 4. No prospective measurements or sample sizes are represented as completed.
 
 First establish reference rescue in non-tumor human cells carrying the modeled pair, alongside corrected controls and individual alleles. Modeling in trans is an explicit experimental assumption until participant phasing is resolved. Measure endogenous-context RNA, full-length protein, turnover and localization. Compare N1002K at matched protein abundance with WT and L1012P.
 
@@ -109,11 +134,35 @@ For drugs, keep molecular rescue and downstream tissue protection as separate ou
 
 Development must establish tissue and progenitor coverage, dose distribution, duration, repeat-delivery feasibility, maternal/fetal effects, placental exposure, undesired tissue delivery and oncologic consequences. Protein supplementation does not correct the underlying alleles; errors may resume after withdrawal. Intervention after prenatal diagnosis may already follow early embryonic injury. No best gestational window, complete reversibility or cure is claimed. An investigational product cannot become an eligible repurposed drug by sharing a delivery platform with approved products.
 
-## 8. Reproducibility, contribution and limits
+## 8. Evidence workspace, reproducibility and limits
 
-The public workflow validates sequence numbering, maps transcript context, calculates model geometry and keeps compact outputs with reference URLs and hashes. Dependencies and commands are in [README](../README.md). Literature screening and ranking were AI-assisted and manually curated in this workflow, not an independent expert-panel review or an exhaustive systematic review. Predictor scores inherited from Track 1 were not recalculated. No private genome was required for these Track 2 calculations.
+The website's snapshot contains **11 records: four reanalyses, six evidence audits and one software test**, with **four quantitative reanalysis charts**. Record counts are not biological experiment counts. The charts have different units and models and must not be combined into a drug-efficacy leaderboard. Interactive conceptual illustrations and preset research guidance do not run experiments or calculate drug efficacy. No independent human scientific review is claimed.
 
-Scientific rigor comes from traceable claims and falsification criteria; potential impact concerns fewer new errors or preserved tissue function; innovation concerns measuring rescue amount, coverage and timing; scalability concerns reusable allele-specific controls. None guarantees clinical benefit or competition placement. We do not claim that generic mTOR inhibition, prenatal mRNA delivery or NAD supplementation originated in this project.
+| Record | Type | Role in the decision |
+|---|---|---|
+| `MVA-NMD-003` | Reanalysis | Montelukast remains conditional; reporter RNA is not BUBR1 function. |
+| `MVA-RT-002` | Reanalysis | Exact L737* context absent; nearby readthrough is not a prediction. |
+| `MVA-CTRL-006` | Reanalysis | Checkpoint competence needs its own control; no drug effect measured. |
+| `MVA-N1002K-GATE-002` | Evidence audit | Require equal-expression and separate segregation testing. |
+| `MVA-L737-NMD-FIRST-001` | Evidence audit | Test exact truncated-protein function before NMD-first progression. |
+| `MVA-ARI-007` | Evidence audit | Arimoclomol not promoted without BUBR1 target engagement. |
+| `MVA-FUNC-005` | Software test | Synthetic denominator fixture only; no sirolimus activity measured. |
+| `MVA-RAP-GSE65145-001` | Reanalysis | RNA-feature decrease constrains the sirolimus rationale. |
+| `MVA-RT-TRANSFER-009` | Evidence audit | Other-gene endogenous-protein findings do not establish BUB1B transfer. |
+| `MVA-AMLEXANOX-010` | Evidence audit | Positive and contrary evidence keep amlexanox conditional. |
+| `MVA-IMMUNE-011` | Evidence audit | Tumor control does not establish disease rescue. |
+
+### What is reproducible here, and what is not yet verified
+
+The September public workflow checks sequence numbering, transcript context and structural geometry, with pinned dependencies, compact outputs and reference hashes in [README](../README.md). The September reproduction audit is historical evidence of those computations, not a rerun of the October reanalyses.
+
+For this revision, the publicly served [results JSON](https://www.stackfire.com/labs/mva/results.json) was retrieved and matched byte-for-byte to the video brief's snapshot: SHA-256 `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`. A byte-preserved [snapshot copy](../evidence/mva-results-2026-10-17.json) supplies all record limitations, source locations, chart values and provenance hashes. The report and [spoken script](../submission/pitch_script.md) use that same scientific version.
+
+**This is a documentation and snapshot-consistency verification, not independent rerunning of the original October analyses.** The JSON records artifact names/hashes but is not a substitute for the originating extraction scripts and permitted inputs. Complete clean-checkout reproduction access for all four October reanalyses remains to be verified before final submission. Public access to this draft branch does not mean it has been merged into main or submitted to the competition. No new wet-lab experiment, efficacy score or clinical prediction was generated.
+
+Literature screening was AI-assisted and curated in this workflow, not an exhaustive systematic review or independent expert-panel assessment. Source access limits remain in the snapshot; this report revision does not claim to have re-reviewed inaccessible primary full texts. Existing structural outputs, source measurements and original chart values were not modified to match the narrative. Predictor scores from Track 1 were not recalculated, and no private genome-scale files were needed for this revision.
+
+Scientific rigor comes from explicit models, contradictory evidence and falsification criteria. Potential impact concerns choosing more informative experiments, not demonstrated clinical benefit. Innovation and scalability concern a reusable evidence-to-decision process across variant mechanisms. No competition placement or scientific superiority is predicted.
 
 ## 9. AI disclosure and data governance
 
@@ -159,10 +208,42 @@ R17. Cohen et al. NEJM (2022). PMID 36351280. DOI [10.1056/NEJMoa2200587](https:
 
 R18. Public references: [UniProt O60566](https://www.uniprot.org/uniprotkb/O60566/entry), [AlphaFold](https://alphafold.ebi.ac.uk/entry/O60566), [RefSeq NM_001211.6](https://www.ncbi.nlm.nih.gov/nuccore/NM_001211.6), [ClinVar L737*](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/), [ClinVar alternative N1002K DNA allele](https://www.ncbi.nlm.nih.gov/clinvar/variation/4600147/), [challenge dataset landing page](https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data). The formal dataset citation required at publication must be copied from the organizer's Synapse record; it has not been independently resolved here.
 
+## October evidence references
+
+These references are traceable to the preserved October 17 snapshot. They support model-specific observations and research hypotheses, not an exact-genotype treatment claim.
+
+O1. [Gillespie et al. — rapamycin and normal human fibroblast transcription](https://pmc.ncbi.nlm.nih.gov/articles/PMC4915505/). PMID 26652669. Model: 2DD normal human foreskin fibroblasts; two biological replicates per condition. Location: GSE65145 processed tracks; Figures 1 and 3; Figure S2; Cell culture and RNA-seq methods.
+
+O2. [Toledano et al. — genome-scale PTC readthrough](https://www.nature.com/articles/s41588-024-01878-5). PMID 39174735. Model: Human HEK293T landing-pad reporters; not endogenous BUB1B. Location: Supplementary Table 3; Extended Data Figure 4.
+
+O3. [Zhao et al. — molecular profiling of NMD modulators](https://pmc.ncbi.nlm.nih.gov/articles/PMC8718828/). PMID 35024243. Model: Mouse Neuro-2a; three AS-NMD isoform reporters. Location: Tables S1/S2/S4; Figures 2–5 and 7.
+
+O4. [BUBR1 TPR / MCC–APC/C functional controls](https://www.nature.com/articles/s42003-026-10384-9). PMID 42477419. Model: HeLa endogenous BUBR1 RNAi and RNAi-resistant YFP replacement. Location: Figure 4B; supplementary source-data workbook, Sheet1.
+
+O5. [Xu et al. — BUBR1 recruits PP2A-B56 for chromosome congression](https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/). PMID 23789096. Model: HeLa BUBR1 depletion/reconstitution and BUB1B-mutated MVA fibroblast rescue. Location: Figures 2 and 4; equally expressed B56-binding mutants are functional counterexamples.
+
+O6. [Amlexanox rescue in human cells](https://doi.org/10.1186/1750-1172-7-58). PMID 22938201. Model: Human 6CFSMEo- CFTR nonsense cells. Location: Figure 6.
+
+O7. [NEFL motor-neuron negative rescue](https://doi.org/10.3389/fcell.2021.820105). PMID 35237613. Model: Human iPSC-derived NEFL nonsense motor neurons. Location: Figure 6; Treatments.
+
+O8. [Amlexanox in GDAP1 neuronal progenitors](https://doi.org/10.3390/ph16071034). PMID 37513945. Model: Human iPSC-derived neuronal progenitors with GDAP1 p.Ser194* (UGA). Location: Figures 2-4.
+
+O9. [Omachi et al. — COL4A5 readthrough reporters](https://pmc.ncbi.nlm.nih.gov/articles/PMC8866893/). PMID 35243249. Model: HEK293 COL4A5 cDNA reporters; different gene and context. Location: Figure 6: gentamicin plus mefloquine.
+
+O10. [Torban et al. — PKD1 readthrough and partial cellular rescue](https://www.nature.com/articles/s41598-025-26775-7). PMID 41274954. Model: Human HEK293 PKD1 reporters and WT9-12 cells; other-gene evidence. Location: Figures 1H-I, 4, 5 and 6; published 2025-11-22.
+
+O11. [FDA historical Aphthasol label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/20511s002lbl.pdf). Model: Historical FDA Aphthasol 5% oral-paste label. Location: Pharmacokinetics and Metabolism, page 1.
+
+Additional immunotherapy and arimoclomol source IDs, models and access limitations are retained in the [snapshot](../evidence/mva-results-2026-10-17.json). Historical September references above remain supporting or contrary evidence; retaining them does not retain the old ranking.
+
 ## Required acknowledgment
 
 This work was made possible through the Hackathon, organized by Sage Bionetworks in partnership with the MVA Society, Hugging Face, and BEACON (The Benchmarking, Evaluation, and Assessment Consortium for Science), with prize sponsorship from AWS and Anthropic. We are deeply grateful to the child and their family who generously contributed their data and their story to advance research into this rare disease. We acknowledge their trust in making this Hackathon possible.
 
-## Final computational verification
+## Historical computational verification (September 10)
 
 On September 10, a repeat execution with freshly installed pinned dependencies reproduced the complete metrics JSON and both residue/rotamer tables exactly. All public reference input hashes matched the audited manifest. An initial native execution failure and truncated public PAE cache were resolved before this comparison. Script syntax and package consistency checks also passed. These checks do not establish biological efficacy.
+
+## Revision record — October 22, 2026
+
+Aligned to the final eight-sequence video brief and October 17 evidence snapshot. Replaced the September sirolimus-first abstract/ranking with conditional amlexanox and montelukast branches, experimental gentamicin–mefloquine, and explicit RNA/functional-transfer constraints. Added the 11-record inventory, four-chart scope, evidence provenance and separate publication/reproducibility gates. Preserved prior allele computations, scientific caveats, historical references and required acknowledgment. No biological data were changed, no efficacy was newly validated and no competition submission was performed by this revision.

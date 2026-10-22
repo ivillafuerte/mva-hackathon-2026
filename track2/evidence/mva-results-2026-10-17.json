@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "id": "mva-results-2026-10-17-immunotherapy-audit-v1",
+  "dataAsOf": "2026-10-17",
+  "publicationReview": "public-summary-reviewed",
+  "scope": "Public literature, computational reanalyses and explicitly labeled synthetic software checks only. Wet-lab validation is deferred. No private genomic data are included. The GSE65145 summary and N1002K equal-expression audit were checked by the research assistant for source support, privacy and scientific limits; neither has received independent human scientific review. The readthrough-transfer audit is assistant-reviewed, not independently human-reviewed. The immunotherapy audit is assistant-reviewed, not independently human-reviewed, and distinguishes tumor control from BUB1B disease rescue.",
+  "records": [
+    {
+      "id": "MVA-NMD-003",
+      "title": "704-drug NMD screen: reporter specificity",
+      "kind": "Reanalysis",
+      "status": "Completed",
+      "recordedOn": "2026-10-09",
+      "evidence": "COMPUTATIONAL / PATHWAY EVIDENCE",
+      "model": "Published mouse Neuro-2a AS-NMD isoform summaries; three reporter genes, not BUB1B.",
+      "finding": "Montelukast has a published permutation q of 0.021150, but the response is reporter-dependent and confounded by non-NMD isoform changes. No hit establishes functional BUBR1 rescue.",
+      "decision": "Conditional",
+      "limitations": [
+        "Normalized RNA ratios cannot isolate decay from splicing or isoform regulation.",
+        "Replicate Ct values are unavailable. Published ratio SEM formulas do not provide valid replicate-based uncertainty; no error bars are shown.",
+        "Translation inhibition is counterevidence for homoharringtonine. Statistical significance is not therapeutic suitability."
+      ],
+      "next": "Establish L737* residual function first; any NMD candidate then needs allele-specific RNA, protein synthesis, and separate checkpoint/segregation endpoints.",
+      "sourceIds": [
+        "zhao-2021"
+      ],
+      "provenance": {
+        "artifact": "nmd_reanalysis_20261009/results/selected_candidates.csv",
+        "sha256": "ad7fa784e6caf2f126c9730e4edaf7dc75f0ea2ad54208661de75555ede6ab9c",
+        "method": "Extracted named compounds and ratios from the existing independently reconstructed Table S2/S4 analysis; published q values are not clinical probabilities.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-RT-002",
+      "title": "L737* readthrough: exact versus nearby contexts",
+      "kind": "Reanalysis",
+      "status": "Completed",
+      "recordedOn": "2026-10-09",
+      "evidence": "COMPUTATIONAL / PATHWAY EVIDENCE",
+      "model": "Published 144-nt PTC reporters in human cells; nearest-context subset, not endogenous BUB1B.",
+      "finding": "No exact L737* measurement or exact six-flanking-base match in the 5,837-PTC table. Twelve nearest contexts have a median paired gentamicin increment of 0.0165 percentage points.",
+      "decision": "Deprioritized",
+      "limitations": [
+        "Neighboring-context values are not a prediction for L737* or the child.",
+        "The main predictive analysis excluded gentamicin for weak signal.",
+        "Readthrough does not guarantee native leucine, endogenous transcript survival, or functional BUBR1. Gentamicin plus mefloquine remains an experimental branch only."
+      ],
+      "next": "Use the exact L737* context with matched controls and independently test full-length protein, checkpoint response and segregation fidelity.",
+      "sourceIds": [
+        "toledano-2024",
+        "omachi-2022"
+      ],
+      "provenance": {
+        "artifact": "l737_readthrough_gate_2026-10-09/results/results.json",
+        "sha256": "8d1f7ca32b05f9e85cedc5d025ea04efee60b581ae4effea8fd389e6f4afbcb9",
+        "method": "Extracted medians from the existing nearest-context reanalysis. The paired median increment is not the difference of group medians.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-CTRL-006",
+      "title": "BUBR1 functional controls: arrest duration",
+      "kind": "Reanalysis",
+      "status": "Completed",
+      "recordedOn": "2026-10-09",
+      "evidence": "COMPUTATIONAL / DIRECT-BUBR1",
+      "model": "Published HeLa BUBR1 depletion/replacement with WT or engineered TPR variants under nocodazole challenge.",
+      "finding": "Figure 4B source-data medians are 650 minutes for WT and 60 minutes for D137R. A control for checkpoint competence, not a drug-rescue result.",
+      "decision": "Control only",
+      "limitations": [
+        "D137R is not N1002K; no tested drug or exact patient genotype.",
+        "Cells in the displayed representative replicate are not independent biological replicates.",
+        "Mitotic-arrest duration under spindle challenge is not chromosome-segregation fidelity in unperturbed divisions."
+      ],
+      "next": "Require independent checkpoint and chromosome-segregation readouts in future equal-expression assays.",
+      "sourceIds": [
+        "bubr1-tpr-2026"
+      ],
+      "provenance": {
+        "artifact": "bubr1_checkpoint_kinetics_2026-10-09/results.json",
+        "sha256": "d6be3833115ac368fffe185dfea0e42439e4c80e723b88c626ecb9b874073e6c",
+        "method": "Selected the Figure 4B rows from a completed deterministic source-workbook reanalysis; no kinetic rate or new confidence interval inferred.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-N1002K-GATE-002",
+      "title": "N1002K stabilization: equal-expression gate",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-10",
+      "evidence": "DIRECT-BUBR1 COMPARATORS / RELATED-VARIANT IN VIVO / TARGETED AUDIT",
+      "model": "Published human-cell BUBR1 depletion/replacement studies, MVA fibroblast rescue and a mouse L1012P comparator model; none tests N1002K.",
+      "finding": "No exact-N1002K functional experiment was located. I909T/L1012P checkpoint rescue at matched abundance makes an abundance-limited mechanism plausible, but equally expressed B56-binding mutants still failed chromosome-congression rescue and mouse L1012P showed allelic effects beyond total protein level. Stabilization remains conditional; no drug is promoted.",
+      "decision": "Conditional",
+      "limitations": [
+        "This targeted audit is not a systematic review; failure to locate an exact-N1002K study does not prove that none exists.",
+        "I909T and L1012P are comparator variants, not substitutes for N1002K.",
+        "B56-binding mutants lie in a different region and demonstrate only that equal abundance is not universally sufficient.",
+        "Mouse L1002P models human L1012P, not human N1002K.",
+        "Checkpoint-only rescue must not be relabeled as chromosome-alignment or segregation rescue.",
+        "The published 6% versus 13% titration is cell-line-specific, not a universal functional or clinical threshold."
+      ],
+      "next": "At measured matched abundance, compare WT, N1002K and L1012P in one depletion-replacement system; report nocodazole checkpoint arrest separately from chromosome alignment and missegregation per completed division. Wet-lab work is deferred.",
+      "sourceIds": [
+        "suijkerbuijk-2010",
+        "xu-2013",
+        "sieben-2020"
+      ],
+      "provenance": {
+        "artifact": "n1002k_equal_expression_audit_2026-10-10/audit.json",
+        "sha256": "30a149370a4bd736fbe39618c2e0ed549008066ea004bd24a5e699308657c73d",
+        "method": "Targeted exact-variant search plus primary-study comparison of abundance-matched BUBR1 rescue and counterexamples; no biological simulation was executed.",
+        "verification": "Primary-source claims were checked against PMID 20516114 Figures 2D/3/4D, PMID 23789096 Figures 2/4 and PMID 31738183 Figures 1-3. Artifact bytes were hashed directly. No independent human scientific review or biological efficacy validation is claimed."
+      }
+    },
+    {
+      "id": "MVA-L737-NMD-FIRST-001",
+      "title": "L737* NMD-first: test truncated-protein function",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-09",
+      "evidence": "DIRECT-BUBR1 COMPARATOR / OUR INFERENCE",
+      "model": "Published 731X/753X BUBR1 constructs and a proposed exact-L737* validation design.",
+      "finding": "A related 731X construct motivates testing whether L737* retains useful function when NMD is bypassed. The exact L737* experiment has not been performed.",
+      "decision": "Conditional",
+      "limitations": [
+        "731X is a frameshift product with about 715 native residues, not a clean L737* surrogate.",
+        "NMD sensitivity is predicted, not measured for this child.",
+        "More nonsense transcript can increase nonfunctional protein; NMD inhibition does not itself remove a stop codon."
+      ],
+      "next": "Test WT, clean L737*, 731X and 753X at matched abundance; advance NMD modulation only if the exact truncation retains useful function.",
+      "sourceIds": [
+        "suijkerbuijk-2010"
+      ],
+      "provenance": {
+        "artifact": "l737_nmd_first_gate_2026-10-09/experiment.json",
+        "sha256": "68b890531733aec6fc1f4a6cace8ce8e85bdcccf63bb61900688b831aa383a69",
+        "method": "Imported an evidence-supported proposed design. Completed refers to the audit, not execution of the wet-lab validation.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-ARI-007",
+      "title": "Arimoclomol: target engagement and exposure gap",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-09",
+      "evidence": "PATHWAY EVIDENCE / COMPUTATIONAL / OUR INFERENCE",
+      "model": "Human-cell heat-shock studies and a nominal molar conversion of FDA-label serum concentrations.",
+      "finding": "No direct BUBR1 or N1002K rescue evidence was located in the audit. Heat-shock responses are context-dependent; arimoclomol is not promoted to lead candidate.",
+      "decision": "Deprioritized",
+      "limitations": [
+        "Published human-cell systems report both conditional induction and negative responses.",
+        "Total serum exposure and nominal cell-culture concentration are not pharmacokinetically interchangeable.",
+        "Approval for a different disease does not establish MVA efficacy."
+      ],
+      "next": "Require target engagement at relevant exposure plus exact-variant functional rescue before reconsidering prioritization.",
+      "sourceIds": [
+        "deane-2016",
+        "steurer-2022",
+        "arimoclomol-label"
+      ],
+      "provenance": {
+        "artifact": "arimoclomol_n1002k_gate_2026-10-09/results.json",
+        "sha256": "6ce51099f036cd0082358c22176f9f58e3065fc545a32781d40014c020233764",
+        "method": "Imported the existing nominal concentration conversion; no tissue distribution, free-drug exposure or rescue model was calculated.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-FUNC-005",
+      "title": "Cytostasis confounding: denominator unit test",
+      "kind": "Software test",
+      "status": "Completed",
+      "recordedOn": "2026-10-08",
+      "evidence": "SYNTHETIC SOFTWARE FIXTURE",
+      "model": "Invented test counts used only to test code; not an experiment or a biological simulation.",
+      "finding": "The synthetic fixture flags fewer raw error-positive divisions without a lower error rate per completed division. It does not measure sirolimus activity.",
+      "decision": "Control only",
+      "limitations": [
+        "All fixture counts are synthetic.",
+        "No drug response, BUBR1 rescue, or patient outcome can be inferred from a passing software test."
+      ],
+      "next": "Reuse the denominator checks with prospectively designed real measurements when wet-lab work becomes available.",
+      "sourceIds": [],
+      "provenance": {
+        "artifact": "mitosis_adjudicator_2026-10-08/examples/cytostasis_results.json",
+        "sha256": "dfb5fa29aa719fc59d206cf34a8d33b1ce59bda41d5665f685a219c6770a753b",
+        "method": "Imported the labeled fixture output, checked the synthetic flag, and excluded synthetic quantities from the scientific charts.",
+        "verification": "Imported an existing analysis artifact and computed its SHA-256. This snapshot build does not rerun the original analysis or validate biological efficacy."
+      }
+    },
+    {
+      "id": "MVA-RAP-GSE65145-001",
+      "title": "Rapamycin in human fibroblasts: BUB1B locus RNA signal",
+      "kind": "Reanalysis",
+      "status": "Completed",
+      "recordedOn": "2026-10-10",
+      "evidence": "Public human perturbation data; descriptive locus-level RNA reanalysis, not functional rescue.",
+      "model": "Normal 2DD fibroblasts: proliferative vehicle, 0.5% serum, or 500 nM rapamycin for five days; two biological replicates per condition.",
+      "finding": "The primary BUB1B-spanning feature has a Rap/Pro mean ratio of 0.585706 (41.43% lower); reduced-serum/Pro is 0.186191. Three nearly full-span features give the same direction. This does not support an RNA-abundance-increase rationale for sirolimus in this model.",
+      "decision": "Conditional",
+      "limitations": [
+        "Unstranded genomic-span features, not direct BUBR1 protein measurements or validated mature transcript isoform estimates.",
+        "Three overlapping features are sensitivity views of the same locus, not independent biological replicates.",
+        "Two biological replicates per condition from one normal cell line; no MVA genotype and no donor-level replication.",
+        "Serum reduction is a useful control but is not matched to rapamycin for cell-cycle distribution; no causal proliferation adjustment is claimed.",
+        "Continuous 500 nM/five-day treatment; no washout, transient exposure, aneuploidy, mitotic checkpoint or rescue endpoint.",
+        "Published normalized RPKM values are used as deposited without re-alignment, count-based differential expression, an added pseudocount, p-values or rescue probabilities.",
+        "149122 rows were observed in each deposited track; the paper states 149135 probes. The 13-row difference is not resolved here.",
+        "This does not establish that BUBR1 protein falls, rule out post-transcriptional effects, or predict clinical harm or benefit."
+      ],
+      "next": "Keep sirolimus conditional. Proposed: compare full-length BUBR1 protein and segregation errors per completed division after transient exposure and washout at matched cell-cycle distribution. Wet-lab work is deferred.",
+      "sourceIds": [
+        "gillespie-2015"
+      ],
+      "provenance": {
+        "artifact": "MVA_GSE65145_BUB1B_2026-10-10.zip/gse65145_bub1b_results.json",
+        "sha256": "e71199b4f23c6315f02febfd18aac8b9bcd7e7f8bb05a7a7b624ad874d54d3b6",
+        "method": "Parse six deposited hg19 RPKM tracks; require >=99% reciprocal overlap with RefSeq NM_001211.6; select minimum boundary-distance feature and calculate ratios of arithmetic means. Check all three qualifying features.",
+        "verification": "All six coordinate arrays match; each has 149122 rows. Eighteen rows overlap the anchor and three qualify. GEO sample titles and artifact hashes verified. Complete reproducible package saved separately; no human scientific review or new biological experiment is claimed."
+      }
+    },
+    {
+      "id": "MVA-RT-TRANSFER-009",
+      "title": "Readthrough combinations: endogenous-protein transfer gap",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-11",
+      "evidence": "OTHER-GENE HUMAN-CELL EVIDENCE / OUR INFERENCE",
+      "model": "Published HEK293 PKD1 reporters and WT9-12 cells bearing endogenous PKD1 Q2556X; not BUB1B.",
+      "finding": "G418/ELX-02 with or without mefloquine were studied beyond reporters, including endogenous PKD1 protein and withdrawal measurements. This does not establish gentamicin-combination efficacy or BUB1B rescue.",
+      "decision": "Conditional",
+      "limitations": [
+        "Different gene, stop context and functional endpoint; endogenous Q2556X is TAG, not the L737* UGA premise.",
+        "RNA abundance does not isolate NMD; protein after withdrawal does not establish BUBR1 function or systemic tolerability.",
+        "No exact-genotype rescue, native leucine incorporation or clinically transferable exposure is established.",
+        "ELX-02 is a future mechanistic comparator; this audit does not establish market-approved Track 2 eligibility.",
+        "Qualitative audit only; no new biological experiment, numerical reanalysis or scientific chart."
+      ],
+      "next": "Keep gentamicin plus mefloquine experimental only; add ELX-02 to proposed mechanistic comparators, not the repurposing lead list. Require exact-L737* RNA, full-length protein and checkpoint/segregation outcomes after withdrawal. Wet-lab deferred.",
+      "sourceIds": [
+        "torban-2025"
+      ],
+      "provenance": {
+        "artifact": "MVA_READTHROUGH_TRANSFER_AUDIT_2026-10-11.json",
+        "sha256": "7dc7dc6fedfd923ab7c7fcaff2bf8fb5cada27fa9bb3a3830ddc477af8175d27",
+        "method": "Targeted primary-study agent/model/endpoint audit; no numerical reanalysis or simulation.",
+        "verification": "PMID/DOI and Figures 1, 4, 5 and 6 checked via publisher and Europe PMC. Artifact saved separately, not committed to the public research repository. Assistant review only."
+      }
+    },
+    {
+      "id": "MVA-AMLEXANOX-010",
+      "title": "Amlexanox: context-dependent readthrough evidence",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-17",
+      "evidence": "OTHER-GENE HUMAN-CELL / PATHWAY / OUR INFERENCE",
+      "model": "Published CFTR cells, GDAP1 neuronal progenitors, NEFL motor neurons and mouse NMD reporters; no exact BUB1B model.",
+      "finding": "Functional CFTR evidence supports investigating amlexanox, but negative NEFL rescue with neurite toxicity and context-dependent NMD responses prevent promotion to an established lead. GDAP1 immunofluorescence does not by itself resolve full-length protein. No exact-L737* rescue is established.",
+      "decision": "Conditional",
+      "limitations": [
+        "Targeted audit, not a systematic review. No exact BUB1B-L737* pharmacological rescue was located in the sources reviewed.",
+        "NMD susceptibility remains predicted for L737*. Readthrough need not insert native leucine.",
+        "No efficacy probability, universal abundance threshold, docking result or new numerical biological result is claimed.",
+        "No patient genome-scale data were accessed. No independent human scientific review.",
+        "Positive and negative neuronal studies differ in gene, cell state, concentration and exposure duration; they cannot define a BUB1B therapeutic window.",
+        "Historical oral-paste approval and serum exposure do not establish systemic MVA suitability."
+      ],
+      "next": "Can exact-L737*-derived full-length BUBR1 be demonstrated at an exposure that also improves checkpoint and segregation independently of cytostasis? Require allele attribution, viability/proliferation controls and separate functional endpoints. Wet-lab validation remains proposed.",
+      "sourceIds": [
+        "amlexanox-2012",
+        "gdap1-2023",
+        "nefl-2022",
+        "zhao-2021",
+        "amlexanox-label"
+      ],
+      "provenance": {
+        "artifact": "MVA_AMLEXANOX_AUDIT_2026-10-17.json",
+        "sha256": "947129103dd93e1ba722f4301b86e158ad705c2376fca6b07fb1fb4066e47394",
+        "method": "Targeted primary-literature audit of positive and contradictory evidence; no quantitative reanalysis or biological simulation.",
+        "verification": "Figures checked: CFTR Figure 6; GDAP1 Figures 2-4; NEFL Figure 6. Historical FDA label pharmacokinetics reviewed. Artifact preserved separately as libfile_f3289a7f9e808191b3bfaefb0307eff1, not committed to the public research repository. Assistant source/privacy/scientific review only."
+      }
+    },
+    {
+      "id": "MVA-IMMUNE-011",
+      "title": "Immunotherapy: disease rescue versus tumor control",
+      "kind": "Evidence audit",
+      "status": "Completed",
+      "recordedOn": "2026-10-17",
+      "evidence": "DIRECT-BUBR1 MOUSE ABLATION / OTHER-MODEL CAR T / CLINICAL ONCOLOGY / OUR INFERENCE",
+      "model": "BubR1 H/H INK-ATTAC mice; separate aging/metabolic CAR T mouse models; early human sarcoma studies. No exact BUB1B variant model.",
+      "finding": "Genetic senescent-cell ablation delayed selected phenotypes in BubR1-deficient mice; uPAR CAR T benefits came from other mouse models. HER2 CAR T and nivolumab/ipilimumab show limited antitumor signals in sarcoma, while nivolumab monotherapy lacked solid-tumor responses in ADVL1412. Tumor control does not establish BUB1B rescue. No exact-genotype immunotherapy rescue was located.",
+      "decision": "Deprioritized",
+      "limitations": [
+        "Targeted qualitative audit, not a systematic review or quantitative reanalysis. No new biological experiment or scientific chart.",
+        "INK-ATTAC is transgene-dependent genetic ablation, not immunotherapy. The uPAR CAR T study did not test BubR1-deficient mice or the exact human variants.",
+        "Senescent, aneuploid and tumor cells are not interchangeable. Selective antigen expression and preservation of essential tissue remain unresolved.",
+        "Clinical sarcoma responses do not establish MVA efficacy, tumor prevention or correction of chromosome segregation. Small, selected trials do not provide an individual success probability.",
+        "Experimental HER2/uPAR CAR T products were not identified as market-approved repurposing leads. Immune toxicity and conditioning limit transfer.",
+        "Some primary reports were accessible only as abstracts, indexed passages or figure captions; no inaccessible full text was represented as reviewed.",
+        "No patient genome-scale data were accessed. Review was performed by the assistant; no independent human scientific review."
+      ],
+      "next": "Retain immune senolysis as future exploratory research, not the immediate BUB1B rescue lead. Does a relevant BUB1B model contain harmful senescent cells with a selectively targetable surface antigen while preserving normal/progenitor cells and tissue function? Wet-lab validation remains proposed.",
+      "sourceIds": [
+        "baker-2011",
+        "amor-2024",
+        "her2-sarcoma-2024",
+        "nivolumab-2020",
+        "nivolumab-ipilimumab-2022"
+      ],
+      "provenance": {
+        "artifact": "MVA_IMMUNOTHERAPY_AUDIT_2026-10-17.json",
+        "sha256": "05ae8ff5ec7a7a11a7ca831e3fd20fc2888c6140e508f08a285b362672f4cf2c",
+        "method": "Targeted primary-literature audit comparing interventions, models and endpoints across five reports; no pooled response rate or simulated result.",
+        "verification": "Baker 2011 abstract/Figures 2-4 captions; Amor 2024 full text/Figures 3-7; clinical primary abstracts/indexed text. Artifact saved separately as libfile_119c9d65d5d08191864457ab60d32d2c, not committed to the public research repository. Assistant source/privacy/scientific review only."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "zhao-2021",
+      "title": "Zhao et al. — molecular profiling of NMD modulators",
+      "pmid": "35024243",
+      "doi": "10.1016/j.omtn.2021.12.003",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8718828/",
+      "model": "Mouse Neuro-2a; three AS-NMD isoform reporters",
+      "location": "Tables S1/S2/S4; Figures 2–5 and 7"
+    },
+    {
+      "id": "toledano-2024",
+      "title": "Toledano et al. — genome-scale PTC readthrough",
+      "pmid": "39174735",
+      "doi": "10.1038/s41588-024-01878-5",
+      "url": "https://www.nature.com/articles/s41588-024-01878-5",
+      "model": "Human HEK293T landing-pad reporters; not endogenous BUB1B",
+      "location": "Supplementary Table 3; Extended Data Figure 4"
+    },
+    {
+      "id": "omachi-2022",
+      "title": "Omachi et al. — COL4A5 readthrough reporters",
+      "pmid": "35243249",
+      "doi": "10.1016/j.isci.2022.103891",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8866893/",
+      "model": "HEK293 COL4A5 cDNA reporters; different gene and context",
+      "location": "Figure 6: gentamicin plus mefloquine"
+    },
+    {
+      "id": "suijkerbuijk-2010",
+      "title": "Suijkerbuijk et al. — molecular causes of BUBR1 dysfunction",
+      "pmid": "20516114",
+      "doi": "10.1158/0008-5472.CAN-09-4319",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-09-4319",
+      "model": "U2OS/HeLa BUBR1 depletion and replacement",
+      "location": "Figures 4D and 5; comparator variants, not N1002K"
+    },
+    {
+      "id": "xu-2013",
+      "title": "Xu et al. — BUBR1 recruits PP2A-B56 for chromosome congression",
+      "pmid": "23789096",
+      "doi": "10.1242/bio.20134051",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654266/",
+      "model": "HeLa BUBR1 depletion/reconstitution and BUB1B-mutated MVA fibroblast rescue",
+      "location": "Figures 2 and 4; equally expressed B56-binding mutants are functional counterexamples"
+    },
+    {
+      "id": "sieben-2020",
+      "title": "Sieben et al. — allelic effects in MVA progeria syndrome",
+      "pmid": "31738183",
+      "doi": "10.1172/JCI126863",
+      "url": "https://www.jci.org/articles/view/126863",
+      "model": "Mouse BubR1 L1002P ortholog model of human L1012P with hypomorphic or truncating alleles",
+      "location": "Abstract and Figures 1-3; related variant, not N1002K"
+    },
+    {
+      "id": "bubr1-tpr-2026",
+      "title": "BUBR1 TPR / MCC–APC/C functional controls",
+      "pmid": "42477419",
+      "doi": "10.1038/s42003-026-10384-9",
+      "url": "https://www.nature.com/articles/s42003-026-10384-9",
+      "model": "HeLa endogenous BUBR1 RNAi and RNAi-resistant YFP replacement",
+      "location": "Figure 4B; supplementary source-data workbook, Sheet1"
+    },
+    {
+      "id": "deane-2016",
+      "title": "Deane and Brown — conditional heat-shock co-induction",
+      "pmid": "27273088",
+      "doi": "10.1007/s12192-016-0708-2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5003800/",
+      "model": "Differentiated human SH-SY5Y cells; arimoclomol plus celastrol",
+      "location": "Figures 2–5; not a BUBR1 study"
+    },
+    {
+      "id": "steurer-2022",
+      "title": "Steurer et al. — HSF1 reporter evaluation",
+      "pmid": "35218516",
+      "doi": "10.1007/s12033-022-00467-3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9259536/",
+      "model": "Human HSF-responsive reporter and endogenous target systems",
+      "location": "Table 1 and Figure 4: negative arimoclomol response in this system"
+    },
+    {
+      "id": "arimoclomol-label",
+      "title": "FDA — MIPLYFFA prescribing information (2024)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/214927s000lbl.pdf",
+      "model": "Regulatory label; human serum pharmacokinetics, different indication",
+      "location": "Clinical pharmacology; historical label used by the 2026-10-09 audit"
+    },
+    {
+      "id": "gillespie-2015",
+      "title": "Gillespie et al. — rapamycin and normal human fibroblast transcription",
+      "pmid": "26652669",
+      "doi": "10.1080/19491034.2015.1128610",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4915505/",
+      "model": "2DD normal human foreskin fibroblasts; two biological replicates per condition",
+      "location": "GSE65145 processed tracks; Figures 1 and 3; Figure S2; Cell culture and RNA-seq methods"
+    },
+    {
+      "id": "torban-2025",
+      "title": "Torban et al. — PKD1 readthrough and partial cellular rescue",
+      "pmid": "41274954",
+      "doi": "10.1038/s41598-025-26775-7",
+      "url": "https://www.nature.com/articles/s41598-025-26775-7",
+      "model": "Human HEK293 PKD1 reporters and WT9-12 cells; other-gene evidence",
+      "location": "Figures 1H-I, 4, 5 and 6; published 2025-11-22"
+    },
+    {
+      "id": "amlexanox-2012",
+      "title": "Amlexanox rescue in human cells",
+      "pmid": "22938201",
+      "doi": "10.1186/1750-1172-7-58",
+      "url": "https://doi.org/10.1186/1750-1172-7-58",
+      "model": "Human 6CFSMEo- CFTR nonsense cells",
+      "location": "Figure 6"
+    },
+    {
+      "id": "gdap1-2023",
+      "title": "Amlexanox in GDAP1 neuronal progenitors",
+      "pmid": "37513945",
+      "doi": "10.3390/ph16071034",
+      "url": "https://doi.org/10.3390/ph16071034",
+      "model": "Human iPSC-derived neuronal progenitors with GDAP1 p.Ser194* (UGA)",
+      "location": "Figures 2-4"
+    },
+    {
+      "id": "nefl-2022",
+      "title": "NEFL motor-neuron negative rescue",
+      "pmid": "35237613",
+      "doi": "10.3389/fcell.2021.820105",
+      "url": "https://doi.org/10.3389/fcell.2021.820105",
+      "model": "Human iPSC-derived NEFL nonsense motor neurons",
+      "location": "Figure 6; Treatments"
+    },
+    {
+      "id": "amlexanox-label",
+      "title": "FDA historical Aphthasol label",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/20511s002lbl.pdf",
+      "model": "Historical FDA Aphthasol 5% oral-paste label",
+      "location": "Pharmacokinetics and Metabolism, page 1"
+    },
+    {
+      "id": "baker-2011",
+      "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders",
+      "pmid": "22048312",
+      "doi": "10.1038/nature10600",
+      "url": "https://www.nature.com/articles/nature10600",
+      "model": "BubR1 H/H hypomorphic progeroid mice carrying INK-ATTAC.",
+      "location": "Abstract; Figures 2-4 public captions."
+    },
+    {
+      "id": "amor-2024",
+      "title": "Prophylactic and long-lasting efficacy of senolytic CAR T cells against age-related metabolic dysfunction",
+      "pmid": "38267706",
+      "doi": "10.1038/s43587-023-00560-5",
+      "url": "https://www.nature.com/articles/s43587-023-00560-5",
+      "model": "Naturally aged C57BL/6 mice and high-fat-diet mice.",
+      "location": "Figures 3-5 (clearance, safety assessments and metabolic endpoints); Figures 6-7 (persistence/prevention and high-fat diet)."
+    },
+    {
+      "id": "her2-sarcoma-2024",
+      "title": "Autologous HER2-specific CAR T cells after lymphodepletion for advanced sarcoma: a phase 1 trial",
+      "pmid": "38658775",
+      "doi": "10.1038/s43018-024-00749-6",
+      "url": "https://www.nature.com/articles/s43018-024-00749-6",
+      "model": "People with progressive HER2-positive sarcoma, including rhabdomyosarcoma.",
+      "location": "Abstract; Table 1 and response results / Figure 4 located through indexed primary-article text."
+    },
+    {
+      "id": "nivolumab-2020",
+      "title": "Nivolumab in children and young adults with relapsed or refractory solid tumours or lymphoma (ADVL1412)",
+      "pmid": "32192573",
+      "doi": "10.1016/S1470-2045(20)30023-1",
+      "url": "https://doi.org/10.1016/S1470-2045(20)30023-1",
+      "model": "Pediatric and young-adult relapsed/refractory malignancies; phase 1-2.",
+      "location": "Abstract, findings and interpretation; no figure-level extraction."
+    },
+    {
+      "id": "nivolumab-ipilimumab-2022",
+      "title": "A Phase I/II Trial of Nivolumab Plus Ipilimumab in Children and Young Adults with Relapsed/Refractory Solid Tumors: ADVL1412",
+      "pmid": "36190525",
+      "doi": "10.1158/1078-0432.CCR-22-2164",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-22-2164",
+      "model": "Children and young adults with recurrent/refractory solid tumors.",
+      "location": "Abstract reproduced by the investigators at Children's Oncology Group; Figure 3A located in indexed primary text."
+    }
+  ],
+  "charts": [
+    {
+      "id": "nmd-reporters",
+      "title": "One drug, three different reporter responses",
+      "recordId": "MVA-NMD-003",
+      "unit": "NMD / non-NMD normalized RNA ratio",
+      "baseline": 1,
+      "series": [
+        "Ptbp2",
+        "Hnrnpl",
+        "Tra2b"
+      ],
+      "rows": [
+        {
+          "label": "Montelukast sodium",
+          "values": [
+            1.3153820850896314,
+            3.406494677098417,
+            1.7654686351224798
+          ],
+          "note": "Published permutation q = 0.02115; not a BUBR1 endpoint."
+        },
+        {
+          "label": "Artesunate",
+          "values": [
+            1.718112969537028,
+            1.0078988102818638,
+            4.2875477079256585
+          ],
+          "note": "Published permutation q = 0.010071; not a BUBR1 endpoint."
+        },
+        {
+          "label": "Cladribine",
+          "values": [
+            2.126124275101715,
+            2.0820411294900216,
+            1.6377191943091594
+          ],
+          "note": "Published permutation q = 0.010071; not a BUBR1 endpoint."
+        },
+        {
+          "label": "Albendazole",
+          "values": [
+            1.5634627380948676,
+            1.701726223666598,
+            3.2992143735876955
+          ],
+          "note": "Published permutation q = 0.015667; not a BUBR1 endpoint."
+        },
+        {
+          "label": "Topotecan hydrochloride",
+          "values": [
+            3.9533398228039465,
+            2.3994174963086077,
+            0.6542839291174242
+          ],
+          "note": "Published permutation q = 0.0 (finite-sampling zero, not zero uncertainty); not a BUBR1 endpoint."
+        },
+        {
+          "label": "Homoharringtonine",
+          "values": [
+            5.0039366160196295,
+            24.97590928901173,
+            11.672927661494484
+          ],
+          "note": "Published permutation q = 0.0 (finite-sampling zero, not zero uncertainty); not a BUBR1 endpoint."
+        },
+        {
+          "label": "Mefloquine hydrochloride",
+          "values": [
+            1.181600971576268,
+            1.3075083215610865,
+            1.5102164979716604
+          ],
+          "note": "Published permutation q = 0.061224; not a BUBR1 endpoint."
+        },
+        {
+          "label": "Nicotinic acid",
+          "values": [
+            1.1859031685137231,
+            1.4152893426077033,
+            0.9171679519898492
+          ],
+          "note": "Published permutation q = 0.08225; not a BUBR1 endpoint."
+        }
+      ],
+      "note": "Selected compounds from a 704-drug mouse-cell screen, not a therapeutic ranking. Ratios can rise when the denominator falls. No BUB1B was measured; no valid replicate-based ratio error bars are available."
+    },
+    {
+      "id": "nearby-readthrough",
+      "title": "Nearby contexts are not the exact variant",
+      "recordId": "MVA-RT-002",
+      "unit": "Median reporter readthrough (%)",
+      "baseline": null,
+      "series": [
+        "Median"
+      ],
+      "rows": [
+        {
+          "label": "Untreated",
+          "values": [
+            0.1745
+          ],
+          "note": "12 nearest measured six-base contexts; exact L737* context absent."
+        },
+        {
+          "label": "Gentamicin",
+          "values": [
+            0.1985
+          ],
+          "note": "Same 12 contexts, not BUB1B efficacy or a patient prediction."
+        }
+      ],
+      "note": "Median paired increment: 0.0165 percentage points; it is not the difference of the two medians. The six-base analogy ignores the rest of the reporter sequence. No rescue probability is computed."
+    },
+    {
+      "id": "checkpoint-controls",
+      "title": "Checkpoint competence needs its own control",
+      "recordId": "MVA-CTRL-006",
+      "unit": "Median NEBD-to-exit time (minutes)",
+      "baseline": null,
+      "series": [
+        "Median"
+      ],
+      "rows": [
+        {
+          "label": "Wild type",
+          "values": [
+            650
+          ],
+          "note": "27 cells; representative replicate, not independent biological replicates."
+        },
+        {
+          "label": "D137R",
+          "values": [
+            60
+          ],
+          "note": "39 cells; representative replicate, not independent biological replicates."
+        }
+      ],
+      "note": "Published Figure 4B under nocodazole challenge. WT and D137R are not drug-treatment arms. These cell counts do not establish between-replicate precision; no confidence interval is inferred."
+    },
+    {
+      "id": "rapamycin-bub1b-locus",
+      "title": "BUB1B-spanning RNA feature in normal human fibroblasts",
+      "recordId": "MVA-RAP-GSE65145-001",
+      "unit": "RPKM as deposited; genomic-span RNA feature",
+      "note": "GSE65145; two biological replicates per condition from one normal cell line. Continuous rapamycin for five days; no washout. The selected unstranded feature spans chr15:40453238–40513321 (hg19). No protein, checkpoint-rescue or statistical-significance claim. Overlapping features are not extra replicates.",
+      "baseline": null,
+      "series": [
+        "Biological replicate 1",
+        "Biological replicate 2"
+      ],
+      "rows": [
+        {
+          "label": "Proliferative vehicle",
+          "values": [
+            6.227185,
+            5.570779
+          ],
+          "note": "10% FBS; DMSO vehicle."
+        },
+        {
+          "label": "Reduced serum",
+          "values": [
+            1.2674783,
+            0.9291951
+          ],
+          "note": "0.5% FBS for five days; not matched for cell-cycle distribution."
+        },
+        {
+          "label": "Rapamycin 500 nM",
+          "values": [
+            3.7114706,
+            3.198672
+          ],
+          "note": "500 nM for five days; 10% FBS. Mean is 0.585706 times proliferative control."
+        }
+      ]
+    }
+  ]
+}

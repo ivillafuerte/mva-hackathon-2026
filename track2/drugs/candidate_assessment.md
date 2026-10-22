@@ -1,6 +1,10 @@
-# Evidence-weighted candidate assessment
+# Historical candidate assessment and current eligibility cautions
 
-As of September 10, 2026. Research prioritization, not a clinical prescription or a prediction of competition placement. The primary report nominates separate approved-drug hypotheses; it does not nominate fetal medication administration or a drug combination.
+**October 22 update:** The current scientific shortlist is in [report section 4](../report/ivillafuerte_track2_report.md#44-current-conditional-shortlist). Amlexanox and montelukast are conditional research branches; gentamicin + mefloquine is experimental only. Sirolimus is no longer the leading nomination. Amlexanox's historical oral-paste label does not establish current market-approved systemic eligibility. Neither a positive other-gene result nor an approval for another indication demonstrates exact-genotype BUBR1 rescue.
+
+**Historical record below, September 10, 2026:** The matrix and product precedents are retained for traceability; they are not a current ranking, current regulatory verification or a proposal to combine the drugs. When this historical record differs from the October report, the latter controls the submitted narrative.
+
+As of September 10, 2026. Research prioritization, not a clinical prescription or a prediction of competition placement. The September report nominated separate approved-drug hypotheses; it does not nominate fetal medication administration or a drug combination.
 
 ## Ranking method
 
@@ -53,11 +57,11 @@ This dossier does not assign patient doses or claim an established pharmacologic
 | L737* readthrough | Causal rationale; exact rescue unknown | Strong assay definition | Only approved drugs | Product function and chronic toxicity unresolved | Allele-specific; reusable assay | Benchmark and discovery branch |
 | N1002K stabilization | Weak structural support only | Equal-expression rescue | Depends on nominated drug | More protein is not necessarily better | Potential causal benefit if validated | Conditional branch |
 | Dual-allele rescue | Both contributions unknown | Factorial comparison | Approved combinations permitted | Interactions and additivity unmeasured | Higher complexity; no assumed synergy | Defer until monotherapies pass |
-| Functional approved-drug screen | Avoids one-mechanism lock-in | Errors/division and tissue endpoints | Must name candidates, not just a platform | Must exclude death/cytostasis artifacts | Most reusable methodological contribution | Backbone of current proposal |
+| Functional approved-drug screen | Avoids one-mechanism lock-in | Errors/division and tissue endpoints | Must name candidates, not just a platform | Must exclude death/cytostasis artifacts | Most reusable methodological contribution | Backbone of September proposal |
 | Prenatal BUBR1 replacement | Direct target rationale; no prenatal rescue shown | Staged preclinical testing | New mRNA product outside current scope | Delivery, duration and development unresolved | Potentially important; difficult translation | Future program only |
 
 Amlexanox and ataluren are not nominated without current product/jurisdiction eligibility verification. NMN/NR and experimental peptides do not inherit eligibility from niacin or another marketed platform. Proteasome and HSP90 perturbations are mechanistic controls, not automatically therapeutic candidates. A senolytic combination is not selected merely because genetic removal of senescent cells helped a BubR1 mouse model.
 
-## Current decision
+## Historical decision — September 10 (superseded)
 
 Develop sirolimus and anakinra as separate conditional tissue-protection hypotheses, with everolimus as a pharmacological comparator. Keep nicotinic acid in a lower-confidence molecular-rescue arm and gentamicin as a benchmark. The intervention must earn progression through the functional gates. No compound has passed them in the present project.
