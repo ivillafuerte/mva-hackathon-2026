@@ -1,0 +1,14 @@
+Clarification — 24 October 2026: At 01:20, “12 nearby sequence contexts” refers to 12 measured variant rows representing eight distinct six-base flanking contexts in the analyzed experimental table. No exact six-base match for the L737* context was found. These rows are not independent biological replicates, and this terminology clarification does not establish exact-variant rescue or change the conditional research priorities.
+
+Context for 01:04: The approximately 41% lower RNA-feature signal is relative to the proliferative vehicle control in normal fibroblasts (500 nM rapamycin, five days, two samples per condition). It is not a protein, clinical-response or functional-rescue measurement. The added sensitivity analyses are post hoc and do not create new biological replicates.
+
+Stackfire Networks presents BUB1B Virtual Lab, our Track 2 research proposal for the Rare Disease, Real Kid: MVA Hackathon 2026.
+
+We connect public-data reanalyses and evidence audits to drug-repurposing priorities for BUB1B-associated mosaic variegated aneuploidy. The proposal distinguishes RNA abundance, protein abundance and functional rescue, and outlines an exact-variant experiment with prespecified controls and decision criteria.
+
+In the October 22 reproduction audit, four checked computational reanalysis outputs matched archived checksums in a clean environment using public processed inputs. This is computational reproduction, not biological or clinical validation. No exact-genotype pharmacological rescue is established. Wet-lab validation remains future work. The candidates discussed are research hypotheses, not treatment recommendations or medical advice.
+
+Production disclosure: This video uses AI-generated narration and conceptual scientific illustrations. The illustrations are not experimental images or measured molecular structures.
+
+Acknowledgments
+This work was made possible through the Hackathon, organized by Sage Bionetworks in partnership with the MVA Society, Hugging Face, and BEACON (The Benchmarking, Evaluation, and Assessment Consortium for Science), with prize sponsorship from AWS and Anthropic. We are deeply grateful to the child and their family who generously contributed their data and their story to advance research into this rare disease. We acknowledge their trust in making this Hackathon possible.

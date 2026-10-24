@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-24T20:35:58.556365+00:00",
+  "python": "3.12.14",
+  "dependencies": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "openpyxl": "3.1.5"
+  },
+  "isolated_virtual_environment": false,
+  "records": [
+    {
+      "analysis": "gse65145",
+      "artifact": "gse65145/gse65145_bub1b_results.json",
+      "sha256": "e71199b4f23c6315f02febfd18aac8b9bcd7e7f8bb05a7a7b624ad874d54d3b6",
+      "matches_archived_result": true
+    },
+    {
+      "analysis": "nmd",
+      "artifact": "nmd/results/selected_candidates.csv",
+      "sha256": "ad7fa784e6caf2f126c9730e4edaf7dc75f0ea2ad54208661de75555ede6ab9c",
+      "matches_archived_result": true
+    },
+    {
+      "analysis": "ptc",
+      "artifact": "ptc/results/results.json",
+      "sha256": "8d1f7ca32b05f9e85cedc5d025ea04efee60b581ae4effea8fd389e6f4afbcb9",
+      "matches_archived_result": true
+    },
+    {
+      "analysis": "checkpoint",
+      "artifact": "checkpoint/results.json",
+      "sha256": "d6be3833115ac368fffe185dfea0e42439e4c80e723b88c626ecb9b874073e6c",
+      "matches_archived_result": true
+    }
+  ],
+  "scope": "Original deterministic reanalyses from processed public source data; not new biological validation or reanalysis from sequencing reads.",
+  "limitations": [
+    "NMD original stochastic permutation procedure is not rerun; published p values are reused.",
+    "PTC prediction_extracts.tsv is archived public Figshare-derived input; full prediction-file extraction is not rerun.",
+    "UCSC annotation input preserves its original retrieval timestamp; it is not a fresh live annotation response.",
+    "Checkpoint exact-byte result assumes pinned Python/library versions; inspect version-only differences separately."
+  ]
+}

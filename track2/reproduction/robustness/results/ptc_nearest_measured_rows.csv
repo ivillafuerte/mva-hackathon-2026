@@ -1,0 +1,13 @@
+excel_row,mutation_identifier,gene,context_6nt,hamming_distance,gentamicin_percent,gentamicin_status,untreated_percent,untreated_status
+3124,AMER1_R358X,AMER1,aagagt,1,0.19,observed,0.182,observed
+2325,DYSF_R204X,DYSF,aagagt,1,0.21,observed,0.164,observed
+4746,RP1_S542X,RP1,aagagt,1,0.186,observed,0.189,observed
+2813,ATM_R2763X,ATM,cagagt,1,0.211,observed,0.173,observed
+5400,NPC1_R607X,NPC1,gaaagt,1,0.215,observed,0.161,observed
+4957,CC2D2A_R1218X,CC2D2A,gagaat,1,0.202,observed,0.188,observed
+4916,EPHA5_R919X,EPHA5,gagaat,1,0.175,observed,0.172,observed
+5519,KMT2C_R3507X,KMT2C,gagagg,1,0.192,observed,0.189,observed
+5075,ABL1_R577X,ABL1,gagggt,1,0.178,observed,0.165,observed
+311,CASP8_R432X,CASP8,gagtgt,1,0.195,observed,0.176,observed
+5037,FAT1_R1627X,FAT1,gatagt,1,0.249,observed,0.15,observed
+189,NCOA3_S644X,NCOA3,gatagt,1,0.234,observed,0.182,observed

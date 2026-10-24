@@ -1,0 +1,19 @@
+{
+  "amendment_id": "01",
+  "recorded_at_utc": "2026-10-24T20:34:00Z",
+  "timing": "Before executing the new sensitivity calculations; after independent design review of existing scripts/source rows",
+  "original_protocol_sha256": "7f22f7a108501bd0cccbd24e2a0fe76d6feec75ba118cdc1bbf9d17824fc1b78",
+  "changes": [
+    {
+      "field": "gse65145.genomewide_background",
+      "replacement": "Omit genome-wide Rap/Pro versus Qui/Pro correlation and percentile ranks. Direct BUB1B feature-level Rap/Pro, Qui/Pro and Rap/Qui comparisons remain.",
+      "reason": "Shared-denominator mathematical coupling, dependent overlapping features and denominator-based filtering make this nonessential statistic easily misleading; it cannot establish proliferation confounding."
+    },
+    {
+      "field": "ptc.sensitivity",
+      "addition": "Report median of the within-context median paired differences as an equal-context-weighted descriptive estimand, separately from the primary variant-row-weighted median.",
+      "reason": "Design audit found duplicate six-base contexts; rows must not be represented as independent contexts."
+    }
+  ],
+  "unchanged": "Source hashes, nearest-context selection, all original comparisons, row/group leave-out reporting, GSE thresholds and sample-dependence diagnostics, no new p-values/CIs/causal adjustment, post-hoc exploratory status."
+}

@@ -1,0 +1,2457 @@
+{
+  "analysis_id": "MVA_EXPLORATORY_ROBUSTNESS_2026-10-24",
+  "schema_version": 1,
+  "status": "post-hoc exploratory; not biological validation",
+  "protocol_sha256": "7f22f7a108501bd0cccbd24e2a0fe76d6feec75ba118cdc1bbf9d17824fc1b78",
+  "pre_run_amendment_sha256": "88e965e5e0e98517e7dbb8149a1b94dd171d25da84070f8f45e06cc78fbb9d01",
+  "analysis_code_sha256": "c12e186cb037a55324020e25dc222adea634d34d7c0502e1741502e585f1d104",
+  "software": {
+    "python": "3.12.14",
+    "openpyxl": "3.1.5"
+  },
+  "source_manifest_sha256": "71839d51558a1ff86c5c9c15ce6948f3a45e32eedd4e8b36f9e02ab7cc26bd46",
+  "original_script_manifest_sha256": "f1cf273298d00d7d7c92be82beb691c0e59e0186a3459a019c8752ff631c925f",
+  "verified_sources": [
+    {
+      "path": "gse65145/GSE65145_RAW.tar",
+      "sha256": "cb4be4c47a7926722374b3caea84c46c75b8d30161111b118f5e4bbf3791ff57",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE65nnn/GSE65145/suppl/GSE65145_RAW.tar"
+    },
+    {
+      "path": "gse65145/GSM1588051.soft",
+      "sha256": "d7d47c2df0f85b1bc21a2fab8092dca004d8f9e2c353d1548f23471324357ffd",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588051&targ=self&form=text&view=full"
+    },
+    {
+      "path": "gse65145/GSM1588052.soft",
+      "sha256": "fcc03cc8656173a625d4d88ec52a053a989f8cf45a41404299b188c80f163843",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588052&targ=self&form=text&view=full"
+    },
+    {
+      "path": "gse65145/GSM1588053.soft",
+      "sha256": "58f75c0c0635eb9af3cd156768ec12be1357237673e022ac930115c779d16d4b",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588053&targ=self&form=text&view=full"
+    },
+    {
+      "path": "gse65145/GSM1588054.soft",
+      "sha256": "149482fa5b3da2bf7c83af91c42a6cc613095d958736bdfec1612825298440ce",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588054&targ=self&form=text&view=full"
+    },
+    {
+      "path": "gse65145/GSM1588055.soft",
+      "sha256": "8ffb2fb9e2414d96e08892a560b6daa3f29028e03e197cc2c8f5a9630bcca74e",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588055&targ=self&form=text&view=full"
+    },
+    {
+      "path": "gse65145/GSM1588056.soft",
+      "sha256": "150e67baf0258a5d5b8f5a9a26bf989d25da1d8a4bc9255620addaaf6b455cdb",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588056&targ=self&form=text&view=full"
+    },
+    {
+      "path": "nmd/inputs/table_S1.xlsx",
+      "sha256": "14c3c7c3c7344c365285eec39a53fd93d4a333eec83bbbbdab7eaa4348dcaf69",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc2.xlsx"
+    },
+    {
+      "path": "nmd/inputs/table_S2.xlsx",
+      "sha256": "f7107fa8e401cc6d1d2adbb68adca5baefe63472cfaf2f178e667d678c3b0007",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc3.xlsx"
+    },
+    {
+      "path": "nmd/inputs/table_S4.xlsx",
+      "sha256": "613713a81e0944d28e1b01f07a6e144ff286726d8686778efca6b1294f749e9b",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc5.xlsx"
+    },
+    {
+      "path": "ptc/supp_tables.xlsx",
+      "sha256": "83b4661d839e7450abb3a4266a0dc7e94260fd100f9a6efcc6e2bd77683a5b64",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-024-01878-5/MediaObjects/41588_2024_1878_MOESM4_ESM.xlsx"
+    },
+    {
+      "path": "checkpoint/cache/source_data.xlsx",
+      "sha256": "d793bc309981fefad4a7bc5a8de852054563b0c29b1212d0221519674f9f5f90",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-026-10384-9/MediaObjects/42003_2026_10384_MOESM5_ESM.xlsx"
+    },
+    {
+      "path": "gse65145/hg19_chr15_refseq.json",
+      "sha256": "1a0ccb6acb42734032645c6e13ddb79bd23d046689e7a5a3a17469a7475fff98",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=hg19;track=ncbiRefSeq;chrom=chr15;start=40000000;end=41000000"
+    },
+    {
+      "path": "ptc/prediction_extracts.tsv",
+      "sha256": "5db3ac1925af814552fad15153299e2dbafee484c00680a5369f7d7613a5ab5f",
+      "url": "https://doi.org/10.6084/m9.figshare.23708901"
+    }
+  ],
+  "execution": "deterministic exhaustive finite-set deletions; no random seed needed; no new p-values or confidence intervals",
+  "ptc": {
+    "target_6nt": "gagagt",
+    "complete_source_table_inventory": {
+      "worksheet_rows_after_header_including_blank_formatting": 11674,
+      "populated_source_rows": 5837,
+      "blank_formatted_rows": 5837,
+      "valid_stop_codon_rows": 5837,
+      "UGA_rows_with_invalid_context": 0
+    },
+    "valid_UGA_rows_in_complete_table": 2724,
+    "exact_6nt_rows": 0,
+    "minimum_hamming_distance": 1,
+    "nearest_variant_row_count": 12,
+    "unique_nearest_6nt_context_count": 8,
+    "context_multiplicity": {
+      "aagagt": 3,
+      "cagagt": 1,
+      "gaaagt": 1,
+      "gagaat": 2,
+      "gagagg": 1,
+      "gagggt": 1,
+      "gagtgt": 1,
+      "gatagt": 2
+    },
+    "value_status_counts": {
+      "gentamicin_status": {
+        "observed": 12,
+        "missing": 0,
+        "left_censored": 0,
+        "right_censored": 0,
+        "nonnumeric": 0,
+        "nonfinite": 0
+      },
+      "untreated_status": {
+        "observed": 12,
+        "missing": 0,
+        "left_censored": 0,
+        "right_censored": 0,
+        "nonnumeric": 0,
+        "nonfinite": 0
+      }
+    },
+    "baseline": {
+      "status": "calculated",
+      "n_variant_rows": 12,
+      "n_unique_contexts": 8,
+      "gentamicin_median_percent": 0.1985,
+      "untreated_median_percent": 0.1745,
+      "median_paired_delta_percentage_points": 0.016500000000000015,
+      "difference_of_marginal_medians_percentage_points": 0.02400000000000002,
+      "positive_paired_deltas": 11,
+      "zero_paired_deltas": 0,
+      "negative_paired_deltas": 1
+    },
+    "nearest_rows": [
+      {
+        "excel_row": 3124,
+        "mutation_identifier": "AMER1_R358X",
+        "gene": "AMER1",
+        "context_6nt": "aagagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.19,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.182,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 2325,
+        "mutation_identifier": "DYSF_R204X",
+        "gene": "DYSF",
+        "context_6nt": "aagagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.21,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.164,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 4746,
+        "mutation_identifier": "RP1_S542X",
+        "gene": "RP1",
+        "context_6nt": "aagagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.186,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.189,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 2813,
+        "mutation_identifier": "ATM_R2763X",
+        "gene": "ATM",
+        "context_6nt": "cagagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.211,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.173,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 5400,
+        "mutation_identifier": "NPC1_R607X",
+        "gene": "NPC1",
+        "context_6nt": "gaaagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.215,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.161,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 4957,
+        "mutation_identifier": "CC2D2A_R1218X",
+        "gene": "CC2D2A",
+        "context_6nt": "gagaat",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.202,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.188,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 4916,
+        "mutation_identifier": "EPHA5_R919X",
+        "gene": "EPHA5",
+        "context_6nt": "gagaat",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.175,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.172,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 5519,
+        "mutation_identifier": "KMT2C_R3507X",
+        "gene": "KMT2C",
+        "context_6nt": "gagagg",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.192,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.189,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 5075,
+        "mutation_identifier": "ABL1_R577X",
+        "gene": "ABL1",
+        "context_6nt": "gagggt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.178,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.165,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 311,
+        "mutation_identifier": "CASP8_R432X",
+        "gene": "CASP8",
+        "context_6nt": "gagtgt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.195,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.176,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 5037,
+        "mutation_identifier": "FAT1_R1627X",
+        "gene": "FAT1",
+        "context_6nt": "gatagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.249,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.15,
+        "untreated_status": "observed"
+      },
+      {
+        "excel_row": 189,
+        "mutation_identifier": "NCOA3_S644X",
+        "gene": "NCOA3",
+        "context_6nt": "gatagt",
+        "hamming_distance": 1,
+        "gentamicin_percent": 0.234,
+        "gentamicin_status": "observed",
+        "untreated_percent": 0.182,
+        "untreated_status": "observed"
+      }
+    ],
+    "unit": "measured variant rows and distinct local sequence contexts, not independent patients/replicates",
+    "scope": "Finite-set influence diagnostics; no exact BUB1B L737* efficacy or new experimental evidence",
+    "leave_one_variant_row_out": [
+      {
+        "omitted_excel_row": 3124,
+        "omitted_mutation_identifier": "AMER1_R358X",
+        "omitted_context_6nt": "aagagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 2325,
+        "omitted_mutation_identifier": "DYSF_R204X",
+        "omitted_context_6nt": "aagagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 4746,
+        "omitted_mutation_identifier": "RP1_S542X",
+        "omitted_context_6nt": "aagagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 11,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "omitted_excel_row": 2813,
+        "omitted_mutation_identifier": "ATM_R2763X",
+        "omitted_context_6nt": "cagagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 5400,
+        "omitted_mutation_identifier": "NPC1_R607X",
+        "omitted_context_6nt": "gaaagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 4957,
+        "omitted_mutation_identifier": "CC2D2A_R1218X",
+        "omitted_context_6nt": "gagaat",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.02200000000000002,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 4916,
+        "omitted_mutation_identifier": "EPHA5_R919X",
+        "omitted_context_6nt": "gagaat",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.026000000000000023,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 5519,
+        "omitted_mutation_identifier": "KMT2C_R3507X",
+        "omitted_context_6nt": "gagagg",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 5075,
+        "omitted_mutation_identifier": "ABL1_R577X",
+        "omitted_context_6nt": "gagggt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.026000000000000023,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 311,
+        "omitted_mutation_identifier": "CASP8_R432X",
+        "omitted_context_6nt": "gagtgt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 5037,
+        "omitted_mutation_identifier": "FAT1_R1627X",
+        "omitted_context_6nt": "gatagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_excel_row": 189,
+        "omitted_mutation_identifier": "NCOA3_S644X",
+        "omitted_context_6nt": "gatagt",
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 8,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.02200000000000002,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      }
+    ],
+    "leave_one_context_group_out": [
+      {
+        "omitted_context_6nt": "aagagt",
+        "omitted_variant_row_count": 3,
+        "omitted_excel_rows": [
+          3124,
+          2325,
+          4746
+        ],
+        "status": "calculated",
+        "n_variant_rows": 9,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 9,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "omitted_context_6nt": "cagagt",
+        "omitted_variant_row_count": 1,
+        "omitted_excel_rows": [
+          2813
+        ],
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gaaagt",
+        "omitted_variant_row_count": 1,
+        "omitted_excel_rows": [
+          5400
+        ],
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gagaat",
+        "omitted_variant_row_count": 2,
+        "omitted_excel_rows": [
+          4957,
+          4916
+        ],
+        "status": "calculated",
+        "n_variant_rows": 10,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.2025,
+        "untreated_median_percent": 0.1745,
+        "median_paired_delta_percentage_points": 0.02850000000000001,
+        "difference_of_marginal_medians_percentage_points": 0.028000000000000025,
+        "positive_paired_deltas": 9,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gagagg",
+        "omitted_variant_row_count": 1,
+        "omitted_excel_rows": [
+          5519
+        ],
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gagggt",
+        "omitted_variant_row_count": 1,
+        "omitted_excel_rows": [
+          5075
+        ],
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.026000000000000023,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gagtgt",
+        "omitted_variant_row_count": 1,
+        "omitted_excel_rows": [
+          311
+        ],
+        "status": "calculated",
+        "n_variant_rows": 11,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.202,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.014000000000000012,
+        "difference_of_marginal_medians_percentage_points": 0.029000000000000026,
+        "positive_paired_deltas": 10,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "omitted_context_6nt": "gatagt",
+        "omitted_variant_row_count": 2,
+        "omitted_excel_rows": [
+          5037,
+          189
+        ],
+        "status": "calculated",
+        "n_variant_rows": 10,
+        "n_unique_contexts": 7,
+        "gentamicin_median_percent": 0.1935,
+        "untreated_median_percent": 0.1745,
+        "median_paired_delta_percentage_points": 0.013499999999999998,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 9,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      }
+    ],
+    "within_context_summaries": [
+      {
+        "context_6nt": "aagagt",
+        "status": "calculated",
+        "n_variant_rows": 3,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.19,
+        "untreated_median_percent": 0.182,
+        "median_paired_delta_percentage_points": 0.008000000000000007,
+        "difference_of_marginal_medians_percentage_points": 0.008000000000000007,
+        "positive_paired_deltas": 2,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 1
+      },
+      {
+        "context_6nt": "cagagt",
+        "status": "calculated",
+        "n_variant_rows": 1,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.211,
+        "untreated_median_percent": 0.173,
+        "median_paired_delta_percentage_points": 0.038000000000000006,
+        "difference_of_marginal_medians_percentage_points": 0.038000000000000006,
+        "positive_paired_deltas": 1,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gaaagt",
+        "status": "calculated",
+        "n_variant_rows": 1,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.215,
+        "untreated_median_percent": 0.161,
+        "median_paired_delta_percentage_points": 0.05399999999999999,
+        "difference_of_marginal_medians_percentage_points": 0.05399999999999999,
+        "positive_paired_deltas": 1,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gagaat",
+        "status": "calculated",
+        "n_variant_rows": 2,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.1885,
+        "untreated_median_percent": 0.18,
+        "median_paired_delta_percentage_points": 0.008500000000000008,
+        "difference_of_marginal_medians_percentage_points": 0.008500000000000008,
+        "positive_paired_deltas": 2,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gagagg",
+        "status": "calculated",
+        "n_variant_rows": 1,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.192,
+        "untreated_median_percent": 0.189,
+        "median_paired_delta_percentage_points": 0.0030000000000000027,
+        "difference_of_marginal_medians_percentage_points": 0.0030000000000000027,
+        "positive_paired_deltas": 1,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gagggt",
+        "status": "calculated",
+        "n_variant_rows": 1,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.178,
+        "untreated_median_percent": 0.165,
+        "median_paired_delta_percentage_points": 0.012999999999999984,
+        "difference_of_marginal_medians_percentage_points": 0.012999999999999984,
+        "positive_paired_deltas": 1,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gagtgt",
+        "status": "calculated",
+        "n_variant_rows": 1,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.195,
+        "untreated_median_percent": 0.176,
+        "median_paired_delta_percentage_points": 0.019000000000000017,
+        "difference_of_marginal_medians_percentage_points": 0.019000000000000017,
+        "positive_paired_deltas": 1,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      },
+      {
+        "context_6nt": "gatagt",
+        "status": "calculated",
+        "n_variant_rows": 2,
+        "n_unique_contexts": 1,
+        "gentamicin_median_percent": 0.2415,
+        "untreated_median_percent": 0.16599999999999998,
+        "median_paired_delta_percentage_points": 0.07550000000000001,
+        "difference_of_marginal_medians_percentage_points": 0.07550000000000001,
+        "positive_paired_deltas": 2,
+        "zero_paired_deltas": 0,
+        "negative_paired_deltas": 0
+      }
+    ],
+    "equal_context_weighted_median_of_context_median_deltas_percentage_points": 0.016,
+    "row_leave_out_median_paired_delta_range_percentage_points": {
+      "min": 0.014000000000000012,
+      "max": 0.019000000000000017
+    },
+    "context_group_leave_out_median_paired_delta_range_percentage_points": {
+      "min": 0.013499999999999998,
+      "max": 0.02850000000000001
+    },
+    "row_leave_out_positive_median_count": 12,
+    "group_leave_out_positive_median_count": 8,
+    "range_label": "exhaustive finite-set deletion range, NOT confidence interval"
+  },
+  "gse65145": {
+    "dataset": "GSE65145",
+    "model": "one normal 2DD fibroblast cell line; no MVA genotype",
+    "samples": [
+      {
+        "accession": "GSM1588051",
+        "condition": "Pro",
+        "replicate": 1,
+        "title": "proliferative fibroblast 1",
+        "deposited_rows": 149122
+      },
+      {
+        "accession": "GSM1588052",
+        "condition": "Pro",
+        "replicate": 2,
+        "title": "proliferative fibroblast 2",
+        "deposited_rows": 149122
+      },
+      {
+        "accession": "GSM1588053",
+        "condition": "Qui",
+        "replicate": 1,
+        "title": "queiscent fibroblast 1",
+        "deposited_rows": 149122
+      },
+      {
+        "accession": "GSM1588054",
+        "condition": "Qui",
+        "replicate": 2,
+        "title": "queiscent fibroblast 2",
+        "deposited_rows": 149122
+      },
+      {
+        "accession": "GSM1588055",
+        "condition": "Rap",
+        "replicate": 1,
+        "title": "Rapamycin treated fibroblast 1",
+        "deposited_rows": 149122
+      },
+      {
+        "accession": "GSM1588056",
+        "condition": "Rap",
+        "replicate": 2,
+        "title": "Rapamycin treated fibroblast 2",
+        "deposited_rows": 149122
+      }
+    ],
+    "sample_counts_per_condition": {
+      "Pro": 2,
+      "Qui": 2,
+      "Rap": 2
+    },
+    "row_count_per_track": 149122,
+    "locus_overlapping_row_count": 18,
+    "anchor": {
+      "name": "NM_001211.6",
+      "name2": "BUB1B",
+      "chrom": "chr15",
+      "txStart": 40453269,
+      "txEnd": 40513324,
+      "strand": "+"
+    },
+    "threshold_summaries": [
+      {
+        "reciprocal_overlap_threshold": 0.95,
+        "qualifying_feature_count": 3,
+        "qualifying_track_rows": [
+          116255,
+          116254,
+          116258
+        ],
+        "status": "calculated",
+        "ratio_ranges_across_redundant_features": {
+          "Rap_over_Pro": {
+            "min": 0.5857063642506453,
+            "median": 0.5857063805579614,
+            "max": 0.585706425547588
+          },
+          "Qui_over_Pro": {
+            "min": 0.18619088852958018,
+            "median": 0.1861909012489001,
+            "max": 0.18619091300069338
+          },
+          "Rap_over_Qui": {
+            "min": 3.145730412330884,
+            "median": 3.1457304554138306,
+            "max": 3.145730539642352
+          }
+        }
+      },
+      {
+        "reciprocal_overlap_threshold": 0.975,
+        "qualifying_feature_count": 3,
+        "qualifying_track_rows": [
+          116255,
+          116254,
+          116258
+        ],
+        "status": "calculated",
+        "ratio_ranges_across_redundant_features": {
+          "Rap_over_Pro": {
+            "min": 0.5857063642506453,
+            "median": 0.5857063805579614,
+            "max": 0.585706425547588
+          },
+          "Qui_over_Pro": {
+            "min": 0.18619088852958018,
+            "median": 0.1861909012489001,
+            "max": 0.18619091300069338
+          },
+          "Rap_over_Qui": {
+            "min": 3.145730412330884,
+            "median": 3.1457304554138306,
+            "max": 3.145730539642352
+          }
+        }
+      },
+      {
+        "reciprocal_overlap_threshold": 0.99,
+        "qualifying_feature_count": 3,
+        "qualifying_track_rows": [
+          116255,
+          116254,
+          116258
+        ],
+        "status": "calculated",
+        "ratio_ranges_across_redundant_features": {
+          "Rap_over_Pro": {
+            "min": 0.5857063642506453,
+            "median": 0.5857063805579614,
+            "max": 0.585706425547588
+          },
+          "Qui_over_Pro": {
+            "min": 0.18619088852958018,
+            "median": 0.1861909012489001,
+            "max": 0.18619091300069338
+          },
+          "Rap_over_Qui": {
+            "min": 3.145730412330884,
+            "median": 3.1457304554138306,
+            "max": 3.145730539642352
+          }
+        }
+      },
+      {
+        "reciprocal_overlap_threshold": 0.995,
+        "qualifying_feature_count": 3,
+        "qualifying_track_rows": [
+          116255,
+          116254,
+          116258
+        ],
+        "status": "calculated",
+        "ratio_ranges_across_redundant_features": {
+          "Rap_over_Pro": {
+            "min": 0.5857063642506453,
+            "median": 0.5857063805579614,
+            "max": 0.585706425547588
+          },
+          "Qui_over_Pro": {
+            "min": 0.18619088852958018,
+            "median": 0.1861909012489001,
+            "max": 0.18619091300069338
+          },
+          "Rap_over_Qui": {
+            "min": 3.145730412330884,
+            "median": 3.1457304554138306,
+            "max": 3.145730539642352
+          }
+        }
+      },
+      {
+        "reciprocal_overlap_threshold": 1.0,
+        "qualifying_feature_count": 0,
+        "qualifying_track_rows": [],
+        "status": "insufficient_no_eligible_feature"
+      }
+    ],
+    "features": [
+      {
+        "track_row_1based_without_header": 116254,
+        "chrom": "chr15",
+        "start_0based": 40453227,
+        "end_exclusive": 40513337,
+        "anchor_overlap_fraction": 1.0,
+        "feature_overlap_fraction": 0.9990850108135085,
+        "overlap_bp": 60055,
+        "boundary_distance_bp": 55,
+        "values_RPKM_as_deposited": {
+          "Pro": [
+            6.2243876,
+            5.568277
+          ],
+          "Qui": [
+            1.2669091,
+            0.92877775
+          ],
+          "Rap": [
+            3.7098036,
+            3.1972353
+          ]
+        },
+        "arithmetic": {
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.8963323,
+            "Qui": 1.097843425,
+            "Rap": 3.45351945
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5857063805579614,
+            "Qui_over_Pro": 0.1861909012489001,
+            "Rap_over_Qui": 3.145730412330884
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7717504839482312,
+            "Qui_over_Pro": -2.4251455216889495,
+            "Rap_over_Qui": 1.6533950377407185
+          }
+        },
+        "geometric": {
+          "status": "calculated",
+          "estimator": "geometric",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.887199190800766,
+            "Qui": 1.0847474283687077,
+            "Rap": 3.4439969549909706
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5849975248625016,
+            "Qui_over_Pro": 0.18425526183379612,
+            "Rap_over_Qui": 3.174929817690565
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7734975742531128,
+            "Qui_over_Pro": -2.4402222754957545,
+            "Rap_over_Qui": 1.6667247012426418
+          }
+        },
+        "leave_one_sample_out": [
+          {
+            "omitted_sample": "GSM1588051",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.568277,
+              "Qui": 1.097843425,
+              "Rap": 3.45351945
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.6202132993742947,
+              "Qui_over_Pro": 0.19716034690802917,
+              "Rap_over_Qui": 3.145730412330884
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.6891636325685176,
+              "Qui_over_Pro": -2.342558670309236,
+              "Rap_over_Qui": 1.6533950377407185
+            }
+          },
+          {
+            "omitted_sample": "GSM1588052",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 6.2243876,
+              "Qui": 1.097843425,
+              "Rap": 3.45351945
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5548368244291213,
+              "Qui_over_Pro": 0.1763777411612349,
+              "Rap_over_Qui": 3.145730412330884
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.8498645526147401,
+              "Qui_over_Pro": -2.503259590355458,
+              "Rap_over_Qui": 1.6533950377407185
+            }
+          },
+          {
+            "omitted_sample": "GSM1588053",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.8963323,
+              "Qui": 0.92877775,
+              "Rap": 3.45351945
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5857063805579614,
+              "Qui_over_Pro": 0.15751787768135117,
+              "Rap_over_Qui": 3.718348603850598
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717504839482312,
+              "Qui_over_Pro": -2.6664125165698995,
+              "Rap_over_Qui": 1.8946620326216685
+            }
+          },
+          {
+            "omitted_sample": "GSM1588054",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.8963323,
+              "Qui": 1.2669091,
+              "Rap": 3.45351945
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5857063805579614,
+              "Qui_over_Pro": 0.214863924816449,
+              "Rap_over_Qui": 2.7259409929252225
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717504839482312,
+              "Qui_over_Pro": -2.2185048171348143,
+              "Rap_over_Qui": 1.4467543331865829
+            }
+          },
+          {
+            "omitted_sample": "GSM1588055",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.8963323,
+              "Qui": 1.097843425,
+              "Rap": 3.1972353
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5422413692661114,
+              "Qui_over_Pro": 0.1861909012489001,
+              "Rap_over_Qui": 2.9122871506016446
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.8829929098594742,
+              "Qui_over_Pro": -2.4251455216889495,
+              "Rap_over_Qui": 1.5421526118294755
+            }
+          },
+          {
+            "omitted_sample": "GSM1588056",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.8963323,
+              "Qui": 1.097843425,
+              "Rap": 3.7098036
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.6291713918498114,
+              "Qui_over_Pro": 0.1861909012489001,
+              "Rap_over_Qui": 3.379173674060124
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.6684750213599561,
+              "Qui_over_Pro": -2.4251455216889495,
+              "Rap_over_Qui": 1.7566705003289937
+            }
+          }
+        ],
+        "cross_sample_ratios": {
+          "Rap_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.5960110196222356
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.6662390538401735
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.5136626292360071
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.574187544908416
+              }
+            ],
+            "min": 0.5136626292360071,
+            "max": 0.6662390538401735,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Qui_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.20353955785144226
+              },
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.2275226430006984
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.14921592447102747
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.16679805081535992
+              }
+            ],
+            "min": 0.14921592447102747,
+            "max": 0.2275226430006984,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Rap_over_Qui": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.928231867621758
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.9942856081554496
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.5236501182286877
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.442411599545747
+              }
+            ],
+            "min": 2.5236501182286877,
+            "max": 3.9942856081554496,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          }
+        },
+        "leave_one_sample_out_ratio_ranges": {
+          "Rap_over_Pro": {
+            "min": 0.5422413692661114,
+            "max": 0.6291713918498114
+          },
+          "Qui_over_Pro": {
+            "min": 0.15751787768135117,
+            "max": 0.214863924816449
+          },
+          "Rap_over_Qui": {
+            "min": 2.7259409929252225,
+            "max": 3.718348603850598
+          }
+        }
+      },
+      {
+        "track_row_1based_without_header": 116255,
+        "chrom": "chr15",
+        "start_0based": 40453238,
+        "end_exclusive": 40513321,
+        "anchor_overlap_fraction": 0.9999500457913579,
+        "feature_overlap_fraction": 0.9994840470682222,
+        "overlap_bp": 60052,
+        "boundary_distance_bp": 34,
+        "values_RPKM_as_deposited": {
+          "Pro": [
+            6.227185,
+            5.570779
+          ],
+          "Qui": [
+            1.2674783,
+            0.9291951
+          ],
+          "Rap": [
+            3.7114706,
+            3.198672
+          ]
+        },
+        "arithmetic": {
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.898982,
+            "Qui": 1.0983367,
+            "Rap": 3.4550713
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5857063642506453,
+            "Qui_over_Pro": 0.18619088852958018,
+            "Rap_over_Qui": 3.145730539642352
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7717505241159419,
+            "Qui_over_Pro": -2.425145620244251,
+            "Rap_over_Qui": 1.653395096128309
+          }
+        },
+        "geometric": {
+          "status": "calculated",
+          "estimator": "geometric",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.889844771054244,
+            "Qui": 1.0852348251490689,
+            "Rap": 3.4455445269279568
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5849975102673592,
+            "Qui_over_Pro": 0.18425525074658614,
+            "Rap_over_Qui": 3.174929929524399
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7734976102470082,
+            "Qui_over_Pro": -2.4402223623071877,
+            "Rap_over_Qui": 1.6667247520601791
+          }
+        },
+        "leave_one_sample_out": [
+          {
+            "omitted_sample": "GSM1588051",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.570779,
+              "Qui": 1.0983367,
+              "Rap": 3.4550713
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.620213313075245,
+              "Qui_over_Pro": 0.19716034328412596,
+              "Rap_over_Qui": 3.145730539642352
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.6891636006983646,
+              "Qui_over_Pro": -2.3425586968266736,
+              "Rap_over_Qui": 1.653395096128309
+            }
+          },
+          {
+            "omitted_sample": "GSM1588052",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 6.227185,
+              "Qui": 1.0983367,
+              "Rap": 3.4550713
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5548367841970329,
+              "Qui_over_Pro": 0.17637772123359108,
+              "Rap_over_Qui": 3.145730539642352
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.8498646572268242,
+              "Qui_over_Pro": -2.5032597533551337,
+              "Rap_over_Qui": 1.653395096128309
+            }
+          },
+          {
+            "omitted_sample": "GSM1588053",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.898982,
+              "Qui": 0.9291951,
+              "Rap": 3.4550713
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5857063642506453,
+              "Qui_over_Pro": 0.15751787342290585,
+              "Rap_over_Qui": 3.7183486008481963
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717505241159419,
+              "Qui_over_Pro": -2.6664125555726983,
+              "Rap_over_Qui": 1.8946620314567562
+            }
+          },
+          {
+            "omitted_sample": "GSM1588054",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.898982,
+              "Qui": 1.2674783,
+              "Rap": 3.4550713
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5857063642506453,
+              "Qui_over_Pro": 0.21486390363625454,
+              "Rap_over_Qui": 2.7259411857386433
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717505241159419,
+              "Qui_over_Pro": -2.218504959348371,
+              "Rap_over_Qui": 1.4467544352324293
+            }
+          },
+          {
+            "omitted_sample": "GSM1588055",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.898982,
+              "Qui": 1.0983367,
+              "Rap": 3.198672
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5422413562204462,
+              "Qui_over_Pro": 0.18619088852958018,
+              "Rap_over_Qui": 2.9122872794836048
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.8829929445689556,
+              "Qui_over_Pro": -2.425145620244251,
+              "Rap_over_Qui": 1.5421526756752952
+            }
+          },
+          {
+            "omitted_sample": "GSM1588056",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.898982,
+              "Qui": 1.0983367,
+              "Rap": 3.7114706
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.6291713722808444,
+              "Qui_over_Pro": 0.18619088852958018,
+              "Rap_over_Qui": 3.3791737998010998
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.6684750662317548,
+              "Qui_over_Pro": -2.425145620244251,
+              "Rap_over_Qui": 1.7566705540124963
+            }
+          }
+        ],
+        "cross_sample_ratios": {
+          "Rap_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.596010974461173
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.6662390663855091
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.5136625939328926
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.5741875597649808
+              }
+            ],
+            "min": 0.5136625939328926,
+            "max": 0.6662390663855091,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Qui_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.20353952869555023
+              },
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.22752263193352312
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.14921591377163196
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.16679805463472883
+              }
+            ],
+            "min": 0.14921591377163196,
+            "max": 0.22752263193352312,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Rap_over_Qui": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.928232065195909
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.9942855919063716
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.523650306281378
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.4424116097900215
+              }
+            ],
+            "min": 2.523650306281378,
+            "max": 3.9942855919063716,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          }
+        },
+        "leave_one_sample_out_ratio_ranges": {
+          "Rap_over_Pro": {
+            "min": 0.5422413562204462,
+            "max": 0.6291713722808444
+          },
+          "Qui_over_Pro": {
+            "min": 0.15751787342290585,
+            "max": 0.21486390363625454
+          },
+          "Rap_over_Qui": {
+            "min": 2.7259411857386433,
+            "max": 3.7183486008481963
+          }
+        }
+      },
+      {
+        "track_row_1based_without_header": 116258,
+        "chrom": "chr15",
+        "start_0based": 40453268,
+        "end_exclusive": 40513239,
+        "anchor_overlap_fraction": 0.9985846307551411,
+        "feature_overlap_fraction": 0.9999833252738823,
+        "overlap_bp": 59970,
+        "boundary_distance_bp": 86,
+        "values_RPKM_as_deposited": {
+          "Pro": [
+            6.238814,
+            5.5811825
+          ],
+          "Qui": [
+            1.2698455,
+            0.93093044
+          ],
+          "Rap": [
+            3.718402,
+            3.2046459
+          ]
+        },
+        "arithmetic": {
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.909998249999999,
+            "Qui": 1.1003879699999999,
+            "Rap": 3.46152395
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.585706425547588,
+            "Qui_over_Pro": 0.18619091300069338,
+            "Rap_over_Qui": 3.1457304554138306
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7717503731310865,
+            "Qui_over_Pro": -2.425145430630508,
+            "Rap_over_Qui": 1.6533950574994214
+          }
+        },
+        "geometric": {
+          "status": "calculated",
+          "estimator": "geometric",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.900843966548768,
+            "Qui": 1.0872616198721539,
+            "Rap": 3.451979392153406
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5849975718257076,
+            "Qui_over_Pro": 0.18425527365843256,
+            "Rap_over_Qui": 3.1749298688197127
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7734974584345345,
+            "Qui_over_Pro": -2.4402221829103725,
+            "Rap_over_Qui": 1.6667247244758379
+          }
+        },
+        "leave_one_sample_out": [
+          {
+            "omitted_sample": "GSM1588051",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.5811825,
+              "Qui": 1.1003879699999999,
+              "Rap": 3.46152395
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.6202133598032317,
+              "Qui_over_Pro": 0.19716036341760906,
+              "Rap_over_Qui": 3.1457304554138306
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.689163492003129,
+              "Qui_over_Pro": -2.3425585495025505,
+              "Rap_over_Qui": 1.6533950574994214
+            }
+          },
+          {
+            "omitted_sample": "GSM1588052",
+            "omitted_condition": "Pro",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 1,
+              "Qui": 2,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 6.238814,
+              "Qui": 1.1003879699999999,
+              "Rap": 3.46152395
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5548368568128494,
+              "Qui_over_Pro": 0.17637774904012204,
+              "Rap_over_Qui": 3.1457304554138306
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.8498644684100864,
+              "Qui_over_Pro": -2.503259525909508,
+              "Rap_over_Qui": 1.6533950574994214
+            }
+          },
+          {
+            "omitted_sample": "GSM1588053",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.909998249999999,
+              "Qui": 0.93093044,
+              "Rap": 3.46152395
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.585706425547588,
+              "Qui_over_Pro": 0.15751788758989907,
+              "Rap_over_Qui": 3.718348655566575
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717503731310865,
+              "Qui_over_Pro": -2.666412425818217,
+              "Rap_over_Qui": 1.8946620526871305
+            }
+          },
+          {
+            "omitted_sample": "GSM1588054",
+            "omitted_condition": "Qui",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 1,
+              "Rap": 2
+            },
+            "condition_means": {
+              "Pro": 5.909998249999999,
+              "Qui": 1.2698455,
+              "Rap": 3.46152395
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.585706425547588,
+              "Qui_over_Pro": 0.2148639384114877,
+              "Rap_over_Qui": 2.7259410298339444
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.7717503731310865,
+              "Qui_over_Pro": -2.2185047258514854,
+              "Rap_over_Qui": 1.4467543527203988
+            }
+          },
+          {
+            "omitted_sample": "GSM1588055",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.909998249999999,
+              "Qui": 1.1003879699999999,
+              "Rap": 3.2046459
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.5422414295977162,
+              "Qui_over_Pro": 0.18619091300069338,
+              "Rap_over_Qui": 2.9122872908179835
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.882992749340364,
+              "Qui_over_Pro": -2.425145430630508,
+              "Rap_over_Qui": 1.5421526812901438
+            }
+          },
+          {
+            "omitted_sample": "GSM1588056",
+            "omitted_condition": "Rap",
+            "status": "calculated",
+            "estimator": "arithmetic",
+            "remaining_sample_counts": {
+              "Pro": 2,
+              "Qui": 2,
+              "Rap": 1
+            },
+            "condition_means": {
+              "Pro": 5.909998249999999,
+              "Qui": 1.1003879699999999,
+              "Rap": 3.718402
+            },
+            "ratios": {
+              "Rap_over_Pro": 0.62917142149746,
+              "Qui_over_Pro": 0.18619091300069338,
+              "Rap_over_Qui": 3.3791736200096776
+            },
+            "log2_ratios": {
+              "Rap_over_Pro": -0.668474953377662,
+              "Qui_over_Pro": -2.425145430630508,
+              "Rap_over_Qui": 1.7566704772528456
+            }
+          }
+        ],
+        "cross_sample_ratios": {
+          "Rap_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.5960110367130677
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.6662390989723057
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.5136626769126312
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.5741876206341577
+              }
+            ],
+            "min": 0.5136626769126312,
+            "max": 0.6662390989723057,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Qui_over_Pro": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.20353956697538989
+              },
+              {
+                "numerator_sample": "GSM1588053",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.2275226620881865
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588051",
+                "ratio": 0.14921593110485423
+              },
+              {
+                "numerator_sample": "GSM1588054",
+                "denominator_sample": "GSM1588052",
+                "ratio": 0.16679806474703165
+              }
+            ],
+            "min": 0.14921593110485423,
+            "max": 0.2275226620881865,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          },
+          "Rap_over_Qui": {
+            "values": [
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.9282318203277486
+              },
+              {
+                "numerator_sample": "GSM1588055",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.994285545115487
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588053",
+                "ratio": 2.52365023934014
+              },
+              {
+                "numerator_sample": "GSM1588056",
+                "denominator_sample": "GSM1588054",
+                "ratio": 3.442411766017663
+              }
+            ],
+            "min": 2.52365023934014,
+            "max": 3.994285545115487,
+            "label": "all four unpaired sample ratios; NOT four biological replicates"
+          }
+        },
+        "leave_one_sample_out_ratio_ranges": {
+          "Rap_over_Pro": {
+            "min": 0.5422414295977162,
+            "max": 0.62917142149746
+          },
+          "Qui_over_Pro": {
+            "min": 0.15751788758989907,
+            "max": 0.2148639384114877
+          },
+          "Rap_over_Qui": {
+            "min": 2.7259410298339444,
+            "max": 3.718348655566575
+          }
+        }
+      }
+    ],
+    "primary_feature": {
+      "track_row_1based_without_header": 116255,
+      "chrom": "chr15",
+      "start_0based": 40453238,
+      "end_exclusive": 40513321,
+      "anchor_overlap_fraction": 0.9999500457913579,
+      "feature_overlap_fraction": 0.9994840470682222,
+      "overlap_bp": 60052,
+      "boundary_distance_bp": 34,
+      "values_RPKM_as_deposited": {
+        "Pro": [
+          6.227185,
+          5.570779
+        ],
+        "Qui": [
+          1.2674783,
+          0.9291951
+        ],
+        "Rap": [
+          3.7114706,
+          3.198672
+        ]
+      },
+      "arithmetic": {
+        "status": "calculated",
+        "estimator": "arithmetic",
+        "remaining_sample_counts": {
+          "Pro": 2,
+          "Qui": 2,
+          "Rap": 2
+        },
+        "condition_means": {
+          "Pro": 5.898982,
+          "Qui": 1.0983367,
+          "Rap": 3.4550713
+        },
+        "ratios": {
+          "Rap_over_Pro": 0.5857063642506453,
+          "Qui_over_Pro": 0.18619088852958018,
+          "Rap_over_Qui": 3.145730539642352
+        },
+        "log2_ratios": {
+          "Rap_over_Pro": -0.7717505241159419,
+          "Qui_over_Pro": -2.425145620244251,
+          "Rap_over_Qui": 1.653395096128309
+        }
+      },
+      "geometric": {
+        "status": "calculated",
+        "estimator": "geometric",
+        "remaining_sample_counts": {
+          "Pro": 2,
+          "Qui": 2,
+          "Rap": 2
+        },
+        "condition_means": {
+          "Pro": 5.889844771054244,
+          "Qui": 1.0852348251490689,
+          "Rap": 3.4455445269279568
+        },
+        "ratios": {
+          "Rap_over_Pro": 0.5849975102673592,
+          "Qui_over_Pro": 0.18425525074658614,
+          "Rap_over_Qui": 3.174929929524399
+        },
+        "log2_ratios": {
+          "Rap_over_Pro": -0.7734976102470082,
+          "Qui_over_Pro": -2.4402223623071877,
+          "Rap_over_Qui": 1.6667247520601791
+        }
+      },
+      "leave_one_sample_out": [
+        {
+          "omitted_sample": "GSM1588051",
+          "omitted_condition": "Pro",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 1,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.570779,
+            "Qui": 1.0983367,
+            "Rap": 3.4550713
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.620213313075245,
+            "Qui_over_Pro": 0.19716034328412596,
+            "Rap_over_Qui": 3.145730539642352
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.6891636006983646,
+            "Qui_over_Pro": -2.3425586968266736,
+            "Rap_over_Qui": 1.653395096128309
+          }
+        },
+        {
+          "omitted_sample": "GSM1588052",
+          "omitted_condition": "Pro",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 1,
+            "Qui": 2,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 6.227185,
+            "Qui": 1.0983367,
+            "Rap": 3.4550713
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5548367841970329,
+            "Qui_over_Pro": 0.17637772123359108,
+            "Rap_over_Qui": 3.145730539642352
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.8498646572268242,
+            "Qui_over_Pro": -2.5032597533551337,
+            "Rap_over_Qui": 1.653395096128309
+          }
+        },
+        {
+          "omitted_sample": "GSM1588053",
+          "omitted_condition": "Qui",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 1,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.898982,
+            "Qui": 0.9291951,
+            "Rap": 3.4550713
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5857063642506453,
+            "Qui_over_Pro": 0.15751787342290585,
+            "Rap_over_Qui": 3.7183486008481963
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7717505241159419,
+            "Qui_over_Pro": -2.6664125555726983,
+            "Rap_over_Qui": 1.8946620314567562
+          }
+        },
+        {
+          "omitted_sample": "GSM1588054",
+          "omitted_condition": "Qui",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 1,
+            "Rap": 2
+          },
+          "condition_means": {
+            "Pro": 5.898982,
+            "Qui": 1.2674783,
+            "Rap": 3.4550713
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5857063642506453,
+            "Qui_over_Pro": 0.21486390363625454,
+            "Rap_over_Qui": 2.7259411857386433
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.7717505241159419,
+            "Qui_over_Pro": -2.218504959348371,
+            "Rap_over_Qui": 1.4467544352324293
+          }
+        },
+        {
+          "omitted_sample": "GSM1588055",
+          "omitted_condition": "Rap",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 1
+          },
+          "condition_means": {
+            "Pro": 5.898982,
+            "Qui": 1.0983367,
+            "Rap": 3.198672
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.5422413562204462,
+            "Qui_over_Pro": 0.18619088852958018,
+            "Rap_over_Qui": 2.9122872794836048
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.8829929445689556,
+            "Qui_over_Pro": -2.425145620244251,
+            "Rap_over_Qui": 1.5421526756752952
+          }
+        },
+        {
+          "omitted_sample": "GSM1588056",
+          "omitted_condition": "Rap",
+          "status": "calculated",
+          "estimator": "arithmetic",
+          "remaining_sample_counts": {
+            "Pro": 2,
+            "Qui": 2,
+            "Rap": 1
+          },
+          "condition_means": {
+            "Pro": 5.898982,
+            "Qui": 1.0983367,
+            "Rap": 3.7114706
+          },
+          "ratios": {
+            "Rap_over_Pro": 0.6291713722808444,
+            "Qui_over_Pro": 0.18619088852958018,
+            "Rap_over_Qui": 3.3791737998010998
+          },
+          "log2_ratios": {
+            "Rap_over_Pro": -0.6684750662317548,
+            "Qui_over_Pro": -2.425145620244251,
+            "Rap_over_Qui": 1.7566705540124963
+          }
+        }
+      ],
+      "cross_sample_ratios": {
+        "Rap_over_Pro": {
+          "values": [
+            {
+              "numerator_sample": "GSM1588055",
+              "denominator_sample": "GSM1588051",
+              "ratio": 0.596010974461173
+            },
+            {
+              "numerator_sample": "GSM1588055",
+              "denominator_sample": "GSM1588052",
+              "ratio": 0.6662390663855091
+            },
+            {
+              "numerator_sample": "GSM1588056",
+              "denominator_sample": "GSM1588051",
+              "ratio": 0.5136625939328926
+            },
+            {
+              "numerator_sample": "GSM1588056",
+              "denominator_sample": "GSM1588052",
+              "ratio": 0.5741875597649808
+            }
+          ],
+          "min": 0.5136625939328926,
+          "max": 0.6662390663855091,
+          "label": "all four unpaired sample ratios; NOT four biological replicates"
+        },
+        "Qui_over_Pro": {
+          "values": [
+            {
+              "numerator_sample": "GSM1588053",
+              "denominator_sample": "GSM1588051",
+              "ratio": 0.20353952869555023
+            },
+            {
+              "numerator_sample": "GSM1588053",
+              "denominator_sample": "GSM1588052",
+              "ratio": 0.22752263193352312
+            },
+            {
+              "numerator_sample": "GSM1588054",
+              "denominator_sample": "GSM1588051",
+              "ratio": 0.14921591377163196
+            },
+            {
+              "numerator_sample": "GSM1588054",
+              "denominator_sample": "GSM1588052",
+              "ratio": 0.16679805463472883
+            }
+          ],
+          "min": 0.14921591377163196,
+          "max": 0.22752263193352312,
+          "label": "all four unpaired sample ratios; NOT four biological replicates"
+        },
+        "Rap_over_Qui": {
+          "values": [
+            {
+              "numerator_sample": "GSM1588055",
+              "denominator_sample": "GSM1588053",
+              "ratio": 2.928232065195909
+            },
+            {
+              "numerator_sample": "GSM1588055",
+              "denominator_sample": "GSM1588054",
+              "ratio": 3.9942855919063716
+            },
+            {
+              "numerator_sample": "GSM1588056",
+              "denominator_sample": "GSM1588053",
+              "ratio": 2.523650306281378
+            },
+            {
+              "numerator_sample": "GSM1588056",
+              "denominator_sample": "GSM1588054",
+              "ratio": 3.4424116097900215
+            }
+          ],
+          "min": 2.523650306281378,
+          "max": 3.9942855919063716,
+          "label": "all four unpaired sample ratios; NOT four biological replicates"
+        }
+      },
+      "leave_one_sample_out_ratio_ranges": {
+        "Rap_over_Pro": {
+          "min": 0.5422413562204462,
+          "max": 0.6291713722808444
+        },
+        "Qui_over_Pro": {
+          "min": 0.15751787342290585,
+          "max": 0.21486390363625454
+        },
+        "Rap_over_Qui": {
+          "min": 2.7259411857386433,
+          "max": 3.7183486008481963
+        }
+      }
+    },
+    "all_locus_overlaps_annotation_audit_only": [
+      {
+        "track_row_1based_without_header": 116253,
+        "chrom": "chr15",
+        "start_0based": 40453224,
+        "end_exclusive": 40468822,
+        "anchor_overlap_fraction": 0.25897926900341356,
+        "feature_overlap_fraction": 0.9971150147454801,
+        "overlap_bp": 15553,
+        "boundary_distance_bp": 44547,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116254,
+        "chrom": "chr15",
+        "start_0based": 40453227,
+        "end_exclusive": 40513337,
+        "anchor_overlap_fraction": 1.0,
+        "feature_overlap_fraction": 0.9990850108135085,
+        "overlap_bp": 60055,
+        "boundary_distance_bp": 55,
+        "qualifies_at_primary_0_99": true
+      },
+      {
+        "track_row_1based_without_header": 116255,
+        "chrom": "chr15",
+        "start_0based": 40453238,
+        "end_exclusive": 40513321,
+        "anchor_overlap_fraction": 0.9999500457913579,
+        "feature_overlap_fraction": 0.9994840470682222,
+        "overlap_bp": 60052,
+        "boundary_distance_bp": 34,
+        "qualifies_at_primary_0_99": true
+      },
+      {
+        "track_row_1based_without_header": 116256,
+        "chrom": "chr15",
+        "start_0based": 40453244,
+        "end_exclusive": 40468751,
+        "anchor_overlap_fraction": 0.25779701939888433,
+        "feature_overlap_fraction": 0.998387824853292,
+        "overlap_bp": 15482,
+        "boundary_distance_bp": 44598,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116257,
+        "chrom": "chr15",
+        "start_0based": 40453268,
+        "end_exclusive": 40462800,
+        "anchor_overlap_fraction": 0.1587045208558821,
+        "feature_overlap_fraction": 0.9998950902224087,
+        "overlap_bp": 9531,
+        "boundary_distance_bp": 50525,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116258,
+        "chrom": "chr15",
+        "start_0based": 40453268,
+        "end_exclusive": 40513239,
+        "anchor_overlap_fraction": 0.9985846307551411,
+        "feature_overlap_fraction": 0.9999833252738823,
+        "overlap_bp": 59970,
+        "boundary_distance_bp": 86,
+        "qualifies_at_primary_0_99": true
+      },
+      {
+        "track_row_1based_without_header": 116259,
+        "chrom": "chr15",
+        "start_0based": 40475915,
+        "end_exclusive": 40494835,
+        "anchor_overlap_fraction": 0.31504454250270586,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 18920,
+        "boundary_distance_bp": 41135,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116260,
+        "chrom": "chr15",
+        "start_0based": 40475925,
+        "end_exclusive": 40477682,
+        "anchor_overlap_fraction": 0.02925651486137707,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 1757,
+        "boundary_distance_bp": 58298,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116261,
+        "chrom": "chr15",
+        "start_0based": 40477527,
+        "end_exclusive": 40488935,
+        "anchor_overlap_fraction": 0.1899592040629423,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 11408,
+        "boundary_distance_bp": 48647,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116262,
+        "chrom": "chr15",
+        "start_0based": 40477673,
+        "end_exclusive": 40492490,
+        "anchor_overlap_fraction": 0.2467238364832237,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 14817,
+        "boundary_distance_bp": 45238,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116263,
+        "chrom": "chr15",
+        "start_0based": 40492239,
+        "end_exclusive": 40498475,
+        "anchor_overlap_fraction": 0.10383814836399967,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 6236,
+        "boundary_distance_bp": 53819,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116264,
+        "chrom": "chr15",
+        "start_0based": 40509618,
+        "end_exclusive": 40512845,
+        "anchor_overlap_fraction": 0.053734077095995335,
+        "feature_overlap_fraction": 1.0,
+        "overlap_bp": 3227,
+        "boundary_distance_bp": 56828,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116265,
+        "chrom": "chr15",
+        "start_0based": 40509629,
+        "end_exclusive": 40568382,
+        "anchor_overlap_fraction": 0.06152693364415952,
+        "feature_overlap_fraction": 0.06289040559630997,
+        "overlap_bp": 3695,
+        "boundary_distance_bp": 111418,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116266,
+        "chrom": "chr15",
+        "start_0based": 40509629,
+        "end_exclusive": 40569687,
+        "anchor_overlap_fraction": 0.06152693364415952,
+        "feature_overlap_fraction": 0.061523860268407206,
+        "overlap_bp": 3695,
+        "boundary_distance_bp": 112723,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116267,
+        "chrom": "chr15",
+        "start_0based": 40509629,
+        "end_exclusive": 40569687,
+        "anchor_overlap_fraction": 0.06152693364415952,
+        "feature_overlap_fraction": 0.061523860268407206,
+        "overlap_bp": 3695,
+        "boundary_distance_bp": 112723,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116268,
+        "chrom": "chr15",
+        "start_0based": 40509650,
+        "end_exclusive": 40568597,
+        "anchor_overlap_fraction": 0.06117725418366497,
+        "feature_overlap_fraction": 0.06232717525913108,
+        "overlap_bp": 3674,
+        "boundary_distance_bp": 111654,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116269,
+        "chrom": "chr15",
+        "start_0based": 40509788,
+        "end_exclusive": 40568588,
+        "anchor_overlap_fraction": 0.05887936058612938,
+        "feature_overlap_fraction": 0.060136054421768705,
+        "overlap_bp": 3536,
+        "boundary_distance_bp": 111783,
+        "qualifies_at_primary_0_99": false
+      },
+      {
+        "track_row_1based_without_header": 116270,
+        "chrom": "chr15",
+        "start_0based": 40510701,
+        "end_exclusive": 40557091,
+        "anchor_overlap_fraction": 0.04367662975605695,
+        "feature_overlap_fraction": 0.05654235826686786,
+        "overlap_bp": 2623,
+        "boundary_distance_bp": 101199,
+        "qualifies_at_primary_0_99": false
+      }
+    ],
+    "genomewide_correlation": "not calculated per pre-run amendment 01; shared denominator could mislead",
+    "replication_unit": "n=2 samples/condition, one normal cell line. Features, ratios and deletions are not additional biological replicates.",
+    "scope": "BUB1B-spanning unstranded RNA features, not BUBR1 protein, mature isoform estimates or functional rescue",
+    "confounding_statement": "Serum-restricted quiescence is a descriptive comparator, not a cell-cycle-matched control. No causal proliferation correction, mediator inference, p-value or CI is calculated.",
+    "unresolved": "149122 deposited rows versus 149135 probes stated in paper; unchanged unresolved discrepancy"
+  },
+  "interpretation": {
+    "stable": [
+      {
+        "claim": "PTC paired median direction across all specified row/group deletions",
+        "status": "positive_in_all_deletions",
+        "scope": "Finite source set, not a confidence statement or exact-variant rescue prediction"
+      },
+      {
+        "claim": "GSE BUB1B-spanning Rap/Pro signal direction across specified eligible-feature, estimator and sample diagnostics",
+        "status": "below_one_in_all_calculated_diagnostics",
+        "scope": "One normal cell line, n=2/condition; RNA features only"
+      }
+    ],
+    "changes": [
+      {
+        "claim": "PTC denominator wording",
+        "measured_variant_rows": 12,
+        "unique_six_base_contexts": 8,
+        "consequence": "Replace ambiguous '12 contexts' with '12 measured variant rows spanning 8 distinct contexts'; not independent biological replicates"
+      },
+      {
+        "claim": "PTC aggregation/deletion changes magnitude, not an efficacy estimate",
+        "consequence": "Report paired-median, group-weighted and marginal-median estimands separately"
+      }
+    ],
+    "insufficient": [
+      {
+        "claim": "Exact-span GSE feature estimate",
+        "status": "insufficient_no_eligible_feature"
+      },
+      {
+        "claim": "Causal cell-cycle/proliferation adjustment",
+        "status": "not_identifiable_from_these_data",
+        "reason": "Quiescent serum-restricted and rapamycin samples are not cell-cycle matched; no measured cell-cycle covariate adjustment"
+      },
+      {
+        "claim": "Exact BUB1B L737*/N1002K functional rescue, BUBR1 protein and clinical efficacy",
+        "status": "not_tested"
+      }
+    ],
+    "candidate_decision": "No candidate promotion. PTC remains a low-priority experimental branch; these GSE data do not support an RNA abundance-increase rationale for sirolimus.",
+    "interval_warning": "All reported deletion/cross-sample ranges are diagnostic ranges, not confidence intervals."
+  }
+}

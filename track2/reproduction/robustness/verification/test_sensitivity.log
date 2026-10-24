@@ -1,0 +1,16 @@
+test_bounded_machine_readable_interpretation (__main__.SourceIntegrationTests.test_bounded_machine_readable_interpretation) ... ok
+test_gse_primary_and_direction_robustness (__main__.SourceIntegrationTests.test_gse_primary_and_direction_robustness) ... ok
+test_gse_rows_thresholds_and_fixed_n (__main__.SourceIntegrationTests.test_gse_rows_thresholds_and_fixed_n) ... ok
+test_ptc_finite_leave_outs_and_group_removal (__main__.SourceIntegrationTests.test_ptc_finite_leave_outs_and_group_removal) ... ok
+test_ptc_inventory_and_censoring (__main__.SourceIntegrationTests.test_ptc_inventory_and_censoring) ... ok
+test_verified_sources_and_original_scripts (__main__.SourceIntegrationTests.test_verified_sources_and_original_scripts) ... ok
+test_censoring_is_not_exact_numeric (__main__.UnitTests.test_censoring_is_not_exact_numeric) ... ok
+test_coordinate_selection_no_signal_input (__main__.UnitTests.test_coordinate_selection_no_signal_input) ... ok
+test_frozen_threshold_grid (__main__.UnitTests.test_frozen_threshold_grid) ... ok
+test_geometric_positive_guard_and_no_pseudocount (__main__.UnitTests.test_geometric_positive_guard_and_no_pseudocount) ... ok
+test_median_paired_delta_not_difference_of_medians (__main__.UnitTests.test_median_paired_delta_not_difference_of_medians) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.623s
+
+OK

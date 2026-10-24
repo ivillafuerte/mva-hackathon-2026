@@ -1,6 +1,6 @@
 # Product, formulation and exposure evidence fiche
 
-**Checked:** October 24, 2026. **Version:** proposed post-submission revision, awaiting participant approval; not published or resubmitted. **Purpose:** evaluate translational research feasibility, not provide medical advice, clinical dosing or competition eligibility certification. The candidate shortlist is unchanged.
+**Checked:** October 24, 2026. **Version:** public documentary evidence revision incorporated into main at commit `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`; version wording corrected in this update. Repository publication does not establish official resubmission. **Purpose:** evaluate translational research feasibility, not provide medical advice, clinical dosing or competition eligibility certification. The candidate shortlist is unchanged.
 
 Product approval, current marketing, challenge eligibility, exposure at the target tissue and BUB1B efficacy are separate questions. A dosage-form percentage is not a plasma concentration. Nominal culture concentrations cannot be equated to total plasma/serum, unbound plasma or intracellular concentrations. A single Cmax is not sustained exposure for the experimental incubation. Adult/healthy-volunteer measurements cannot establish exposure or safety in a child with MVA.
 
@@ -64,4 +64,7 @@ Using mefloquine free-base MW approximately 378.32, the label's 1000–2000 µg/
 - **P15.** FDA, [mefloquine ANDA076392](https://api.fda.gov/drug/drugsfda.json?search=application_number:ANDA076392), product001, oral 250 mg hydrochloride tablet, Prescription. [Current Teva label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09716a24-d7da-42b2-af29-c03a1b6670bd) is a separate set from historical P5.
 - **P16.** FDA, [gentamicin ANDA062366](https://api.fda.gov/drug/drugsfda.json?search=application_number:ANDA062366), product001 40 mg base/mL and product002 10 mg base/mL injection, Prescription. Existing P6 label crosscheck identifies the same application.
 
-All new FDA product records above were retrieved October 24, 2026; API dataset date October 23. The source record extract accompanies this proposed revision. These dates do not establish the date of a product-status change.
+All new FDA product records above were retrieved October 24, 2026; API dataset date October 23. The source record extract accompanies this public documentary revision. These dates do not establish the date of a product-status change.
+
+
+The [candidate decision matrix](candidate_decision_matrix_20261024.md) summarizes the unchanged research gates. The [latest prepared report](../report/ivillafuerte_track2_report_revision_20261024.md) adds computational sensitivity diagnostics without changing these product findings or establishing efficacy.

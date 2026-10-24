@@ -1,0 +1,34 @@
+BUB1B Virtual Lab — optional surgical correction
+Prepared: 2026-10-24. Not rendered, recorded, synchronized, uploaded or submitted.
+
+USE ONLY IF EDITING THE VIDEO
+The published automatic transcript locates the affected passage at approximately 01:20–01:36. Replace this block as a unit after confirming the actual edit boundaries in the source project. Preserve all other scientific claims, the full acknowledgment, and a measured final runtime of no more than 180 seconds. Caption targets below are proposed timings, not verified audio alignment.
+
+REPLACEMENT NARRATION — read exactly
+These twelve reporter measurements represent eight distinct six-base contexts. None matches the exact L737 stop context. Related sequences and predictions cannot establish rescue of this variant.
+
+Pronounce L737 stop as “leucine seven thirty-seven stop.” This is a correction of the analysis unit, not new evidence of drug activity. Do not describe rows or contexts as independent biological replicates.
+
+TARGET CAPTIONS — re-sync to the final spoken track
+01:20–01:25
+These twelve reporter measurements
+represent eight distinct six-base contexts.
+
+01:25–01:30
+None matches the exact
+L737 stop context.
+
+01:30–01:36
+Related sequences and predictions
+cannot establish rescue of this variant.
+
+EDITABLE ON-SCREEN LABELS, SEQUENTIAL
+01:20–01:28: “12 measured variant rows · 8 distinct six-base contexts”
+01:28–01:36: “Exact L737* context absent · No efficacy inference”
+Keep the real measured chart and source citation. Do not invent data or relabel the original 12 rows as 8 measurements. Do not turn the descriptive leave-out ranges into error bars or confidence intervals.
+
+IF KEEPING THE ORIGINAL AUDIO
+Do not use the replacement captions above as a purported transcript of unchanged speech. Use the dated clarification in youtube_description_proposed_EN.txt. Correct recognition spelling in human-verified captions only after checking what the narrator actually says. If adding a correction overlay, identify it as “Clarification — 24 Oct 2026: 12 measured rows, 8 distinct six-base contexts” and retain it long enough to read without obscuring the authentic chart.
+
+FULL ACKNOWLEDGMENT — preserve if re-exporting
+This work was made possible through the Hackathon, organized by Sage Bionetworks in partnership with the MVA Society, Hugging Face, and BEACON (The Benchmarking, Evaluation, and Assessment Consortium for Science), with prize sponsorship from AWS and Anthropic. We are deeply grateful to the child and their family who generously contributed their data and their story to advance research into this rare disease. We acknowledge their trust in making this Hackathon possible.

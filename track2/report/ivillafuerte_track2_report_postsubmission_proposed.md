@@ -6,7 +6,9 @@
 
 **Working team:** Stackfire Networks. **Repository contributor:** ivillafuerte.
 
-**Version:** October 24, 2026 (proposed post-submission revision; awaiting approval, not resubmitted). **Scientific snapshot:** `mva-results-2026-10-17-immunotherapy-audit-v1`, data as of October 17. The report revision date is not a new experimental-result date.
+**Version:** October 24, 2026 public documentary revision, incorporated into main at commit `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`. The legacy filename is retained for provenance; it does not mean this revision is unpublished or awaiting participant authorization. This is not a claim that the revised report was officially resubmitted.
+
+**Latest prepared update:** [dated revised report](ivillafuerte_track2_report_revision_20261024.md). That update distinguishes 12 nearest measured PTC rows from their 8 unique six-base contexts and adds executed sensitivity diagnostics. The original Submission 1 report remains frozen at `ivillafuerte_track2_report.md`. **Scientific snapshot:** `mva-results-2026-10-17-immunotherapy-audit-v1`, data as of October 17. The report revision date is not a new experimental-result date.
 
 **Research status:** computational evidence synthesis and proposed functional validation. No exact-genotype pharmacological rescue has been established. Candidate eligibility and the organizer-prescribed dataset citation remain unresolved.
 
@@ -181,7 +183,7 @@ The [frozen public snapshot](https://github.com/ivillafuerte/mva-hackathon-2026/
 
 The [clean-checkout instructions, source manifest and executable originals](https://github.com/ivillafuerte/mva-hackathon-2026/blob/b85dfb2aa8f28b691318d31c29d6b846bab77b3d/track2/reproduction/README.md) specify dependencies, commands, expected artifacts, fresh-download checks and exclusions. The dated execution audit records what actually ran; no treatment efficacy, clinical exposure or biological validity follows from matching computational hashes. No source measurements, historical structural outputs or website chart values were edited to obtain agreement. Current systemic exposure and product eligibility—particularly for amlexanox—remain unresolved in the [exposure fiche](https://github.com/ivillafuerte/mva-hackathon-2026/blob/b85dfb2aa8f28b691318d31c29d6b846bab77b3d/track2/drugs/product_exposure_fiche.md).
 
-Public access to the research branch does not mean it has been merged into main or submitted. No new wet-lab experiment, efficacy score or clinical prediction was generated.
+This documentary revision was incorporated into public main at commit `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`. Repository publication is separate from an official competition submission or revised-PDF upload. No new wet-lab experiment, efficacy score or clinical prediction was generated.
 
 Literature screening was AI-assisted and curated in this workflow, not an exhaustive systematic review or independent expert-panel assessment. Source access limits remain in the snapshot; this report revision does not claim to have re-reviewed inaccessible primary full texts. Existing structural outputs, source measurements and original chart values were not modified to match the narrative. Predictor scores from Track 1 were not recalculated, and no private genome-scale files were needed for this revision.
 
@@ -329,7 +331,7 @@ The proposed decisive experiment measures allele-specific RNA and protein, check
 
 ## Appendix B. Product-status and exposure source update
 
-This appendix documents two targeted source checks performed October 24, 2026: product-specific FDA status and the published COL4A5 Figure 6 gentamicin conditions. It adds no biological experiment, clinical dose recommendation, new efficacy estimate or revision of the candidate ranking. The earlier submitted package is not replaced by this proposed document.
+This appendix documents two targeted source checks performed October 24, 2026: product-specific FDA status and the published COL4A5 Figure 6 gentamicin conditions. It adds no biological experiment, clinical dose recommendation, new efficacy estimate or revision of the candidate ranking. The earlier submitted package is not replaced by publication of this documentary revision.
 
 A separate copy is provided in the [source evidence appendix](source_evidence_appendix_20261024.md).
 

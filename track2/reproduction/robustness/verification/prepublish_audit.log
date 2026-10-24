@@ -1,0 +1,5 @@
+=== MVA public-repository safety audit ===
+OK: no forbidden genomic/private file patterns are tracked.
+OK: no challenge source documents under data/ are tracked.
+OK: no tracked files exceed 50 MB.
+AUDIT PASSED.

@@ -1,0 +1,115 @@
+{
+  "audit_date_utc": "2026-10-24",
+  "video_url": "https://www.youtube.com/watch?v=u527j7tO0OA",
+  "evidence_access": {
+    "source": "public YouTube transcript and description UI",
+    "transcript_language_status": "English (auto-generated), verified in player settings",
+    "runtime_displayed": "2:57",
+    "audio_verified": false,
+    "video_frames_verified": false,
+    "reason": "Cloud player remained at 0:00 with black image and spinner after one reload. No audiovisual defect inferred."
+  },
+  "recommendation": "Keep existing video with explicit dated terminology clarification and versioned report/addendum. Optional surgical 01:20–01:36 edit, not full regeneration. Organizer acceptance of description-only correction not verified.",
+  "material_clarification": {
+    "start": "01:20",
+    "end": "01:36",
+    "transcript_fragment": "We examined 12 nearby sequence contexts but found no exact L737 stop measurement in the analyzed experimental table.",
+    "verified_unit": "12 measured variant rows representing 8 distinct six-base flanking contexts",
+    "nearest_variant_row_count": 12,
+    "unique_nearest_6nt_context_count": 8,
+    "minimum_hamming_distance": 1,
+    "exact_6nt_rows": 0,
+    "conclusion_changed": false
+  },
+  "scientific_claims": [
+    {
+      "time": "00:24–01:04",
+      "claim": "Variant-specific uncertainty; predicted NMD; matched-abundance N1002K testing; RNA/protein not sufficient for rescue",
+      "assessment": "Scientifically consistent with report. Automatic punctuation/name errors and apparent repeated wording need source-audio verification; not asserted defects."
+    },
+    {
+      "time": "01:04–01:20",
+      "claim": "Approximately 41% lower BUB1B-spanning RNA signal in normal fibroblasts; not protein or rescue",
+      "assessment": "Original arithmetic ratio unchanged by new audit; no efficacy inference. Comparator is proliferative control. New leave-one-sample-out ranges are descriptive, not confidence intervals.",
+      "original_Rap_over_Pro": 0.5857063642506453,
+      "leave_one_sample_out_Rap_over_Pro": {
+        "min": 0.5422413562204462,
+        "max": 0.6291713722808444
+      }
+    },
+    {
+      "time": "01:20–01:36",
+      "claim": "12 nearby contexts, no exact measurement",
+      "assessment": "Clarify row/context unit as above; conclusion remains valid.",
+      "baseline_median_paired_delta_percentage_points": 0.016500000000000015,
+      "row_deletion_range_percentage_points": {
+        "min": 0.014000000000000012,
+        "max": 0.019000000000000017
+      },
+      "context_group_deletion_range_percentage_points": {
+        "min": 0.013499999999999998,
+        "max": 0.02850000000000001
+      },
+      "range_label": "exhaustive finite-set deletion range, NOT confidence interval"
+    },
+    {
+      "time": "01:36–01:53",
+      "claim": "Amlexanox conditional, montelukast requires useful exact-variant function, gentamicin plus mefloquine experimental",
+      "assessment": "No candidate promotion or switch. Keep amlexanox product eligibility and systemic exposure unresolved in report/description."
+    },
+    {
+      "time": "01:53–02:09",
+      "claim": "Four checked computational outputs matched archived checksums; public processed inputs; not biological validation",
+      "assessment": "The October 22 clean-environment reproduction claim is historical and separate from the October 24 cached, non-isolated rerun and post-hoc sensitivities. The proposed description explicitly dates the clean-environment claim. Do not relabel sensitivity operations as new biological experiments."
+    },
+    {
+      "time": "02:09–02:40",
+      "claim": "Exact-variant functional experiment proposed, not performed; controls, errors per completed division, exposure, viability/proliferation and inconclusive category",
+      "assessment": "Consistent with proposed validation, not completed wet lab."
+    },
+    {
+      "time": "02:40–02:57",
+      "claim": "No exact-genotype pharmacological rescue; future wet-lab work",
+      "assessment": "Consistent with current report."
+    }
+  ],
+  "acknowledgment": {
+    "public_description_full_text_verified": true,
+    "in_video_full_text_and_legibility_verified": false,
+    "retained_in_proposed_description": true
+  },
+  "known_unverified_audio_checks": [
+    {
+      "time": "00:27–00:38",
+      "reason": "Automatic transcript says L737 stop introduces premature termination for N12K; may be punctuation/name-recognition error."
+    },
+    {
+      "time": "00:48–01:04",
+      "reason": "Automatic transcript appears to repeat protein/gene wording; repetition in actual audio not verified."
+    }
+  ],
+  "source_results": {
+    "sha256_observed": "4062d0d4d50a2d0e6ef43904727e7f50487ae10de9dd16affc00c1ca2129c2e1",
+    "analysis_id": "MVA_EXPLORATORY_ROBUSTNESS_2026-10-24",
+    "status": "post-hoc exploratory; not biological validation",
+    "row_trace": "track2/reproduction/robustness/results/ptc_nearest_measured_rows.csv",
+    "repository_path": "track2/reproduction/robustness/results/sensitivity_results.json"
+  },
+  "actions_performed": {
+    "youtube_metadata_changed": false,
+    "video_rendered": false,
+    "captions_uploaded": false,
+    "repository_changed": false,
+    "competition_resubmitted": false
+  },
+  "files": [
+    "RECOMENDACION_Y_CAMBIOS_ES.txt",
+    "youtube_description_proposed_EN.txt",
+    "replacement_narration_and_caption_targets_EN.txt",
+    "claim_audit.json"
+  ],
+  "local_evidence_not_for_repository": [
+    "youtube_description_observed_20261024.txt",
+    "youtube_transcript_accessibility_20261024.txt"
+  ]
+}
