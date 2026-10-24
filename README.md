@@ -2,7 +2,7 @@
 
 ## Track 2 research proposal
 
-The [Track 2 report](track2/report/ivillafuerte_track2_report.md) was revised October 22 to match the final BUB1B Virtual Lab video narrative and October 17 evidence snapshot. Amlexanox/montelukast remain conditional hypotheses, gentamicin + mefloquine an experimental branch; no exact-genotype pharmacological rescue is established. The [research package](track2/README.md) retains the allele computations and records the remaining eligibility, reproducibility, video and submission checks. This draft branch is separate from main.
+The participant-approved [Track 2 report](track2/report/ivillafuerte_track2_report.md) was synchronized October 24, preserving the October 17 scientific evidence snapshot. Amlexanox/montelukast remain conditional hypotheses, gentamicin + mefloquine an experimental branch; no exact-genotype pharmacological rescue is established. The [research package](track2/README.md) includes methods, public-data reproduction instructions and the [published pitch video](https://youtu.be/u527j7tO0OA) (displayed duration 2:57). Current product eligibility, the prescribed dataset citation, complete audiovisual QA and official competition submission remain unverified. Repository publication is not competition submission.
 
 Reproducible local pipeline for the **Rare Disease, Real Kid: MVA Hackathon 2026**, Track 1 (Variant Prediction).
 
