@@ -1,12 +1,12 @@
 ## Appendix B. Product-status and exposure source update
 
-This appendix documents two targeted source checks performed October 24, 2026: product-specific FDA status and the published COL4A5 Figure 6 gentamicin conditions. It adds no biological experiment, clinical dose recommendation, new efficacy estimate or revision of the candidate ranking. The earlier submitted package is not replaced by this proposed document.
+This appendix documents two targeted source checks performed October 24, 2026: product-specific FDA status and the published COL4A5 Figure 6 gentamicin conditions. It adds no biological experiment, clinical dose recommendation, new efficacy estimate or revision of the candidate ranking. These findings were incorporated into public main at commit `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`. Publication does not replace the original submitted package or establish official resubmission. The version correction and subsequent computational diagnostics do not make these earlier source checks new experimental achievements.
 
 ### Product-specific FDA records
 
 Fetched 2026-10-24 at approximately 09:05:57 UTC. Every response reports `meta.last_updated: 2026-10-23`. This is the database update date, **not a discontinuation date or approval date**. Original approval dates below are the application's ORIG/AP submission dates; individual strengths must not be presumed independently approved on that date without product-specific history.
 
-| Product / FDA sponsor | Application/product + exact primary API source | Formulation / route / strength as recorded | Application original AP date | FDA product marketing_status |
+| Product / FDA sponsor | Application and product | Formulation / route / strength as recorded | Application original AP date | FDA marketing status |
 |---|---|---|---|---|
 | MONTELUKAST SODIUM (RISING) | [ANDA209012/001](https://api.fda.gov/drug/drugsfda.json?search=application_number:ANDA209012) | TABLET; ORAL; EQ 10MG BASE | 2017-04-24 | **Prescription** |
 | MONTELUKAST SODIUM (TEVA PHARMS) | [ANDA078605/001](https://api.fda.gov/drug/drugsfda.json?search=application_number:ANDA078605) | TABLET; ORAL; EQ 10MG BASE | 2012-08-03 | **Prescription** |

@@ -1,0 +1,32 @@
+{
+  "analysis_id": "MVA_EXPLORATORY_ROBUSTNESS_2026-10-24",
+  "protocol_version": "1.0",
+  "frozen_at_utc": "2026-10-24T20:33:00Z",
+  "base_repository_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+  "status": "post-hoc exploratory; frozen before running these new sensitivities, after the original results were known; not a prospective preregistration",
+  "scope": "Public processed-source sensitivity only. Preserve all original scripts, manifests, and historical execution checks.",
+  "inputs": "Use only source bytes verified against ../input_manifest.json. Original output snapshots are comparators, never calculation inputs.",
+  "ptc": {
+    "selection": "Re-read complete Supp_Table 3. UGA context = up_123nt + down_123nt; minimum six-base Hamming distance to gagagt, selected without response values.",
+    "estimands": ["untreated median percent", "gentamicin median percent", "median of within-row gentamicin minus untreated percentage-point differences"],
+    "sensitivity": ["leave out every nearest measured row once", "leave out all rows sharing each unique nearest six-base context once", "report difference of marginal medians separately; do not mislabel as median paired increment"],
+    "missing_censoring": "Emit complete, missing, left/right-censored counts. Do not treat censored bounds as exact values; main sensitivity requires all nearest paired values observed and uncensored, otherwise report insufficient and stop that calculation.",
+    "interpretation": "Report full leave-out ranges and direction changes. These are finite-set influence diagnostics, not uncertainty intervals, new biological replicates, genotype predictions or clinical effects. No threshold-based drug promotion."
+  },
+  "gse65145": {
+    "anchor": "Archived canonical BUB1B NM_001211.6 hg19 span, selected by annotation only.",
+    "reciprocal_overlap_thresholds": [0.95, 0.975, 0.99, 0.995, 1.0],
+    "primary_threshold": 0.99,
+    "feature_selection": "For every threshold report all qualifying rows in boundary-distance order. Empty sets are insufficient, not zero signal. Report all locus-overlapping rows as non-specific audit only; never promote partial/oversized overlaps to BUB1B estimates.",
+    "estimators": ["ratio of arithmetic condition means (original)", "ratio of geometric condition means if all values strictly positive"],
+    "contrasts": ["Rap/Pro", "Qui/Pro", "Rap/Qui"],
+    "sensitivity": ["leave each of six samples out once and recompute arithmetic contrasts, with remaining sample counts", "report all four cross-condition sample ratios as unpaired descriptive range, not matched-pair inference"],
+    "aggregation": "For each overlap threshold, report range and median across qualifying feature ratios only as redundant locus summaries, not independent evidence.",
+    "descriptive_state_comparison": "Report log2(Rap/Pro), log2(Qui/Pro), log2(Rap/Qui) for qualifying features. Opposite/same direction is descriptive; serum restriction and rapamycin are not cell-cycle matched. No regression adjustment, mediation, causal attribution or inferred proliferation correction.",
+    "genomewide_background": "Among deposited features with Pro arithmetic mean >=1 RPKM and strictly positive arithmetic means in all three conditions, report unweighted Spearman correlation between log2(Rap/Pro) and log2(Qui/Pro), directional quadrant counts, and BUB1B primary-feature percentile ranks. Feature rows overlap and are not independent genes; emit no correlation p-value, CI or enrichment test. Shared denominator can induce correlation. This is context only, not a cell-cycle signature or causal confounder correction."
+  },
+  "nmd_checkpoint": "No new inferential analysis planned. Preserve four deterministic replay comparators and clarify that NMD published permutation values are reused; checkpoint displayed cells remain one representative replicate, not independent biological replicates.",
+  "statistics": {"randomization": "none; deterministic exhaustive finite leave-out analyses", "random_seed": null, "confidence_intervals": "none", "new_p_values": "none", "sample_size": "GSE65145: 2 samples/condition, one normal fibroblast cell line; robustness operations do not increase n"},
+  "reporting": "Report stable, changes and insufficient separately. Retain negative/inconclusive findings and all specified sensitivities. Exact-genotype functional rescue, physiological exposure and clinical eligibility remain untested.",
+  "stop_conditions": ["source hash mismatch", "coordinate mismatch across processed tracks", "invalid/nonfinite/negative track value", "ambiguous canonical anchor", "nearest paired PTC missing or censored: report insufficient rather than invent values"]
+}

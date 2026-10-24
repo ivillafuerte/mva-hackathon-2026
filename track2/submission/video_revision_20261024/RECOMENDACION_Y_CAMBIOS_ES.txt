@@ -1,0 +1,30 @@
+BUB1B Virtual Lab — decisión de video, 24 de octubre de 2026
+Video revisado: https://www.youtube.com/watch?v=u527j7tO0OA
+
+RECOMENDACIÓN
+Conservar el video de 2:57 y añadir una aclaración fechada al principio de su descripción, junto con el informe/addendum versionados. No hay motivo científico demostrado para regenerar los tres minutos. Una precisión de unidad sí debe corregirse: “12 nearby sequence contexts” en 01:20 corresponde a 12 filas de variantes medidas que representan 8 contextos flanqueantes distintos de seis bases. No son 12 contextos únicos ni réplicas biológicas. La ausencia del contexto exacto L737* y la conclusión experimental no cambian.
+
+Esto es una recomendación editorial, no confirmación de que el organizador acepte una descripción como sustituto de una corrección incorporada. Si exige una versión audiovisual corregida, usar el reemplazo puntual de 01:20–01:36; no rehacer el resto sólo por añadir análisis de sensibilidad.
+
+QUÉ CAMBIÓ Y QUÉ NO
+- Confirmado en la nueva lectura de fuentes: 12 filas medidas, 8 contextos únicos de seis bases, distancia mínima de Hamming 1, 0 coincidencias exactas.
+- El estimador histórico del incremento pareado sigue siendo 0.0165 puntos porcentuales. Las eliminaciones de una fila dan 0.0140–0.0190; eliminar un grupo de contexto da 0.0135–0.0285. Son rangos descriptivos de influencia, no intervalos de confianza ni eficacia de L737*.
+- La afirmación de RNA aproximadamente 41% menor frente al control proliferativo sigue siendo compatible con los nuevos cálculos. No representa proteína, rescate ni significación estadística. El control de suero reducido no es un ajuste causal del ciclo celular.
+- No cambia la shortlist: amlexanox condicional con elegibilidad/exposición sin resolver; montelukast depende de función útil del truncado exacto; gentamicina + mefloquina experimental; sirolimus comparador, no lead demostrado.
+- Los cuatro outputs computacionales reproducidos siguen siendo un hecho histórico; la robustez nueva se presenta aparte como análisis post hoc. No aumenta n biológico ni transforma las 11 entradas del snapshot en experimentos.
+
+PAQUETE PREPARADO
+1. youtube_description_proposed_EN.txt: texto completo de descripción con aclaración al principio y acknowledgment preservado.
+2. replacement_narration_and_caption_targets_EN.txt: reemplazo mínimo opcional de voz/overlays y metas de subtítulos si se edita el export. No es un archivo de subtítulos sincronizado.
+3. claim_audit.json: verificación estructurada, fuente de resultados y límites.
+La transcripción automática literal y la descripción observada se conservan como evidencia local de auditoría; no es necesario redistribuirlas en el repositorio.
+
+ANTES DE PUBLICAR O CAMBIAR LA ENTREGA
+- Coordinar la publicación con el agente principal. Ningún archivo de este paquete se ha subido a YouTube ni enviado al concurso.
+- La descripción está lista para revisión. Añadir sólo enlaces que apunten al commit final ya verificado; no prometer un informe aún no publicado.
+- Si se conserva el audio: publicar la aclaración como corrección, no modificar subtítulos para aparentar que el audio original dice “eight”. Los subtítulos accesibles deben seguir la voz; una nota editorial distinta debe identificarse como tal.
+- Si se edita voz/video: ajustar la escena 01:20–01:36, regenerar subtítulos desde el audio final, medir duración real <=180 segundos y conservar el acknowledgment completo/legible dentro de ese límite. No cortar créditos para introducir resultados nuevos.
+- Revisar con el archivo original/reproductor que funcione: 00:27–01:04 (nombre N1002K y posible repetición) y el panel final completo. No corregir una supuesta repetición sin escucharla.
+
+LÍMITE EXACTO DE ESTA AUDITORÍA
+Se leyó la transcripción pública actual y la descripción completa. YouTube identifica “Inglés (generado automáticamente)” y muestra 2:57. El reproductor de nube permaneció en 0:00 con pantalla negra/spinner, incluso tras una recarga. Esto NO prueba que el video esté defectuoso ni bloqueado para jueces. No se verificaron voz, pronunciación, duplicación de audio, cuadros, gráficos, créditos dentro del video, cortes ni sincronización final. El acknowledgment completo sí está en la descripción pública, pero eso no prueba su presencia o legibilidad dentro del export. Las marcas temporales son las de la transcripción automática, no medidas cuadro a cuadro.

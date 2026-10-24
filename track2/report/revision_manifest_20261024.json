@@ -1,0 +1,258 @@
+{
+  "revision_id": "MVA_REPORT_UPDATE_20261024",
+  "created_at_utc": "2026-10-24T20:55:37.567131+00:00",
+  "base_public_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+  "target_draft_branch": "revision/track2-robustness-20261024",
+  "publication_boundary": "Source evidence revision was already public at base commit. New report is a prepared revision; no official resubmission or replacement of original PDF is asserted.",
+  "frozen_original": {
+    "path": "track2/report/ivillafuerte_track2_report.md",
+    "sha256": "04c51a108c1d8cf0957ef7433b3202215b039e7be98804c6592653baa3ade732",
+    "included_in_edit_patch": false,
+    "byte_identity_verified": true
+  },
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "d1b266b21e74b9c703949ef883667dbcfd43f75c358920777cc12d2ca88ffa51",
+      "bytes": 4524,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/README.md"
+    },
+    {
+      "path": "track2/README.md",
+      "sha256": "f45e2876b19fe5e412a423f7fafa185947bc0b4718d2f8139e7d9cf3b8859f13",
+      "bytes": 6728,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/README.md"
+    },
+    {
+      "path": "track2/drugs/product_exposure_fiche.md",
+      "sha256": "d84977f5229425f1c484061fc34069e66048511944831d5e308545f8c3afab24",
+      "bytes": 13894,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/drugs/product_exposure_fiche.md"
+    },
+    {
+      "path": "track2/report/ivillafuerte_track2_report.md",
+      "sha256": "04c51a108c1d8cf0957ef7433b3202215b039e7be98804c6592653baa3ade732",
+      "bytes": 49433,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/report/ivillafuerte_track2_report.md"
+    },
+    {
+      "path": "track2/report/ivillafuerte_track2_report_postsubmission_proposed.md",
+      "sha256": "a8d009d9b1dec97c5dacef7f40f4b3ce307e5ff2751335de519f7195ffdd0af4",
+      "bytes": 55223,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/report/ivillafuerte_track2_report_postsubmission_proposed.md"
+    },
+    {
+      "path": "track2/report/source_evidence_appendix_20261024.md",
+      "sha256": "acf3fbcd1a4f1925c616d6ff4c19eb7b87c9872b7b2672b7054f2da819799690",
+      "bytes": 4401,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/report/source_evidence_appendix_20261024.md"
+    },
+    {
+      "path": "track2/submission/methods.md",
+      "sha256": "1acf9ca42486adf76cd61bd216f32c53abab5b6b56d66c3d87cd69a5b7b96f40",
+      "bytes": 8384,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/submission/methods.md"
+    },
+    {
+      "path": "track2/submission/readiness.md",
+      "sha256": "d1e497947568cc43dc49a592a959566f3bc3e66115ae1c99f731decc56ac43ee",
+      "bytes": 11122,
+      "source_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+      "source_url": "https://github.com/ivillafuerte/mva-hackathon-2026/blob/0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6/track2/submission/readiness.md"
+    },
+    {
+      "path": "track2/reproduction/input_manifest.json",
+      "sha256": "71839d51558a1ff86c5c9c15ce6948f3a45e32eedd4e8b36f9e02ab7cc26bd46",
+      "bytes": 4123,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/original_script_hashes.json",
+      "sha256": "f1cf273298d00d7d7c92be82beb691c0e59e0186a3459a019c8752ff631c925f",
+      "bytes": 476,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/README.md",
+      "sha256": "e4c12a799ba9c67493c3913e035c0ae7cd29133dfbf354411f042fffad276d95",
+      "bytes": 8604,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/protocol.json",
+      "sha256": "7f22f7a108501bd0cccbd24e2a0fe76d6feec75ba118cdc1bbf9d17824fc1b78",
+      "bytes": 4709,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/protocol_amendment_01.json",
+      "sha256": "88e965e5e0e98517e7dbb8149a1b94dd171d25da84070f8f45e06cc78fbb9d01",
+      "bytes": 1370,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/run_sensitivity.py",
+      "sha256": "c12e186cb037a55324020e25dc222adea634d34d7c0502e1741502e585f1d104",
+      "bytes": 25286,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/test_sensitivity.py",
+      "sha256": "85a18170b3d1542372d657a8f58e1949455cfbce16f31d9c1ba54cdb0532c6bf",
+      "bytes": 7859,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/results/sensitivity_results.json",
+      "sha256": "4062d0d4d50a2d0e6ef43904727e7f50487ae10de9dd16affc00c1ca2129c2e1",
+      "bytes": 82363,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/results/artifact_hashes.json",
+      "sha256": "3109998c6dd2d1d40fee6801b1370062d869f6e9af9e9e36d873ee61b958ce8f",
+      "bytes": 823,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/verification/validation_summary.json",
+      "sha256": "26bee1e1ebb9e3c9c09e193e89b46b75af8a2af4b45a15015fc724da65da6aee",
+      "bytes": 3438,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/reproduction/robustness/verification/deterministic_replay_check_20261024.json",
+      "sha256": "c6eb2ccde8c0fb3f297ecf715a2d1808a78a2eb6fdab5f3d7eeba0625527894a",
+      "bytes": 1750,
+      "source_kind": "verified public-source computational audit; original cached inputs, current non-isolated runtime"
+    },
+    {
+      "path": "track2/report/literature_workspace_observation_20261024.json",
+      "sha256": "c972adf5475ba9965a91f7a1b77b87efc3044c8f92621d2ab540a5175bae8723",
+      "bytes": 1648,
+      "source_kind": "Public read-only UI observation on October 24, 2026; dynamic organizational interface, not new experimental evidence",
+      "source_url": "https://www.stackfire.com/labs/biolab/literature"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "README.md",
+      "sha256": "eb02f257e3b65c13f39a2c823e21e05865b8dd810873ee9c280bb3ca8aafadc2",
+      "bytes": 4967
+    },
+    {
+      "path": "track2/README.md",
+      "sha256": "02c9841f96737044d741ebfbdac0419e5a038aa9951e1905dc3554ce962130c0",
+      "bytes": 7456
+    },
+    {
+      "path": "track2/drugs/candidate_decision_matrix_20261024.md",
+      "sha256": "a63a1220a0a8f1b0980cbd63e1fee93f19c0e45c2ad1de0866f58d4e002a8dd4",
+      "bytes": 5152
+    },
+    {
+      "path": "track2/drugs/product_exposure_fiche.md",
+      "sha256": "564dae2816c8a91c8775f7658bb6004d5699116cebb0bf7b34d1b1a36c7377b6",
+      "bytes": 14340
+    },
+    {
+      "path": "track2/report/ivillafuerte_track2_report_postsubmission_proposed.md",
+      "sha256": "ed4329d10f7918e5fe0c74f088849a54c15075c1e15a8feb74d33d8b7b366ad3",
+      "bytes": 55919
+    },
+    {
+      "path": "track2/report/ivillafuerte_track2_report_revision_20261024.md",
+      "sha256": "d87fdabd78767f39065a0871b0a2b54032576dafef7701a7c46e690e13889103",
+      "bytes": 65530
+    },
+    {
+      "path": "track2/report/literature_workspace_observation_20261024.json",
+      "sha256": "c972adf5475ba9965a91f7a1b77b87efc3044c8f92621d2ab540a5175bae8723",
+      "bytes": 1648
+    },
+    {
+      "path": "track2/report/revision_changes_20261024.md",
+      "sha256": "7eaa9c05e9f6ef34bcc7489b3db12d69a86a954f4d06429831be5d62ce454f13",
+      "bytes": 5433
+    },
+    {
+      "path": "track2/report/source_evidence_appendix_20261024.md",
+      "sha256": "1dd6e3c28f7177475b0bc4f3d0c75ffadcdb9c5beb708b110918a10d0d5823b8",
+      "bytes": 4632
+    },
+    {
+      "path": "track2/submission/methods.md",
+      "sha256": "c1f2793443a793dda72aaf90da4710b856b68658c81b23d2368d9dac83784e21",
+      "bytes": 8960
+    },
+    {
+      "path": "track2/submission/readiness.md",
+      "sha256": "911eaef792857ffa2b6a7317d32ce32e8017bb935c56885fcf3ad4c1a620c090",
+      "bytes": 12206
+    }
+  ],
+  "local_pdf_outputs": [
+    {
+      "path": "ivillafuerte_track2_report_revision_20261024.pdf",
+      "sha256": "5942366b6e718913959afefe8a297dbd0cc4365bd1239f33bf551345d344ed63",
+      "bytes": 164729,
+      "delivery": "local PDF, not committed; repository PDF exclusion preserved",
+      "pages": 20
+    },
+    {
+      "path": "ivillafuerte_candidate_decision_matrix_20261024.pdf",
+      "sha256": "f6881b2ad946848b97ccfc3869c799e6bc7f0f1c79b91be4dee45f270f4540d5",
+      "bytes": 67659,
+      "delivery": "local PDF, not committed; repository PDF exclusion preserved",
+      "pages": 1
+    }
+  ],
+  "document_build_tools": [
+    {
+      "path": "build_documents.py",
+      "sha256": "64fe83056d20aba6881b736180ded0f510aff3215fcc73e1815a67f4281273be",
+      "bytes": 19173
+    },
+    {
+      "path": "render_documents.py",
+      "sha256": "847a892cd157f5ac9838f937d029b3e93bbd84df1eef8410d7666ff488029f33",
+      "bytes": 7366
+    },
+    {
+      "path": "finalize_documents.py",
+      "sha256": "133e4fbd47ceca81bc62be61781f7e837e116f5e68cf6664ebdb77f317922491",
+      "bytes": 8266
+    }
+  ],
+  "qa": {
+    "required_acknowledgment_unchanged": true,
+    "participant_ai_declarations_unchanged": true,
+    "standalone_methods_equal_appendix_a": true,
+    "methods_abstract_word_count": 265,
+    "report_pages": 20,
+    "matrix_pages": 1,
+    "all_final_pages_visually_inspected": true,
+    "pdf_link_count": 76,
+    "all_pdf_links_absolute": true,
+    "remote_link_validation": "New artifact links target the intended review branch; remote publication not yet confirmed at preparation. Absolute link syntax is not proof of availability.",
+    "scientific_qa": "Independent review completed; no rescue, exposure, eligibility or inferential-statistics overclaim identified.",
+    "visual_qa": "All 20 report pages and one-page matrix inspected; shortened table headers and widow protection applied, changed pages re-inspected."
+  },
+  "manifest_self_hash": "excluded to avoid self-referential hashing",
+  "unchanged_claims": [
+    "No exact-genotype pharmacological rescue",
+    "Amlexanox eligibility HOLD",
+    "Exact L737* truncated function unresolved",
+    "No validated gentamicin-mefloquine combination",
+    "No causal proliferation correction",
+    "No new wet-lab experiments",
+    "No new p-values or confidence intervals"
+  ]
+}

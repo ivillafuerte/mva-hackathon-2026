@@ -1,0 +1,77 @@
+{
+  "checked_at_utc": "2026-10-24T20:40:07.075926+00:00",
+  "base_commit": "0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6",
+  "source_method": "Previously downloaded public cache inputs, each verified against unchanged original manifest; not a fresh network download.",
+  "new_isolated_environment_created": false,
+  "unit_and_integration_tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "python track2/reproduction/robustness/test_sensitivity.py"
+  },
+  "new_analysis_determinism": {
+    "second_run_byte_identical": true,
+    "result_file_count": 9,
+    "comparison_command": "diff -rq track2/reproduction/robustness/results /workspace/shared/mva-upgrade-20261024/robustness/determinism_check"
+  },
+  "python_compile_passed": true,
+  "git_diff_whitespace_check_passed": true,
+  "prepublish_safety_audit_passed": true,
+  "original_four_replay_comparators_passed": 4,
+  "preserved_historical_artifacts": [
+    {
+      "path": "track2/reproduction/input_manifest.json",
+      "sha256": "71839d51558a1ff86c5c9c15ce6948f3a45e32eedd4e8b36f9e02ab7cc26bd46",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/original_script_hashes.json",
+      "sha256": "f1cf273298d00d7d7c92be82beb691c0e59e0186a3459a019c8752ff631c925f",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/execution_check.json",
+      "sha256": "38ed7fccba9f110ac6a832a950f42a6c001d07666ec134a0e5e2f189653fbe55",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/gse65145/reanalyse_gse65145.py",
+      "sha256": "a66f9c10b93031ec620e812de59e717d35272657fdd0d56d6ea7c11230df807a",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/ptc/analyze.py",
+      "sha256": "9b6e1085155fa229fa2816b56f4994541ce827008109b27f93cba33ca5c767a8",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/ptc/test_analysis.py",
+      "sha256": "ac47c819e5b139d343929f67e62bf79b059ec4b1482fc94a33fb141747813b20",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/nmd/reanalyze.py",
+      "sha256": "3572dc35ca41f30bfc8d115e07f04b47fa54d6374b6c4abcc6d83fcf9a7419da",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/reproduction/checkpoint/reanalyze.py",
+      "sha256": "f74760b9f52747f32352b83b3825ab2960392db41b7ecfb4bd267c5d706b4290",
+      "byte_identical_to_base_commit": true
+    },
+    {
+      "path": "track2/report/ivillafuerte_track2_report.md",
+      "sha256": "04c51a108c1d8cf0957ef7433b3202215b039e7be98804c6592653baa3ade732",
+      "byte_identical_to_base_commit": true
+    }
+  ],
+  "new_result_sha256": "4062d0d4d50a2d0e6ef43904727e7f50487ae10de9dd16affc00c1ca2129c2e1",
+  "protocol_sha256": "7f22f7a108501bd0cccbd24e2a0fe76d6feec75ba118cdc1bbf9d17824fc1b78",
+  "pre_run_amendment_sha256": "88e965e5e0e98517e7dbb8149a1b94dd171d25da84070f8f45e06cc78fbb9d01",
+  "analysis_code_sha256": "c12e186cb037a55324020e25dc222adea634d34d7c0502e1741502e585f1d104",
+  "limitations": [
+    "No fresh public-source download in this execution.",
+    "No new biological validation, no p-values or confidence intervals, no causal cell-cycle adjustment.",
+    "General Track 1/private-genomic pipeline was not run; outside this task.",
+    "Final merged documentation/package validation remains with integrator."
+  ]
+}

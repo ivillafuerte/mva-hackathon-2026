@@ -1,0 +1,36 @@
+{
+  "observed_date": "2026-10-24",
+  "access": "Public UI, read-only, without login",
+  "source_url": "https://www.stackfire.com/labs/biolab/literature",
+  "collection": "MVA Hackathon 2026 — BUB1B",
+  "observed_counts": {
+    "references": 21,
+    "research_articles": 19,
+    "documents": 2,
+    "trails": 1,
+    "hypotheses": 3,
+    "evidence_gaps": 7
+  },
+  "observed_features": [
+    "Original-source and DOI/PubMed/Europe PMC links",
+    "Crossref/Europe PMC/OpenAlex metadata provenance and fetched date",
+    "Model and figure locators",
+    "Links to cited MVA evidence-record IDs",
+    "Documented relationships distinguished from hypotheses and under-review items"
+  ],
+  "concrete_navigation_verified": {
+    "hypothesis_url": "https://www.stackfire.com/labs/biolab/literature/graph?center=hypothesis%3Al737-rna",
+    "hypothesis_label": "Preserving RNA leaves the stop codon",
+    "record_url": "https://www.stackfire.com/labs/biolab/literature/graph?center=study%3AMVA-L737-NMD-FIRST-001",
+    "record_id": "MVA-L737-NMD-FIRST-001",
+    "case_anchor": "https://www.stackfire.com/labs/biolab/mvabub1b#mva-detail-MVA-L737-NMD-FIRST-001",
+    "source_label": "From published data · labs/mva/results.json",
+    "scope": "Related 731X motivates testing; exact L737* experiment was not performed"
+  },
+  "limits": [
+    "Dynamic organizational counts, not frozen scientific record counts",
+    "No new experiments, efficacy claim or independent scientific quality review",
+    "No authenticated editor, write or export workflow was verified",
+    "No deployment source branch or exact website commit was inferred from the live UI"
+  ]
+}

@@ -1,10 +1,13 @@
 # Track 2: BUB1B Virtual Lab — Evidence-Guided Drug Repurposing
 
-Participant-approved report synchronized October 24, 2026. Aligned to the final video narration and scientific snapshot of October 17. Amlexanox and montelukast are conditional research candidates; gentamicin + mefloquine is an experimental branch only. No exact-genotype pharmacological rescue is established. The pitch video is available (displayed duration 2:57); complete audiovisual QA and final competition submission are not verified.
+The dated October 24 report is the latest prepared update. The original Submission 1 report stays frozen. The October 17 scientific snapshot is unchanged; separately identified sensitivity diagnostics add no wet-lab experiment or exact-genotype rescue. Amlexanox remains eligibility HOLD; montelukast requires useful exact-truncation function; gentamicin + mefloquine remains experimental. Prior product and Figure 6 source checks are already public in main commit `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`. Repository publication is not official resubmission.
 
 ## Read the proposal
 
-- [Main Track 2 report](report/ivillafuerte_track2_report.md)
+- [Latest prepared dated report](report/ivillafuerte_track2_report_revision_20261024.md)
+- [One-page candidate decision matrix](drugs/candidate_decision_matrix_20261024.md)
+- [Frozen original Submission 1 report](report/ivillafuerte_track2_report.md)
+- [Earlier public documentary revision](report/ivillafuerte_track2_report_postsubmission_proposed.md)
 - [Product/formulation and experimental-to-human exposure fiche](drugs/product_exposure_fiche.md)
 - [Historical drug assessment and current eligibility cautions](drugs/candidate_assessment.md)
 - [Experimental development plan](experiments/development_plan.md)
@@ -15,7 +18,7 @@ Participant-approved report synchronized October 24, 2026. Aligned to the final 
 - [BioLab overview](https://www.stackfire.com/labs/biolab)
 - [Pitch script (planning record)](submission/pitch_script.md)
 
-The main report is the current scientific narrative. The September sirolimus-first ranking is superseded, not erased from historical notes. The October snapshot has 4 reanalyses, 6 evidence audits, 1 synthetic software test and 4 quantitative charts. A frozen [public snapshot](evidence/mva-results-2026-10-17.json) preserves record-level sources and limitations. Earlier notes below are retained as English technical records; historical prioritization is not the final drug decision.
+The dated revised report is the latest prepared scientific narrative, not proof of a replacement upload. The September sirolimus-first ranking is superseded, not erased from historical notes. The October snapshot has 4 reanalyses, 6 evidence audits, 1 synthetic software test and 4 quantitative charts. A frozen [public snapshot](evidence/mva-results-2026-10-17.json) preserves record-level sources and limitations. Earlier notes below are retained as English technical records; historical prioritization is not the final drug decision.
 
 - [Structural and mechanism audit](report/research_status_audit_2026-09-08.md)
 - [Anakinra hypothesis record](report/alternative_anakinra_2026-09-08.md)
@@ -58,6 +61,6 @@ The September 10 repeat execution reproduced `metrics.json`, `residue_summary.ts
 
 Use the [clean-checkout guide](reproduction/README.md), recovered original scripts, pinned dependencies and new explicit retrieval/check wrappers. Four deterministic output artifacts were reproduced from public processed inputs; this does not rerun biological experiments, sequencing-read alignment, the NMD paper's original stochastic permutation test or complete Figshare prediction extraction. The guide identifies the archived public annotation and small prediction extract, source hashes and per-analysis limits. The website snapshot is an output comparator, never an analysis input.
 
-The [main report](report/ivillafuerte_track2_report.md), [spoken script](submission/pitch_script.md) and [methods](submission/methods.md) retain the October 17 snapshot (SHA-256 `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`). No historical measurements were changed. Follow the recorded execution audit rather than interpreting a package validator as biological validation.
+The [frozen original report](report/ivillafuerte_track2_report.md) and [spoken script](submission/pitch_script.md) retain the October 17 snapshot (SHA-256 `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`). No historical measurements were changed. Follow the recorded execution audit rather than interpreting a package validator as biological validation.
 
-The public research branch is not the default main branch. This update does not merge, deploy or submit the package. The YouTube player displayed 2:57 and was accessible without login; this does not certify uninterrupted audiovisual quality or a competition submission receipt. The reviewed report is preserved as approved, including its REVIEW labeling and unresolved eligibility/citation limitations. Methods reproduce its Appendix A.
+The earlier documentary revision was merged into main at `0cb71c4946fd71d0c0b5b1589026a2ed9e8a33b6`. The dated prepared report and [methods](submission/methods.md) distinguish that snapshot from the executed October 24 exploratory sensitivity audit in [robustness](reproduction/robustness/README.md). Original measurements, four original analysis scripts and the original Submission 1 report are preserved. No new biological replication, causal proliferation adjustment or clinical prediction is claimed. A revised report must be uploaded through the official process before it becomes a revised submission; no such receipt is asserted here. Video availability and displayed duration do not certify full audiovisual quality.

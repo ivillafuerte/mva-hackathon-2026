@@ -1,0 +1,9 @@
+omitted_context_6nt,omitted_variant_row_count,omitted_excel_rows,status,n_variant_rows,n_unique_contexts,gentamicin_median_percent,untreated_median_percent,median_paired_delta_percentage_points,difference_of_marginal_medians_percentage_points,positive_paired_deltas,zero_paired_deltas,negative_paired_deltas
+aagagt,3,"[3124, 2325, 4746]",calculated,9,7,0.202,0.173,0.019000000000000017,0.029000000000000026,9,0,0
+cagagt,1,[2813],calculated,11,7,0.195,0.176,0.014000000000000012,0.019000000000000017,10,0,1
+gaaagt,1,[5400],calculated,11,7,0.195,0.176,0.014000000000000012,0.019000000000000017,10,0,1
+gagaat,2,"[4957, 4916]",calculated,10,7,0.2025,0.1745,0.02850000000000001,0.028000000000000025,9,0,1
+gagagg,1,[5519],calculated,11,7,0.202,0.173,0.019000000000000017,0.029000000000000026,10,0,1
+gagggt,1,[5075],calculated,11,7,0.202,0.176,0.019000000000000017,0.026000000000000023,10,0,1
+gagtgt,1,[311],calculated,11,7,0.202,0.173,0.014000000000000012,0.029000000000000026,10,0,1
+gatagt,2,"[5037, 189]",calculated,10,7,0.1935,0.1745,0.013499999999999998,0.019000000000000017,9,0,1
