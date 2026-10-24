@@ -1,6 +1,6 @@
 # Track 2: BUB1B Virtual Lab — Evidence-Guided Drug Repurposing
 
-English report revision, October 22, 2026. Aligned to the final video narration and scientific snapshot of October 17. Amlexanox and montelukast are conditional research candidates; gentamicin + mefloquine is an experimental branch only. No exact-genotype pharmacological rescue is established. Final competition submission/video upload are not verified.
+Participant-approved report synchronized October 24, 2026. Aligned to the final video narration and scientific snapshot of October 17. Amlexanox and montelukast are conditional research candidates; gentamicin + mefloquine is an experimental branch only. No exact-genotype pharmacological rescue is established. The pitch video is available (displayed duration 2:57); complete audiovisual QA and final competition submission are not verified.
 
 ## Read the proposal
 
@@ -10,7 +10,10 @@ English report revision, October 22, 2026. Aligned to the final video narration 
 - [Experimental development plan](experiments/development_plan.md)
 - [Official methods-template answers](submission/methods.md)
 - [Requirements and open submission items](submission/readiness.md)
-- [Three-minute pitch script](submission/pitch_script.md)
+- [Pitch video on YouTube — 2:57](https://youtu.be/u527j7tO0OA)
+- [Current BUB1B web laboratory](https://www.stackfire.com/labs/biolab/mvabub1b)
+- [BioLab overview](https://www.stackfire.com/labs/biolab)
+- [Pitch script (planning record)](submission/pitch_script.md)
 
 The main report is the current scientific narrative. The September sirolimus-first ranking is superseded, not erased from historical notes. The October snapshot has 4 reanalyses, 6 evidence audits, 1 synthetic software test and 4 quantitative charts. A frozen [public snapshot](evidence/mva-results-2026-10-17.json) preserves record-level sources and limitations. Earlier notes below are retained as English technical records; historical prioritization is not the final drug decision.
 
@@ -57,4 +60,4 @@ Use the [clean-checkout guide](reproduction/README.md), recovered original scrip
 
 The [main report](report/ivillafuerte_track2_report.md), [spoken script](submission/pitch_script.md) and [methods](submission/methods.md) retain the October 17 snapshot (SHA-256 `678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3`). No historical measurements were changed. Follow the recorded execution audit rather than interpreting a package validator as biological validation.
 
-The public research branch is not the default main branch. This update does not merge, deploy or submit the package. No actual video duration or submission receipt is certified here.
+The public research branch is not the default main branch. This update does not merge, deploy or submit the package. The YouTube player displayed 2:57 and was accessible without login; this does not certify uninterrupted audiovisual quality or a competition submission receipt. The reviewed report is preserved as approved, including its REVIEW labeling and unresolved eligibility/citation limitations. Methods reproduce its Appendix A.
