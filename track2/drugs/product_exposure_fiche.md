@@ -1,0 +1,58 @@
+# Product, formulation and exposure evidence fiche
+
+**Checked:** October 22, 2026. **Purpose:** evaluate translational research feasibility, not provide medical advice, clinical dosing or competition eligibility certification. The candidate shortlist is unchanged.
+
+Product approval, current marketing, challenge eligibility, exposure at the target tissue and BUB1B efficacy are separate questions. A dosage-form percentage is not a plasma concentration. Nominal culture concentrations cannot be equated to total plasma/serum, unbound plasma or intracellular concentrations. A single Cmax is not sustained exposure for the experimental incubation. Adult/healthy-volunteer measurements cannot establish exposure or safety in a child with MVA.
+
+## Product and human-exposure anchors
+
+| Candidate | Product / formulation / jurisdiction verified | Human exposure anchor and its limits | Current disposition |
+|---|---|---|---|
+| Amlexanox | US Aphthasol, NDA020511 product001, **5% dental paste**. The current FDA record explicitly lists **Discontinued** [P1]. This does not establish the reason or imply withdrawal for safety | Historical FDA label: approximately 120 ng/mL maximum serum concentration at 2.4 h after 100 mg paste containing 5 mg active drug; half-life 3.5 ± 1.1 h [P2]. This is paste-specific total serum exposure, not a systemic-tablet bridge | Current US systemic product and current Japanese product availability were not established. Eligible product/formulation/jurisdiction remains unresolved; do not nominate on historical approval alone |
+| Montelukast | US label lists 10 mg film-coated tablets, 4/5 mg chewables and 4 mg oral granules [P3] | Historical FDA study060: 10 mg film-coated tablet mean Cmax 422 ± 106 ng/mL fasting (401 ± 99 fed), healthy volunteers [P4]. Label reports >99% protein binding [P3]. Study-specific, not a universal maximum; formulations are not interchangeable PK assumptions | Product precedent exists, but neither MVA efficacy nor target-cell exposure nor challenge eligibility is established here. Serious neuropsychiatric boxed warning is relevant [P3] |
+| Mefloquine | US oral 250 mg hydrochloride tablet, equivalent to 228 mg free base [P5] | Label describes 1000–2000 µg/L steady-state maximum plasma concentrations after 250 mg weekly in healthy volunteers, reached after 7–10 weeks; approximately 98% protein binding [P5] | This label regimen is an exposure reference only, not a proposed regimen. Potentially persistent neuropsychiatric reactions constrain translation |
+| Gentamicin | US gentamicin-sulfate injection [P6] | Label conventional IM examples give peaks of 4–6 µg/mL and cautions about prolonged concentrations above 12 µg/mL and troughs above 2 µg/mL [P6] | These are label-specific antibacterial examples, not universal contemporary targets or safe rescue thresholds. Nephrotoxicity/ototoxicity and exact exposure must be assessed; combination efficacy/safety is unestablished |
+
+The FDA API data for Aphthasol were updated October 21 and checked October 22 (October 21 is the database update date, not an established date of discontinuation); the FDA product page also shows discontinued status [P1]. A database record or label does not guarantee local stock or current market availability in every jurisdiction. No organizer eligibility determination is claimed.
+
+## Experimental-to-human comparison: what the numbers do and do not establish
+
+**Conversion:** µM = ng/mL divided by molecular weight (g/mol). For µg/L the same numeric conversion applies. Molecular form must match the reported concentration. Ratios below are calculated scale comparisons, not measured therapeutic windows or grounds for clinical dose escalation.
+
+### Amlexanox
+
+The original CFTR study tested **0.2, 1, 5 and 25 µM for 20 h**; the largest halide-efflux effect among the tested concentrations occurred at 25 µM and 5 µM was described as suboptimal [P7]. The GDAP1 neuronal-progenitor study used **100 µM for 20 h** [P8]. These are different genes, models and endpoints, not BUB1B rescue. Do not state that every reported effect required 25–100 µM: lower concentrations were also tested.
+
+Using MW 298.30, the historical paste-associated 120 ng/mL corresponds to approximately **0.402 µM total serum**. The 5, 25 and 100 µM culture conditions are approximately **12.4×, 62.1× and 248.6×** that reference. Unknown medium binding, unbound intracellular exposure, tissue distribution and duration prevent direct equivalence. **This comparison neither proves nor disproves that a systemic formulation can achieve a useful exposure.**
+
+A 2017 primary metabolic-disease trial used imported Takeda tablets, including 50 mg three times daily in adults [P9]. This is research administration history, not proof of a currently marketed systemic product, a BUB1B treatment or attainment of an effective unbound concentration. The trial used relative MS1-intensity measurements at baseline and week 12, not an absolute calibrated Cmax/AUC bridge; its authors called for a full PK study [P9]. These measurements must not be converted into µM. This revision did **not establish an adequate quantitative human systemic PK bridge**. The NMD screen also found no robust amlexanox effect on its endogenous AS-NMD reporters at 5 µM [P10], reinforcing model dependence rather than a universal effect.
+
+**GO requirement:** documented formulation/jurisdiction plus measured, justified unbound exposure at which exact-genotype protein identity and functional rescue pass. **STOP/HOLD:** activity only at unsupported exposure, toxicity, RNA increase without function, or unresolved product eligibility for nomination. Do not reject all systemic research solely from the dental-paste PK comparison.
+
+### Montelukast
+
+The NMD experiment exposed mouse Neuro-2a cells to **5 µM for 5 h** and measured endogenous AS-NMD target isoforms (reporter genes), not BUB1B [P10]. Using free-acid MW 586.18, the historical 422 ng/mL mean Cmax corresponds to **0.720 µM total plasma**; the nominal culture concentration is about **6.95×** that reference [P4]. The >99% plasma binding means total plasma is particularly unsuitable as a proxy for free target-cell exposure [P3]. Medium binding was not matched in this comparison.
+
+**GO requirement:** allele-specific endogenous engagement, useful exact-L737* protein function and benefit at supported target-cell exposure. **STOP/HOLD:** RNA-only reporter response, nonfunctional/harmful truncation, compromised translation or an unsupported exposure bridge. Stabilizing RNA does not remove its stop codon.
+
+### Gentamicin plus mefloquine
+
+The COL4A5 reporter study used **20 µM mefloquine** with varying gentamicin concentrations in HEK293 cells; enhancement was variant-dependent [P11]. The exact gentamicin dose-axis values were **not independently extracted in this pass**. They remain a prerequisite for a numerical gentamicin-to-human comparison; do not substitute G418 or ELX-02 concentrations.
+
+Using mefloquine free-base MW approximately 378.32, the label's 1000–2000 µg/L range corresponds to **2.64–5.29 µM total plasma**. The experimental 20 µM is approximately **3.8–7.6×** that total range [P5]. This is neither an unbound/tissue-matched comparison nor a safety margin, and it does not establish co-exposure with gentamicin.
+
+**GO requirement:** exact-genotype endogenous or splice-preserving assay, identified full-length product, separate checkpoint/segregation benefit, measured exposure of both compounds, and comparison with each monotherapy. **STOP/HOLD:** no functional gain over the relevant component, toxicity, unsupported co-exposure, or a reporter-only effect. Other-gene enhancement is not clinical synergy or a safe combined regimen.
+
+## Primary sources
+
+- **P1.** FDA, [Aphthasol application/product record](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?ApplNo=020511&event=overview.process); [openFDA Drugs@FDA application response](https://api.fda.gov/drug/drugsfda.json?search=application_number:NDA020511). Checked October 22, 2026; API data updated October 21.
+- **P2.** FDA, [Aphthasol 2002 prescribing label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/20511s002lbl.pdf), page 1, pharmacokinetics. Historical label, not proof of current marketing.
+- **P3.** Ajanta / DailyMed, [montelukast prescribing label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67070e4e-f755-46b3-b900-fcc1993a0546), dosage forms, boxed warning and section 12.3.
+- **P4.** FDA, [Singulair biopharmaceutics review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/98/20830_Singulair_biopharmr.pdf), page 9, study 060.
+- **P5.** DailyMed, [mefloquine hydrochloride prescribing label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9cbe26c7-7313-4cd6-9514-9190af1de763), updated April 3, 2025; clinical pharmacology, description and warning.
+- **P6.** DailyMed, [gentamicin sulfate injection prescribing label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84f5c763-1cd3-4d85-9afb-934db8666fbf), clinical pharmacology and warnings.
+- **P7.** Gonzalez-Hilarion et al. (2012), [Rescue of nonsense mutations by amlexanox in human cells](https://link.springer.com/article/10.1186/1750-1172-7-58), Figures 6–7 and experimental conditions.
+- **P8.** [GDAP1 neuronal-progenitor study](https://www.mdpi.com/1424-8247/16/7/1034), Pharmaceuticals (2023), section 4.4 and Figures 2–3.
+- **P9.** Oral et al. (2017), [Amlexanox primary metabolic-disease clinical trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC5663294/), [author manuscript](https://escholarship.org/content/qt6x12x8mq/qt6x12x8mq_noSplash_a2efed3a350fafb3cfa1769f86b0d313.pdf), PDF page 16, methods lines 629–654 (relative MS1 measurement), and page 7 (PK limitation). Systemic research administration, not current marketing verification.
+- **P10.** Zhao et al., [NMD-modulator primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC8718828/), Figure 1 and Results.
+- **P11.** Omachi et al. (2022), [COL4A5 readthrough primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC8866893/), Figure 6. Exact gentamicin-axis extraction remains open.

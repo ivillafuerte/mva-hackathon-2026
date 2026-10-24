@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-09-10T11:15:52.332381+00:00",
+  "fresh_end_to_end_reproduction_pass": true,
+  "comparison": {
+    "metrics.json": {
+      "byte_identical": true,
+      "sha256": "280f3e28eade3a03abbe89aca21b4e1f3f02f1837a0c76efffd8a38e24efbe0d"
+    },
+    "residue_summary.tsv": {
+      "byte_identical": true,
+      "sha256": "edb96178ddbcd437cb4c6ffa2bbae695d1d1017a2817f2dc836d5a06d5b954ec"
+    },
+    "rotamer_summary.tsv": {
+      "byte_identical": true,
+      "sha256": "b3040a8a883fe105fcd641112803fadfc2280695fe437cca7d4060e674d44f5a"
+    }
+  },
+  "public_reference_hashes_verified": true,
+  "syntax_check_pass": true,
+  "prior_outputs_modified": false,
+  "recovery": "Initial native runtime exited 135. Installed pinned dependencies in a clean directory using GCC; downloaded truncated public PAE reference again and verified its original hash. Final execution succeeded.",
+  "biological_validation": false
+}

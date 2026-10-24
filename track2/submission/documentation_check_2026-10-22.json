@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-22T15:58:37.467170+00:00",
+  "technical_checks_pass": true,
+  "submission_ready": false,
+  "errors": [],
+  "pitch_spoken_words": 344,
+  "words_per_minute_for_three_minutes": 114.7,
+  "actual_video_duration_verified": false,
+  "methods_abstract_words": 214,
+  "rotamer_table_rows_jitter": 486,
+  "rotamers_below_clash_criterion": 22,
+  "limitations": "Local links and file-type/consistency checks are not exhaustive privacy, scientific or account certification.",
+  "open_items": [
+    "Participant-confirmed AI provider/tier/settings",
+    "Final submission identity and live quota",
+    "Current medication product/jurisdiction/formulation eligibility, especially amlexanox",
+    "Complete clean-checkout access to October reanalysis code and permitted inputs",
+    "Final report remote commit verification",
+    "Recorded three-minute video, readable acknowledgment and accessible URL",
+    "Final participant review and actual upload"
+  ],
+  "scope": "October 22 documentation consistency only. Original allele computations and October reanalysis pipelines were not rerun.",
+  "snapshot_sha256": "678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3",
+  "narration_matches_final_brief": true,
+  "snapshot_matches_final_brief": true,
+  "review": "Second read-only consistency review passed; scientific claims, exact narration, snapshot and local links checked. No new independent primary-literature or biological validation.",
+  "document_sha256": {
+    "README.md": "4a7018abd15c1922f6c0196c736f04e9fc424a8d57da8608b7d286e67862fd8d",
+    "track2/README.md": "9a117173f10a2ba4cf651a7c0a4e741837a46272e389557b421765bb679dabb4",
+    "track2/drugs/candidate_assessment.md": "6a12eb22b29e03cf2fd0c67fc18eadef7af18f7eb2bb06cf3adb04eab9714a1f",
+    "track2/evidence/mva-results-2026-10-17.json": "678706bf000be1d358af6317af5a03136291ae35889e6fccbbeeb8ce9f66d1e3",
+    "track2/experiments/development_plan.md": "ebdcdf127254cd373c17ae69789f3c2f7548d54c98c817b16e7591a594c95b40",
+    "track2/report/ivillafuerte_track2_report.md": "0afcccd38a819046876ac55bfb915b32f98fce1a7ba9d79867afd16268ab08b5",
+    "track2/submission/methods.md": "fe19ea1c5774276006f8289786f3a321bf6a2ae0efec8467e41661919bd089ff",
+    "track2/submission/pitch_script.md": "8103c194ea7ffe562b8fa3a6c3f8970c11bf3c2ddf7514bcf229bdc86bd2c658",
+    "track2/submission/readiness.md": "2d4eacfecd7a65ac68146ec7bdc0320c32233c39464f3cdd928cec19f2bfaf18"
+  }
+}

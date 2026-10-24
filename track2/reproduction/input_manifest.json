@@ -1,0 +1,92 @@
+{
+  "retrieval_verified_on": "2026-10-22",
+  "inputs": [
+    {
+      "path": "gse65145/GSE65145_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE65nnn/GSE65145/suppl/GSE65145_RAW.tar",
+      "sha256": "cb4be4c47a7926722374b3caea84c46c75b8d30161111b118f5e4bbf3791ff57",
+      "bytes": 10209280
+    },
+    {
+      "path": "gse65145/GSM1588051.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588051&targ=self&form=text&view=full",
+      "sha256": "d7d47c2df0f85b1bc21a2fab8092dca004d8f9e2c353d1548f23471324357ffd",
+      "bytes": 2317
+    },
+    {
+      "path": "gse65145/GSM1588052.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588052&targ=self&form=text&view=full",
+      "sha256": "fcc03cc8656173a625d4d88ec52a053a989f8cf45a41404299b188c80f163843",
+      "bytes": 2317
+    },
+    {
+      "path": "gse65145/GSM1588053.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588053&targ=self&form=text&view=full",
+      "sha256": "58f75c0c0635eb9af3cd156768ec12be1357237673e022ac930115c779d16d4b",
+      "bytes": 2309
+    },
+    {
+      "path": "gse65145/GSM1588054.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588054&targ=self&form=text&view=full",
+      "sha256": "149482fa5b3da2bf7c83af91c42a6cc613095d958736bdfec1612825298440ce",
+      "bytes": 2309
+    },
+    {
+      "path": "gse65145/GSM1588055.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588055&targ=self&form=text&view=full",
+      "sha256": "8ffb2fb9e2414d96e08892a560b6daa3f29028e03e197cc2c8f5a9630bcca74e",
+      "bytes": 2325
+    },
+    {
+      "path": "gse65145/GSM1588056.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1588056&targ=self&form=text&view=full",
+      "sha256": "150e67baf0258a5d5b8f5a9a26bf989d25da1d8a4bc9255620addaaf6b455cdb",
+      "bytes": 2325
+    },
+    {
+      "path": "nmd/inputs/table_S1.xlsx",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc2.xlsx",
+      "sha256": "14c3c7c3c7344c365285eec39a53fd93d4a333eec83bbbbdab7eaa4348dcaf69",
+      "bytes": 62404
+    },
+    {
+      "path": "nmd/inputs/table_S2.xlsx",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc3.xlsx",
+      "sha256": "f7107fa8e401cc6d1d2adbb68adca5baefe63472cfaf2f178e667d678c3b0007",
+      "bytes": 497402
+    },
+    {
+      "path": "nmd/inputs/table_S4.xlsx",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2162253121003061-mmc5.xlsx",
+      "sha256": "613713a81e0944d28e1b01f07a6e144ff286726d8686778efca6b1294f749e9b",
+      "bytes": 116602
+    },
+    {
+      "path": "ptc/supp_tables.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-024-01878-5/MediaObjects/41588_2024_1878_MOESM4_ESM.xlsx",
+      "sha256": "83b4661d839e7450abb3a4266a0dc7e94260fd100f9a6efcc6e2bd77683a5b64",
+      "bytes": 10227370
+    },
+    {
+      "path": "checkpoint/cache/source_data.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-026-10384-9/MediaObjects/42003_2026_10384_MOESM5_ESM.xlsx",
+      "sha256": "d793bc309981fefad4a7bc5a8de852054563b0c29b1212d0221519674f9f5f90",
+      "bytes": 41329
+    }
+  ],
+  "bundled_public_references": [
+    {
+      "path": "gse65145/hg19_chr15_refseq.json",
+      "sha256": "1a0ccb6acb42734032645c6e13ddb79bd23d046689e7a5a3a17469a7475fff98",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=hg19;track=ncbiRefSeq;chrom=chr15;start=40000000;end=41000000",
+      "reason": "Archived public annotation input. Live response includes changing download timestamp; preserve source bytes, not a regenerated analysis output."
+    },
+    {
+      "path": "ptc/prediction_extracts.tsv",
+      "sha256": "5db3ac1925af814552fad15153299e2dbafee484c00680a5369f7d7613a5ab5f",
+      "url": "https://doi.org/10.6084/m9.figshare.23708901",
+      "version_observed": 2,
+      "reason": "Archived exact-coordinate extract; not freshly re-extracted in this reproduction."
+    }
+  ]
+}

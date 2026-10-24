@@ -1,0 +1,216 @@
+{
+  "retrieved_date": "2026-09-10",
+  "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SRC%3AMED+AND+%28EXT_ID%3A18932004+OR+EXT_ID%3A19794149+OR+EXT_ID%3A19805069+OR+EXT_ID%3A20516114+OR+EXT_ID%3A22048312+OR+EXT_ID%3A22698286+OR+EXT_ID%3A23242215+OR+EXT_ID%3A24825348+OR+EXT_ID%3A25754370+OR+EXT_ID%3A26147250+OR+EXT_ID%3A26463117+OR+EXT_ID%3A26783326+OR+EXT_ID%3A31201382+OR+EXT_ID%3A31738183+OR+EXT_ID%3A32386566+OR+EXT_ID%3A32640244+OR+EXT_ID%3A33523869+OR+EXT_ID%3A36351280+OR+EXT_ID%3A36844366+OR+EXT_ID%3A37118121+OR+EXT_ID%3A38509072+OR+EXT_ID%3A38725656+OR+EXT_ID%3A38936378+OR+EXT_ID%3A39174735+OR+EXT_ID%3A39445691+OR+EXT_ID%3A39589836%29&format=json&resultType=core&pageSize=100",
+  "records": [
+    {
+      "id": "39589836",
+      "doi": "10.1172/jci.insight.182842",
+      "pmcid": "PMC11721297",
+      "title": "Rapamycin improves satellite cells' autophagy and muscle regeneration during hypercapnia.",
+      "authorString": "Balnis J, Jackson EL, Drake LA, Singer DV, Bossardi Ramos R, Singer HA, Jaitovich A.",
+      "firstPublicationDate": "2025-01-09"
+    },
+    {
+      "id": "39445691",
+      "doi": "10.1021/acsnano.4c05169",
+      "pmcid": "PMC11544762",
+      "title": "Widespread Gene Editing in the Brain via In Utero Delivery of mRNA Using Acid-Degradable Lipid Nanoparticles.",
+      "authorString": "Gao K, Han H, Cranick MG, Zhao S, Xu S, Yin B, Song H, Hu Y, Clarke MT, Wang D, Wong JM, Zhao Z, Burgstone BW, Farmer DL, Murthy N, Wang A.",
+      "firstPublicationDate": "2024-10-24"
+    },
+    {
+      "id": "39174735",
+      "doi": "10.1038/s41588-024-01878-5",
+      "pmcid": "PMC11387191",
+      "title": "Genome-scale quantification and prediction of pathogenic stop codon readthrough by small molecules.",
+      "authorString": "Toledano I, Supek F, Lehner B.",
+      "firstPublicationDate": "2024-08-22"
+    },
+    {
+      "id": "38936378",
+      "doi": "10.1016/s1470-2045(24)00255-9",
+      "pmcid": "PMC11550893",
+      "title": "Addition of temsirolimus to chemotherapy in children, adolescents, and young adults with intermediate-risk rhabdomyosarcoma (ARST1431): a randomised, open-label, phase 3 trial from the Children's Oncology Group.",
+      "authorString": "Gupta AA, Xue W, Harrison DJ, Hawkins DS, Dasgupta R, Wolden S, Shulkin B, Qumseya A, Routh JC, MacDonald T, Feinberg S, Crompton B, Rudzinski ER, Arnold M, Venkatramani R.",
+      "firstPublicationDate": "2024-07-01"
+    },
+    {
+      "id": "38725656",
+      "doi": "10.3389/fphar.2024.1389586",
+      "pmcid": "PMC11079177",
+      "title": "Readthrough-induced misincorporated amino acid ratios guide mutant-specific therapeutic approaches for two CFTR nonsense mutations.",
+      "authorString": "Premchandar A, Ming R, Baiad A, Da Fonte DF, Xu H, Faubert D, Veit G, Lukacs GL.",
+      "firstPublicationDate": "2024-04-25"
+    },
+    {
+      "id": "38509072",
+      "doi": "10.1038/s41467-024-46703-z",
+      "pmcid": "PMC10954755",
+      "title": "Extended stop codon context predicts nonsense codon readthrough efficiency in human cells.",
+      "authorString": "Mangkalaphiban K, Fu L, Du M, Thrasher K, Keeling KM, Bedwell DM, Jacobson A.",
+      "firstPublicationDate": "2024-03-20"
+    },
+    {
+      "id": "36844366",
+      "doi": "10.1016/j.bioactmat.2023.02.011",
+      "pmcid": "PMC9950423",
+      "title": "In utero delivery of mRNA to the heart, diaphragm and muscle with lipid nanoparticles.",
+      "authorString": "Gao K, Li J, Song H, Han H, Wang Y, Yin B, Farmer DL, Murthy N, Wang A.",
+      "firstPublicationDate": "2023-02-17"
+    },
+    {
+      "id": "37118121",
+      "doi": "10.1038/s43587-023-00361-w",
+      "pmcid": "PMC10154249",
+      "title": "Unique progerin C-terminal peptide ameliorates Hutchinson-Gilford progeria syndrome phenotype by rescuing BUBR1.",
+      "authorString": "Zhang N, Hu Q, Sui T, Fu L, Zhang X, Wang Y, Zhu X, Huang B, Lu J, Li Z, Zhang Y.",
+      "firstPublicationDate": "2023-02-02"
+    },
+    {
+      "id": "36351280",
+      "doi": "10.1056/nejmoa2200587",
+      "pmcid": "PMC10794051",
+      "title": "In Utero Enzyme-Replacement Therapy for Infantile-Onset Pompe's Disease.",
+      "authorString": "Cohen JL, Chakraborty P, Fung-Kee-Fung K, Schwab ME, Bali D, Young SP, Gelb MH, Khaledi H, DiBattista A, Smallshaw S, Moretti F, Wong D, Lacroix C, El Demellawy D, Strickland KC, Lougheed J, Moon-Grady A, Lianoglou BR, Harmatz P, Kishnani PS, MacKenzie TC.",
+      "firstPublicationDate": "2022-11-09"
+    },
+    {
+      "id": "33523869",
+      "doi": "10.1126/sciadv.aba1028",
+      "pmcid": "PMC7806221",
+      "title": "Ionizable lipid nanoparticles for in utero mRNA delivery.",
+      "authorString": "Riley RS, Kashyap MV, Billingsley MM, White B, Alameh MG, Bose SK, Zoltick PW, Li H, Zhang R, Cheng AY, Weissman D, Peranteau WH, Mitchell MJ.",
+      "firstPublicationDate": "2021-01-13"
+    },
+    {
+      "id": "32640244",
+      "doi": "10.1016/j.cmet.2020.05.020",
+      "pmcid": null,
+      "title": "Niacin Cures Systemic NAD<sup>+</sup> Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "authorString": "Pirinen E, Auranen M, Khan NA, Brilhante V, Urho N, Pessia A, Hakkarainen A, Ulla Heinonen JK, Schmidt MS, Haimilahti K, Piiril\u00e4 P, Lundbom N, Taskinen MR, Brenner C, Velagapudi V, Pietil\u00e4inen KH, Suomalainen A.",
+      "firstPublicationDate": "2020-07-01"
+    },
+    {
+      "id": "32386566",
+      "doi": "10.1016/j.cmet.2020.04.008",
+      "pmcid": null,
+      "title": "Niacin Cures Systemic NAD<sup>+</sup> Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "authorString": "Pirinen E, Auranen M, Khan NA, Brilhante V, Urho N, Pessia A, Hakkarainen A, Kuula J, Heinonen U, Schmidt MS, Haimilahti K, Piiril\u00e4 P, Lundbom N, Taskinen MR, Brenner C, Velagapudi V, Pietil\u00e4inen KH, Suomalainen A.",
+      "firstPublicationDate": "2020-05-07"
+    },
+    {
+      "id": "31738183",
+      "doi": "10.1172/jci126863",
+      "pmcid": "PMC6934189",
+      "title": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "authorString": "Sieben CJ, Jeganathan KB, Nelson GG, Sturmlechner I, Zhang C, van Deursen WH, Bakker B, Foijer F, Li H, Baker DJ, van Deursen JM.",
+      "firstPublicationDate": "2020-01-01"
+    },
+    {
+      "id": "31201382",
+      "doi": "10.1038/s41422-019-0178-z",
+      "pmcid": "PMC6796941",
+      "title": "BubR1 phosphorylates CENP-E as a switch enabling the transition from lateral association to end-on capture of spindle microtubules.",
+      "authorString": "Huang Y, Lin L, Liu X, Ye S, Yao PY, Wang W, Yang F, Gao X, Li J, Zhang Y, Zhang J, Yang Z, Liu X, Yang Z, Zang J, Teng M, Wang Z, Ruan K, Ding X, Li L, Cleveland DW, Zhang R, Yao X.",
+      "firstPublicationDate": "2019-06-14"
+    },
+    {
+      "id": "26783326",
+      "doi": "10.1542/peds.2015-3257",
+      "pmcid": "PMC4732362",
+      "title": "Efficacy and Safety of Sirolimus in the Treatment of Complicated Vascular Anomalies.",
+      "authorString": "Adams DM, Trenor CC, Hammill AM, Vinks AA, Patel MN, Chaudry G, Wentzel MS, Mobberley-Schuman PS, Campbell LM, Brookbank C, Gupta A, Chute C, Eile J, McKenna J, Merrow AC, Fei L, Hornung L, Seid M, Dasgupta AR, Dickie BH, Elluru RG, Lucky AW, Weiss B, Azizkhan RG.",
+      "firstPublicationDate": "2016-01-18"
+    },
+    {
+      "id": "26463117",
+      "doi": "10.1111/acel.12405",
+      "pmcid": "PMC4717280",
+      "title": "Alternative rapamycin treatment regimens mitigate the impact of rapamycin on glucose homeostasis and the immune system.",
+      "authorString": "Arriola Apelo SI, Neuman JC, Baar EL, Syed FA, Cummings NE, Brar HK, Pumper CP, Kimple ME, Lamming DW.",
+      "firstPublicationDate": "2015-10-13"
+    },
+    {
+      "id": "26147250",
+      "doi": "10.1038/ncb3195",
+      "pmcid": "PMC4691706",
+      "title": "MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation.",
+      "authorString": "Laberge RM, Sun Y, Orjalo AV, Patil CK, Freund A, Zhou L, Curran SC, Davalos AR, Wilson-Edell KA, Liu S, Limbad C, Demaria M, Li P, Hubbard GB, Ikeno Y, Javors M, Desprez PY, Benz CC, Kapahi P, Nelson PS, Campisi J.",
+      "firstPublicationDate": "2015-07-06"
+    },
+    {
+      "id": "25754370",
+      "doi": "10.1111/acel.12344",
+      "pmcid": "PMC4531078",
+      "title": "The Achilles' heel of senescent cells: from transcriptome to senolytic drugs.",
+      "authorString": "Zhu Y, Tchkonia T, Pirtskhalava T, Gower AC, Ding H, Giorgadze N, Palmer AK, Ikeno Y, Hubbard GB, Lenburg M, O'Hara SP, LaRusso NF, Miller JD, Roos CM, Verzosa GC, LeBrasseur NK, Wren JD, Farr JN, Khosla S, Stout MB, McGowan SJ, Fuhrmann-Stroissnigg H, Gurkar AU, Zhao J, Colangelo D, Dorronsoro A, Ling YY, Barghouthy AS, Navarro DC, Sano T, Robbins PD, Niedernhofer LJ, Kirkland JL.",
+      "firstPublicationDate": "2015-04-22"
+    },
+    {
+      "id": "24825348",
+      "doi": "10.15252/embj.201386907",
+      "pmcid": "PMC4194088",
+      "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "authorString": "North BJ, Rosenberg MA, Jeganathan KB, Hafner AV, Michan S, Dai J, Baker DJ, Cen Y, Wu LE, Sauve AA, van Deursen JM, Rosenzweig A, Sinclair DA.",
+      "firstPublicationDate": "2014-05-12"
+    },
+    {
+      "id": "23242215",
+      "doi": "10.1038/ncb2643",
+      "pmcid": "PMC3707109",
+      "title": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "authorString": "Baker DJ, Dawlaty MM, Wijshake T, Jeganathan KB, Malureanu L, van Ree JH, Crespo-Diaz R, Reyes S, Seaburg L, Shapiro V, Behfar A, Terzic A, van de Sluis B, van Deursen JM.",
+      "firstPublicationDate": "2012-12-16"
+    },
+    {
+      "id": "22698286",
+      "doi": "10.1016/j.devcel.2012.03.009",
+      "pmcid": null,
+      "title": "The vertebrate mitotic checkpoint protein BUBR1 is an unusual pseudokinase.",
+      "authorString": "Suijkerbuijk SJ, van Dam TJ, Karag\u00f6z GE, von Castelmur E, Hubner NC, Duarte AM, Vleugel M, Perrakis A, R\u00fcdiger SG, Snel B, Kops GJ.",
+      "firstPublicationDate": "2012-06-01"
+    },
+    {
+      "id": "22048312",
+      "doi": "10.1038/nature10600",
+      "pmcid": "PMC3468323",
+      "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders.",
+      "authorString": "Baker DJ, Wijshake T, Tchkonia T, LeBrasseur NK, Childs BG, van de Sluis B, Kirkland JL, van Deursen JM.",
+      "firstPublicationDate": "2011-11-02"
+    },
+    {
+      "id": "20516114",
+      "doi": "10.1158/0008-5472.can-09-4319",
+      "pmcid": "PMC2887387",
+      "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "authorString": "Suijkerbuijk SJ, van Osch MH, Bos FL, Hanks S, Rahman N, Kops GJ.",
+      "firstPublicationDate": "2010-06-01"
+    },
+    {
+      "id": "19794149",
+      "doi": "10.1152/ajpcell.00248.2009",
+      "pmcid": "PMC2793064",
+      "title": "mTOR regulates skeletal muscle regeneration in vivo through kinase-dependent and kinase-independent mechanisms.",
+      "authorString": "Ge Y, Wu AL, Warnes C, Liu J, Zhang C, Kawasome H, Terada N, Boppart MD, Schoenherr CJ, Chen J.",
+      "firstPublicationDate": "2009-09-30"
+    },
+    {
+      "id": "19805069",
+      "doi": "10.1073/pnas.0905299106",
+      "pmcid": "PMC2761322",
+      "title": "Cell surface-bound IL-1alpha is an upstream regulator of the senescence-associated IL-6/IL-8 cytokine network.",
+      "authorString": "Orjalo AV, Bhaumik D, Gengler BK, Scott GK, Campisi J.",
+      "firstPublicationDate": "2009-09-28"
+    },
+    {
+      "id": "18932004",
+      "doi": "10.1007/s00439-008-0572-y",
+      "pmcid": null,
+      "title": "Gradual reduction of BUBR1 protein levels results in premature sister-chromatid separation then in aneuploidy.",
+      "authorString": "Bohers E, Sarafan-Vasseur N, Drouet A, Paresy M, Latouche JB, Flaman JM, Sesbo\u00fc\u00e9 R, Frebourg T.",
+      "firstPublicationDate": "2008-10-19"
+    }
+  ],
+  "missing_pmids": [],
+  "scope": "Metadata check only; does not certify mechanistic claims."
+}

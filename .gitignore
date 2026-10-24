@@ -6,6 +6,7 @@
 .env.*
 !.env.example
 .venv/
+.venv-track2/
 venv/
 
 # Python

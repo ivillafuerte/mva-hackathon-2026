@@ -1,0 +1,6 @@
+{
+  "date": "2026-09-08",
+  "EuropePMC_query": "(BUB1B OR BUBR1) AND (N1002K OR Asn1002Lys OR \"c.3006T>G\")",
+  "EuropePMC_hitCount": 0,
+  "limitation": "Search absence is not proof of absence. ClinVar is checked separately."
+}

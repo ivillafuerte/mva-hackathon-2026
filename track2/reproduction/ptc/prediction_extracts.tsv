@@ -1,0 +1,9 @@
+treatment	chrom	chromStart	chromEnd	predicted_readthrough_percent	model_status
+CC90009	chr15	40209699	40209702	0.53663527957125	supported_six_drug_model
+Clitocine	chr15	40209699	40209702	1.62630724928543	supported_six_drug_model
+DAP	chr15	40209699	40209702	2.26162953366682	supported_six_drug_model
+G418	chr15	40209699	40209702	0.451624477360517	supported_six_drug_model
+SJ6986	chr15	40209699	40209702	1.83080947387714	supported_six_drug_model
+SRI	chr15	40209699	40209702	1.62544087646	supported_six_drug_model
+FUr	chr15	40209699	40209702	0.340130388659799	excluded_low_signal_model
+Gentamicin	chr15	40209699	40209702	0.0714563049975758	excluded_low_signal_model
